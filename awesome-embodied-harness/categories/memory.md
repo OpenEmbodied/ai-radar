@@ -3,12 +3,13 @@
 # World State, Memory & Spatial Context
 
 > Scene graphs, semantic maps, spatial and episodic memory; the harness's context window onto the world.  
-> Layer: L3 · 70 entries · [overview](../README.md#memory) · [survey](../SURVEY.md)
+> Layer: L3 · 71 entries · [overview](../README.md#memory) · [survey](../SURVEY.md)
 
 **Legend:** 🟢 open · 🟡 partial · 🔵 api · ⚪ closed. Hover a name for the full paper title. Newest first within each year.
 
 **2026**
 
+- ⚪ [**What Should a Navigator Remember?**](https://arxiv.org/abs/2610.38318 "What Should a Navigator Remember? Spatiotemporal Memory for Zero-Shot Vision-Language Navigation") · 2026-10 — Studies what an 8B zero-shot VLN system should retain: instruction progress, pose-anchored compressed observation history and accumulated geometry, used by a reasoner that picks waypoints or requests more views for a geometric controller. _Note: Promoted from the queue._
 - ⚪ [**Robota-Embed**](https://arxiv.org/abs/2610.19495 "Robota-Embed: Unified VLA Embeddings for Robot In-Context Learning and Evolution") · 2026-10 — VLA embedding model jointly encoding task, execution stage and future continuation, trained with predictive retrieval on 1.7M anchors, so retrieved historical continuations can serve as context for in-context robot learning; adds Robota-Embed-Bench. [project](https://robota-ai.github.io/robota-embed/)
 - ⚪ [**RetroNav**](https://arxiv.org/abs/2610.35172 "RetroNav: Scene-Grounded Retrospection and Retry for Self-Evolving Lifelong Navigation") · 2026-10 — Training-free lifelong navigation that links scene knowledge with past navigation experience; after each attempt an evaluator decides whether to retry and a retrospection agent revisits history to correct mistakes. _Note: The repository named in the abstract (3dv-casia/RetroNav) did not resolve on 2026-10-29. Promoted from the queue._
 - ⚪ [**Retrieve to Act (R2A)**](https://arxiv.org/abs/2610.37215 "Retrieve to Act: Motion Primitive Graph Retrieval for Robust VLA Execution") · 2026-10 — Test-time framework that structures a VLA's successful training demonstrations into a spatiotemporal motion-primitive graph and retrieves kinematic priors through a GNN to keep execution robust under out-of-distribution visual shifts. _Note: Promoted from the queue._ [project](https://retrieve2act.github.io/r2a/)

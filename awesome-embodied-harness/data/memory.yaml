@@ -1228,3 +1228,20 @@
   access: closed
   tags: [memory, skill-library, success-detection]
   added: 2026-10-31
+
+- id: navigator-memory
+  name: What Should a Navigator Remember?
+  title: >-
+    What Should a Navigator Remember? Spatiotemporal Memory for Zero-Shot Vision-Language
+    Navigation
+  date: 2026-10
+  summary: >-
+    Studies what an 8B zero-shot VLN system should retain: instruction progress,
+    pose-anchored compressed observation history and accumulated geometry, used by a
+    reasoner that picks waypoints or requests more views for a geometric controller.
+  links:
+    paper: https://arxiv.org/abs/2610.38318
+  access: closed
+  tags: [memory, navigation, spatial-reasoning]
+  note: Promoted from the queue.
+  added: 2026-11-01

@@ -2945,3 +2945,38 @@
   access: open
   tags: [benchmark, vla, world-model]
   added: 2026-10-31
+
+- id: egocontact
+  name: EgoContact
+  title: 'EgoContact: Evaluating Physical Intelligence with Egocentric Video'
+  date: 2026-10
+  summary: >-
+    Egocentric benchmark of 22.5K manually verified interaction events, each with a
+    pre-contact frame, semantic intent and pixel-precise contact locations, for testing
+    whether learned manipulation priors predict where to make contact.
+  links:
+    paper: https://arxiv.org/abs/2610.39167
+    project: https://egocontact.github.io
+  access: closed
+  tags: [benchmark, video, dataset, manipulation]
+  note: Promoted from the queue.
+  added: 2026-11-01
+
+- id: burger
+  name: BURGER
+  title: >-
+    BURGER: Benchmarking and Understanding Robotic Generalization via Embodied Drawing
+  date: 2026-10
+  summary: >-
+    Language-conditioned robot drawing benchmark with a prompt-driven trajectory pipeline in
+    simulation and the real world; 28,200 simulated demonstrations over 282 tasks for
+    studying how VLAs scale in grounding and multimodal behavior.
+  links:
+    paper: https://arxiv.org/abs/2610.40532
+    code: https://github.com/Qxjyqzw/BURGER
+    project: https://siyingzhao.github.io/BURGER/
+    data: https://huggingface.co/datasets/Zhaosying66/BURGER
+  access: open
+  tags: [benchmark, vla, dataset]
+  note: Promoted from the queue.
+  added: 2026-11-01

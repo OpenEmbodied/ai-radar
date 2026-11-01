@@ -1026,3 +1026,21 @@
   tags: [planning, failure-recovery, self-improving, navigation, manipulation]
   note: Repository says code release is coming soon.
   added: 2026-10-29
+
+- id: atomtree
+  name: AtomTree
+  title: >-
+    AtomTree: A Hierarchical Framework for State-Aware Embodied Instruction Following with
+    LLMs
+  date: 2026-10
+  summary: >-
+    LLM planner that incrementally grows a tree of subgoals and actions, deciding at each
+    step from the current symbolic state whether to decompose further or emit a grounded
+    action, with a memory of past outcomes and local recovery when actions stall.
+  links:
+    paper: https://arxiv.org/abs/2610.38744
+    project: https://zhaihaotian.github.io/atomtree-website/
+  access: closed
+  tags: [planning, failure-recovery, memory]
+  note: IROS 2026. Promoted from the queue.
+  added: 2026-11-01

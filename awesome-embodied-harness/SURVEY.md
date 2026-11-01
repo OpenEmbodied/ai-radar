@@ -276,17 +276,17 @@ Counts by category and year of first release, generated from `data/`.
 | [Embodied Harnesses](categories/harness.md) | L4 | 209 | 0 | 10 | 30 | 23 | 14 | 132 | 80 |
 | [Open-Source Frameworks & Runtimes](categories/framework.md) | L0-L4 | 28 | 0 | 1 | 5 | 11 | 5 | 6 | 26 |
 | [Action Interfaces, Skills & Tool Protocols](categories/interface.md) | L2 | 48 | 0 | 0 | 5 | 10 | 11 | 22 | 22 |
-| [World State, Memory & Spatial Context](categories/memory.md) | L3 | 70 | 0 | 4 | 6 | 15 | 10 | 35 | 32 |
-| [Embodied Reasoning Models & Planners](categories/brain.md) | L4 | 57 | 0 | 0 | 5 | 4 | 18 | 30 | 32 |
+| [World State, Memory & Spatial Context](categories/memory.md) | L3 | 71 | 0 | 4 | 6 | 15 | 10 | 36 | 32 |
+| [Embodied Reasoning Models & Planners](categories/brain.md) | L4 | 58 | 0 | 0 | 5 | 4 | 18 | 31 | 32 |
 | [VLA Models & Skill Policies](categories/policy.md) | L1 | 101 | 0 | 1 | 5 | 7 | 42 | 46 | 58 |
 | [World Models](categories/world-model.md) | L6 | 78 | 0 | 1 | 3 | 7 | 26 | 41 | 43 |
 | [Verification, Failure Detection & Recovery](categories/verification.md) | L5 | 68 | 0 | 0 | 4 | 7 | 14 | 43 | 27 |
 | [Safety, Guardrails & Security](categories/safety.md) | L5 | 64 | 0 | 0 | 1 | 9 | 15 | 39 | 21 |
 | [Multi-Robot & Fleet Orchestration](categories/multi-agent.md) | L4 | 54 | 0 | 0 | 5 | 8 | 13 | 28 | 22 |
-| [Simulators & Environments](categories/sim.md) | L6 | 58 | 12 | 1 | 6 | 5 | 10 | 24 | 43 |
-| [Benchmarks & Evaluation](categories/benchmark.md) | L6 | 165 | 5 | 1 | 4 | 19 | 31 | 105 | 91 |
-| [Data, Teleoperation & Training Infrastructure](categories/data.md) | L6 | 95 | 5 | 0 | 9 | 18 | 35 | 28 | 65 |
-| **Total** |  | **1190** | 23 | 20 | 96 | 153 | 274 | 624 | 581 |
+| [Simulators & Environments](categories/sim.md) | L6 | 59 | 12 | 1 | 6 | 5 | 10 | 25 | 43 |
+| [Benchmarks & Evaluation](categories/benchmark.md) | L6 | 167 | 5 | 1 | 4 | 19 | 31 | 107 | 92 |
+| [Data, Teleoperation & Training Infrastructure](categories/data.md) | L6 | 96 | 5 | 0 | 9 | 18 | 35 | 29 | 65 |
+| **Total** |  | **1196** | 23 | 20 | 96 | 153 | 274 | 630 | 582 |
 <!-- END GENERATED: stats -->
 
 ---

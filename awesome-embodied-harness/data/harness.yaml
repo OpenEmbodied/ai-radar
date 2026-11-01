@@ -3573,12 +3573,13 @@
     paper: https://arxiv.org/abs/2610.36077
     code: https://github.com/InfRec-Cardinal/The-Trinity
     project: https://trinity-rsi.github.io/
-  access: closed
+  access: partial
   tags: [self-improving, agentic-loop, data-generation]
   note: >-
-    Repository says code will be released within one week of 2026-10-28. Promoted from the
-    queue.
+    Code released 2026-10-30 (pipeline, Creator-Explorer training, harness routing); the
+    simulation environments, trained harnesses and router are not yet released.
   added: 2026-10-30
+  updated: 2026-11-01
 
 - id: evolife
   name: EvoLife (Ask to Evolve)

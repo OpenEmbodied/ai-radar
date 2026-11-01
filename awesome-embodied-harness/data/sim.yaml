@@ -1035,3 +1035,22 @@
   access: closed
   tags: [data-generation, 3d, code-as-policy]
   added: 2026-10-31
+
+- id: dexsuite
+  name: DexSuite
+  title: >-
+    DexSuite: An All-in-One Framework for Dexterous Manipulation Across Arms, Hands, and
+    Tasks
+  date: 2026-10
+  summary: >-
+    Genesis-based simulation framework covering dexterous manipulation end to end: 30 tasks,
+    10 arms and 12 end-effectors combined into 100+ single-arm robots, integrated
+    teleoperation, simulated tactile sensing, a 16-pair benchmark and 4,700 demonstration
+    episodes.
+  links:
+    paper: https://arxiv.org/abs/2610.37799
+    project: https://dexsuiteorg.github.io
+  access: closed
+  tags: [dexterous, teleop, benchmark, dataset]
+  note: Project page says code is coming soon. Promoted from the queue.
+  added: 2026-11-01
