@@ -178,7 +178,12 @@
     docs: https://docs.dimensionalos.com
   access: open
   tags: [agentic-loop, mcp, memory, legged, humanoid]
+  note: >-
+    v0.0.15 (Oct 2026) reworks skill results to report facts and leave the verdict to the
+    agent, returning failing skills over MCP as tool errors, and adds a coding-agent eval
+    baseline.
   added: 2026-09-29
+  updated: 2026-11-02
 
 - id: embodied-agents-automatika
   name: EmbodiedAgents (EMOS)

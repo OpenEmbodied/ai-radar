@@ -1805,12 +1805,15 @@
     paper: https://arxiv.org/abs/2610.18950
     code: https://github.com/LambdaHumanoid/openlambda
     project: https://lambdahumanoid.github.io/
+    weights: https://huggingface.co/lambda-humanoid/lambda0-midtrain-100k
   access: partial
   tags: [humanoid, mobile-manipulation, cross-embodiment, dataset]
   note: >-
-    Stage I/II code released; HumanVerse data and Stage III workflows not yet released.
-    Promoted from the queue.
+    Training code, a Stage II checkpoint, a Stage III example and G1 robot data collection
+    are released (checked 2026-11-02); the full HumanVerse dataset is not (only a 20-clip
+    viewer).
   added: 2026-10-24
+  updated: 2026-11-02
 
 - id: tide
   name: TIDE
