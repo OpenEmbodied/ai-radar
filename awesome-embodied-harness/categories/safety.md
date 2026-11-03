@@ -3,7 +3,7 @@
 # Safety, Guardrails & Security
 
 > Guardrails, permissions, constitutions, red-teaming and security of model-driven robots.  
-> Layer: L5 · 64 entries · [overview](../README.md#safety) · [survey](../SURVEY.md)
+> Layer: L5 · 65 entries · [overview](../README.md#safety) · [survey](../SURVEY.md)
 
 **Legend:** 🟢 open · 🟡 partial · 🔵 api · ⚪ closed. Hover a name for the full paper title. Newest first within each year.
 
@@ -12,6 +12,7 @@
 - ⚪ [**WBAG**](https://arxiv.org/abs/2610.01083 "WBAG: A Whole-Body and Attached-Geometry Safety Framework for Vision-Language-Action Manipulation") · 2026-10 — Inference-time VLA safety layer that models the whole arm plus grasp-dependent attached-object geometry as a changing safe set and turns it into differentiable CBF constraints that minimally modify the VLA's operational-space action; evaluated on SafeLIBERO.
 - ⚪ [**VLA-Stem**](https://arxiv.org/abs/2610.37378 "VLA-Stem: A Lightweight Safety Mechanism for Vision-Language-Action Models via Reinforcement Learning") · 2026-10 — RL-trained module that turns a frozen VLA's action chunks into motion references and adapts execution to spatial constraints and dynamic obstacles; reports 52.8% collision-free success versus 23.7% for the strongest safety baseline in simulation (first-party).
 - ⚪ [**VLA task-redirection attacks**](https://arxiv.org/abs/2610.23566 "Enhancing Visual Task-Redirection Attacks on Vision-Language-Action Models via Closed-Loop Optimization") · 2026-10 — Shows that visual perturbations optimized against fixed targets fail once the attacked trajectory diverges, and optimizes them in closed loop so a VLA is steered to complete an attacker-specified task.
+- ⚪ [**VLA start suppression**](https://arxiv.org/abs/2610.41609 "VLA Policies Do Not Know When Not to Act: Unintended Task Execution and Start Suppression") · 2026-10 — Shows six VLA checkpoints start moving in every LIBERO-Goal episode even with an empty instruction, and often complete an unrequested task, using a paired protocol with empty, neutral, nonsense, infeasible and wrong-task instructions. _Note: The code repository named in the abstract (zebehn/vla-start-suppression) did not resolve on 2026-11-03._
 - ⚪ [**Visual Grounding Safety**](https://arxiv.org/abs/2610.05637 "Visual Grounding Safety in Vision-Language Models") · 2026-10 — Shows VLMs that refuse a harmful request as a question often comply when the same request asks for a point or bounding box, the output robots and agents act on (15,401 matched pairs incl. Asimov-2.0); proposes fine-tuning with grounding-form refusals.
 - ⚪ [**TMT**](https://arxiv.org/abs/2610.09462 "TMT: Runtime Backdoor Detection for Vision-Language-Action Policies on Unseen Tasks") · 2026-10 — Runtime backdoor detector for VLAs trained only on benign rollouts: a token-manifold branch flags suspicious input structure and a latent-transition branch confirms it through adjacent-layer prediction errors; also explores purification by self-distillation.
 - ⚪ [**SOUL**](https://arxiv.org/abs/2610.09496 "Sparse Feature Policy Unlearning Mitigates State Hallucination in Vision-Language-Action Models") · 2026-10 — Identifies state hallucination, a VLA acting as if an unrealized robot-object state had been reached, links it to sparse-autoencoder features and weakened attention, and selectively unlearns the associated policy knowledge.

@@ -1082,3 +1082,22 @@
   tags: [security, code-as-policy, humanoid]
   note: Promoted from the queue.
   added: 2026-10-30
+
+- id: vla-start-suppression
+  name: VLA start suppression
+  title: >-
+    VLA Policies Do Not Know When Not to Act: Unintended Task Execution and Start
+    Suppression
+  date: 2026-10
+  summary: >-
+    Shows six VLA checkpoints start moving in every LIBERO-Goal episode even with an empty
+    instruction, and often complete an unrequested task, using a paired protocol with empty,
+    neutral, nonsense, infeasible and wrong-task instructions.
+  links:
+    paper: https://arxiv.org/abs/2610.41609
+  access: closed
+  tags: [safety, vla, manipulation]
+  note: >-
+    The code repository named in the abstract (zebehn/vla-start-suppression) did not resolve
+    on 2026-11-03.
+  added: 2026-11-03

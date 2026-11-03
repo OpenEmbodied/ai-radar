@@ -2980,3 +2980,37 @@
   tags: [benchmark, vla, dataset]
   note: Promoted from the queue.
   added: 2026-11-01
+
+- id: simuguard
+  name: SimuGuard
+  title: >-
+    When the Simulator Fails, Not the Policy: Auditing Contact Artifacts in Simulated Robot
+    Benchmarks
+  date: 2026-10
+  summary: >-
+    Auditing plugin for LIBERO, RoboTwin, RoboCasa and RoboDojo that flags objects
+    accelerating at contacts beyond what the robot or gravity explain, replays episodes bit
+    for bit and reruns them with one parameter changed, tracing failed episodes to simulator
+    collision artifacts.
+  links:
+    paper: https://arxiv.org/abs/2610.41857
+    code: https://github.com/ALEXander22568/simuguard
+  access: open
+  tags: [benchmark, success-detection, manipulation]
+  added: 2026-11-03
+
+- id: molmospaces-commonsense
+  name: MolmoSpaces-CommonSense
+  title: 'MolmoSpaces-CommonSense: Evaluating Commonsense in Robotic Manipulation Policies'
+  date: 2026-10
+  org: Allen Institute for AI
+  summary: >-
+    Benchmark built on a taxonomy of reasoning processes from developmental cognitive
+    science, testing occlusion, containment, support, semantically correct grasp points,
+    spatial affordances and hidden objects in cluttered manipulation scenes.
+  links:
+    paper: https://arxiv.org/abs/2610.41377
+    code: https://github.com/allenai/molmospaces
+  access: open
+  tags: [benchmark, spatial-reasoning, manipulation]
+  added: 2026-11-03

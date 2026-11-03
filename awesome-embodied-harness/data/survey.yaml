@@ -1427,3 +1427,17 @@
   access: open
   tags: [self-improving, awesome-list, memory]
   added: 2026-10-31
+
+- id: embodied-memory-survey
+  name: When the Past Shapes Action
+  title: 'When the Past Shapes Action: Understanding Embodied Memory'
+  date: 2026-10
+  summary: >-
+    Survey of embodied memory organized by six requirements (world-state persistence, task
+    progress, belief maintenance, experiential learning and more) and eight architectural
+    categories from recurrent states to spatial and experience-based memory.
+  links:
+    paper: https://arxiv.org/abs/2610.41688
+  access: open
+  tags: [memory, awesome-list]
+  added: 2026-11-03

@@ -1,3 +1,19 @@
 # Items the radar has seen but not added yet (see CONTRIBUTING.md and radar/PLAYBOOK.md).
 # Two kinds: announcements that cannot be verified yet, and verified items that were over
 # a run's daily cap. The next run re-triages over-cap items first.
+
+- name: CIMI
+  url: https://arxiv.org/abs/2610.41028
+  title: 'Contact Imitation Interface: Transferring Dexterous Skills by Showing How Contact Unfolds'
+  first_seen: 2026-11-03
+  last_checked: 2026-11-03
+  suggested_category: data
+  reason: 'Verified; over the daily cap on 2026-11-03. Contact-grounded human demonstration and learning interfaces for dexterous transfer; code and hardware at github.com/ariszxxu/CIMI via project page.'
+
+- name: Teleoperation to Long-Horizon Dexterity
+  url: https://arxiv.org/abs/2610.40828
+  title: 'From Teleoperation to Long-Horizon Dexterity: Evaluating Visuomotor Skills and Offline Proxies for Dexterous Manipulation'
+  first_seen: 2026-11-03
+  last_checked: 2026-11-03
+  suggested_category: benchmark
+  reason: 'Verified; over the daily cap on 2026-11-03. 281 policies over about 1,700 real dexterous-insertion trials; offline proxies vs real success (CoRL 2026 workshop).'

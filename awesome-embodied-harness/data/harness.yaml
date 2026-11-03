@@ -3631,3 +3631,134 @@
   access: closed
   tags: [agentic-loop, success-detection, planning, long-horizon]
   added: 2026-10-31
+
+- id: roboarchitect
+  name: RoboArchitect
+  title: 'RoboArchitect: Automating the Design of Robotic Agents with Persistent Memory'
+  date: 2026-10
+  summary: >-
+    A coding model watches rollouts of a frozen robot policy, diagnoses failures and
+    iteratively rewrites the harness around it, including its own persistent memory; reports
+    average success on unseen scenes rising from 9.7% to 43.3% without weight updates
+    (first-party).
+  links:
+    paper: https://arxiv.org/abs/2610.42141
+    code: https://github.com/roboarchitect-ai/RoboArchitect
+    project: https://roboarchitect-ai.github.io/
+  access: open
+  tags: [self-improving, agentic-loop, memory, vla, manipulation]
+  added: 2026-11-03
+
+- id: tinyastral
+  name: TinyAstral
+  title: >-
+    TinyAstral: Transferring Self-Evolving Harnesses to Tiny Generalist Manipulation Agents
+  date: 2026-10
+  summary: >-
+    Evolves a frozen teacher's harness through statistically gated edits proposed by
+    frontier agents, then distills a 4B student into the same harness; on RoboTwin the
+    teacher rises from 33.4% to 63.6% and the student reaches 62.8% (first-party).
+  links:
+    paper: https://arxiv.org/abs/2610.41216
+    project: https://garfield-kh.github.io/TinyAstral/
+  access: closed
+  tags: [self-improving, agentic-loop, manipulation, on-device]
+  added: 2026-11-03
+
+- id: captain
+  name: CaPtain
+  title: 'CaPtain: A Pipeline for Post-Training Code-as-Policy Robot Agents'
+  aliases: [CaPtain-Harness]
+  date: 2026-10
+  summary: >-
+    Open SFT-then-multi-turn-RL pipeline that turns a small open VLM into a code-as-policy
+    agent inside a harness of low-level perception, geometry and guarded-motion primitives,
+    crediting each request with a privileged-state physical critic; Qwen3.5-4B goes from 0%
+    to 55.4% held-out (first-party).
+  links:
+    paper: https://arxiv.org/abs/2610.40799
+    code: https://github.com/waltstephen/CaPtain
+    project: https://waltstephen.github.io/captain/
+    weights: https://huggingface.co/YijiaFan/CaPtain-4B
+  access: open
+  tags: [code-as-policy, rl, agentic-loop, manipulation]
+  added: 2026-11-03
+
+- id: rea-runtime
+  name: REA
+  title: 'REA: A Routed Embodied Agent Runtime for Asynchronous Brain-Cerebellum Control'
+  aliases: [Routed Embodied Agent]
+  date: 2026-10
+  summary: >-
+    Runtime pairing a deliberative model, an embodied router and fast reactive policies
+    under the rule that no running policy waits on the brain: route memory of measured
+    policy success, a boundary-triggered judge gate and a shared-budget escalation ladder;
+    95.9% over 3,000 LIBERO-Pro episodes (first-party).
+  links:
+    paper: https://arxiv.org/abs/2610.42053
+    project: https://mikeeeeeeeeeeeeee.github.io/REA/
+  access: closed
+  tags: [dual-system, agentic-loop, failure-recovery, vla]
+  added: 2026-11-03
+
+- id: lexp
+  name: LEXP
+  title: >-
+    Learning from Physical Experience:Context-Space Adaptation for Robotic Manipulation
+  date: 2026-10
+  summary: >-
+    Harness that adapts a frozen GPT-6 Astra manipulation policy in context: task-level
+    planning plus an experience module that extracts lessons with applicability conditions
+    from execution evidence and feeds them back; 23/36 real-world trials versus 2/36 for
+    vanilla Astra (first-party).
+  links:
+    paper: https://arxiv.org/abs/2610.41320
+  access: closed
+  tags: [agentic-loop, memory, real-world, manipulation]
+  added: 2026-11-03
+
+- id: meta-robot
+  name: META-Robot
+  title: 'META-Robot: Self-Cognition and Capability Scaling in Agentic Robots'
+  date: 2026-10
+  summary: >-
+    Robot coding agent whose action-level predicates make execution outcomes explicit for
+    LLM reasoning, so it can recognize its own limitations, extend its evaluation criteria
+    and expand its skills, with proprioceptive feedback grounding the assessment.
+  links:
+    paper: https://arxiv.org/abs/2610.41868
+  access: closed
+  tags: [code-as-policy, skill-library, self-improving, success-detection]
+  added: 2026-11-03
+
+- id: bioagent
+  name: BioAgent
+  title: >-
+    BioAgent: Self-Directed Skill Acquisition and Capability Growth for Long-Horizon
+    Laboratory Protocols
+  date: 2026-10
+  summary: >-
+    Lab-robot agent that matches protocol requirements to validated skills, fills gaps with
+    tools or human teaching, and gates execution with precondition, outcome and
+    experimental-state checks; 66% and 58% full-task success on 20- and 31-step dual-arm
+    protocols (first-party).
+  links:
+    paper: https://arxiv.org/abs/2610.41383
+  access: closed
+  tags: [skill-library, hitl, success-detection, long-horizon]
+  added: 2026-11-03
+
+- id: sketchmate
+  name: SketchMate
+  title: 'SketchMate: Agentic Geometric Reasoning for Zero-Shot Precision Insertion'
+  date: 2026-10
+  summary: >-
+    VLM agent builds a reusable geometric sketch of an insertion task (primitives and mate
+    frames) by measuring multi-view depth with tools, stores it in a sketch memory for later
+    placements, and corrects it by close-range inspection; inserts 88% of simulated parts
+    (first-party).
+  links:
+    paper: https://arxiv.org/abs/2610.41844
+  access: closed
+  tags: [tool-use, memory, manipulation, 3d]
+  added: 2026-11-03
