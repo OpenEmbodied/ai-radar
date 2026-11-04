@@ -1194,3 +1194,38 @@
   access: closed
   tags: [planning, failure-recovery, success-detection, long-horizon]
   added: 2026-10-31
+
+- id: calvla
+  name: CalVLA
+  title: >-
+    CalVLA: Shaping Native Confidence in Vision-Language-Action Policies with Outcome
+    Supervision
+  date: 2026-10
+  summary: >-
+    LoRA adaptation of OpenVLA-7B that shapes native action-token confidence with a
+    margin-ranking loss over successful and failed rollouts, so the policy's own
+    probabilities signal likely failure without an auxiliary detector.
+  links:
+    paper: https://arxiv.org/abs/2611.00394
+  access: closed
+  tags: [uncertainty, success-detection, vla]
+  note: SPAIS workshop, CoRL 2026.
+  added: 2026-11-04
+
+- id: describe-and-assess
+  name: D&A (Describe & Assess)
+  title: >-
+    D&A: Decoupling Description and Assessment Enables VLMs as Zero-Shot Robotic Reward
+    Models
+  date: 2026-11
+  summary: >-
+    Zero-shot VLM progress estimation that first describes what happened in a robot video
+    and then assesses progress separately, countering the confirmation bias that makes
+    frontier models hallucinate progress in failed executions.
+  links:
+    paper: https://arxiv.org/abs/2611.03622
+    code: https://github.com/memmelma/dna
+    project: https://weirdlabuw.github.io/dna
+  access: open
+  tags: [reward-model, success-detection, video]
+  added: 2026-11-04

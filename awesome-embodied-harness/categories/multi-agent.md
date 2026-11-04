@@ -3,12 +3,13 @@
 # Multi-Robot & Fleet Orchestration
 
 > Coordinating multiple robots, fleets and human-robot teams with language-model agents.  
-> Layer: L4 · 54 entries · [overview](../README.md#multi-agent) · [survey](../SURVEY.md)
+> Layer: L4 · 55 entries · [overview](../README.md#multi-agent) · [survey](../SURVEY.md)
 
 **Legend:** 🟢 open · 🟡 partial · 🔵 api · ⚪ closed. Hover a name for the full paper title. Newest first within each year.
 
 **2026**
 
+- ⚪ [**Late Autumn**](https://arxiv.org/abs/2611.02391 "Late Autumn: LLM Agents Specialize a General Multi-Robot Planner for One Warehouse") · 2026-11 — LLM coding agents run autonomous research campaigns that specialize a general lifelong multi-robot planner to one warehouse, raising throughput 22-60% on unseen seeds through reviewable commit chains, while some patches multiply planner compute by over 100x (first-party).
 - 🟢 [**VLA-Fabric**](https://arxiv.org/abs/2610.23018 "VLA-Fabric: Learning Interaction for Composable Multi-Arm VLA Agents") · 2026-10 — Runs one complete VLA per arm, preserving local perception and action ownership, and coordinates them through learned interaction during action generation rather than a centralized joint policy. [code](https://github.com/NEBULIS-Lab/VLA-Fabric) · [project](https://nebulis-lab.com/VLA-Fabric/)
 - ⚪ [**UAV-SwarmAgent**](https://arxiv.org/abs/2610.32559 "UAV-SwarmAgent: Scalable Multi-UAV Reconnaissance and Task Allocation via Code Generation and Vision-Language Reasoning") · 2026-10 — Hierarchical system in which a ground-station agent turns a one-sentence mission into per-UAV routes by writing code and grounding targets with a VLM, and onboard worker agents verify incidents; 95.7% of 255 simulated missions located the incident (first-party).
 - ⚪ [**Observe, Share, or Predict?**](https://arxiv.org/abs/2610.16895 "Observe, Share, or Predict? Disentangling Partner Information in Embodied Multi-Agent Collaboration") · 2026-10 — Under strictly individual perception on PARTNR, disentangles how observing a partner's state, sharing object knowledge and predicting the partner's next action affect decentralized zero-shot LLM planners, without exchanging plans or intentions.

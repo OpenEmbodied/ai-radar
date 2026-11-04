@@ -958,3 +958,19 @@
   access: closed
   tags: [uav, multi-robot, code-as-policy, agentic-loop]
   added: 2026-10-27
+
+- id: late-autumn
+  name: Late Autumn
+  title: >-
+    Late Autumn: LLM Agents Specialize a General Multi-Robot Planner for One Warehouse
+  date: 2026-11
+  summary: >-
+    LLM coding agents run autonomous research campaigns that specialize a general lifelong
+    multi-robot planner to one warehouse, raising throughput 22-60% on unseen seeds through
+    reviewable commit chains, while some patches multiply planner compute by over 100x
+    (first-party).
+  links:
+    paper: https://arxiv.org/abs/2611.02391
+  access: closed
+  tags: [multi-robot, code-as-policy, self-improving, planning]
+  added: 2026-11-04

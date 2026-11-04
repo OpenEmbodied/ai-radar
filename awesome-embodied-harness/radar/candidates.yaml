@@ -6,7 +6,7 @@
   url: https://arxiv.org/abs/2610.41028
   title: 'Contact Imitation Interface: Transferring Dexterous Skills by Showing How Contact Unfolds'
   first_seen: 2026-11-03
-  last_checked: 2026-11-03
+  last_checked: 2026-11-04
   suggested_category: data
   reason: 'Verified; over the daily cap on 2026-11-03. Contact-grounded human demonstration and learning interfaces for dexterous transfer; code and hardware at github.com/ariszxxu/CIMI via project page.'
 
@@ -14,6 +14,54 @@
   url: https://arxiv.org/abs/2610.40828
   title: 'From Teleoperation to Long-Horizon Dexterity: Evaluating Visuomotor Skills and Offline Proxies for Dexterous Manipulation'
   first_seen: 2026-11-03
-  last_checked: 2026-11-03
+  last_checked: 2026-11-04
   suggested_category: benchmark
   reason: 'Verified; over the daily cap on 2026-11-03. 281 policies over about 1,700 real dexterous-insertion trials; offline proxies vs real success (CoRL 2026 workshop).'
+
+- name: DexArena
+  url: https://arxiv.org/abs/2611.02629
+  title: 'DexArena: A Unified Benchmark for Long-Horizon Dexterous Manipulation'
+  first_seen: 2026-11-04
+  last_checked: 2026-11-04
+  suggested_category: benchmark
+  reason: 'Verified; over the daily cap on 2026-11-04. 10 long-horizon and 30 stage-level bimanual dexterous tasks; project page sipair-elastic.github.io/DexArena-website.'
+
+- name: HeLM
+  url: https://arxiv.org/abs/2611.02660
+  title: 'HeLM: Hierarchical Explicit Language Memory for Non-Markovian Manipulation'
+  first_seen: 2026-11-04
+  last_checked: 2026-11-04
+  suggested_category: memory
+  reason: 'Verified; over the daily cap on 2026-11-04. Event-triggered explicit language memory for VLAs on 10 real non-Markovian tasks; project page kimspacehuni.github.io/HeLM.'
+
+- name: SPARK
+  url: https://arxiv.org/abs/2611.00344
+  title: 'SPARK: Self-Correcting Embodied Memory via Physical Re-Observation'
+  first_seen: 2026-11-04
+  last_checked: 2026-11-04
+  suggested_category: memory
+  reason: 'Verified; over the daily cap on 2026-11-04. Multi-episode embodied RAG that flags, revisits and corrects its knowledge base.'
+
+- name: Route-Guided CBF-QP Repair
+  url: https://arxiv.org/abs/2611.01713
+  title: Route-Guided CBF-QP Repair for Safe Vision-Language-Action Models
+  first_seen: 2026-11-04
+  last_checked: 2026-11-04
+  suggested_category: safety
+  reason: 'Verified; over the daily cap on 2026-11-04. CBF-QP safety filter with route guidance from VLA action chunks on SafeLIBERO.'
+
+- name: Answering Without Arriving
+  url: https://arxiv.org/abs/2611.01958
+  title: 'Answering Without Arriving: An Evidence Audit for Embodied Question Answering'
+  first_seen: 2026-11-04
+  last_checked: 2026-11-04
+  suggested_category: benchmark
+  reason: 'Verified; over the daily cap on 2026-11-04. Evidence ladder for EQA separating answers from actually observed evidence.'
+
+- name: Rollout then Recycle
+  url: https://arxiv.org/abs/2611.03168
+  title: 'Rollout then Recycle: 3,718 Labelled Real-Robot Episodes from Benchmarking 7 Policies on 12 Tasks'
+  first_seen: 2026-11-04
+  last_checked: 2026-11-04
+  suggested_category: data
+  reason: 'Verified; over the daily cap on 2026-11-04. Labelled SO-101 failure corpus (73% failures) on the Hugging Face Hub; dataset link not yet identified.'

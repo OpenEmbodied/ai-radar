@@ -3014,3 +3014,21 @@
   access: open
   tags: [benchmark, spatial-reasoning, manipulation]
   added: 2026-11-03
+
+- id: robocolosseum
+  name: RoboColosseum
+  title: 'RoboColosseum: Evaluating Physical Intelligence at Scale In-The-Wild'
+  date: 2026-11
+  summary: >-
+    Distributed evaluation network with unified policy serving and standardized protocols
+    across locally operated robots; 5,699 blinded pairwise trials at 124 sites compare five
+    VLAs and three frontier agents on four embodiments, finding weak cross-embodiment
+    ranking agreement.
+  links:
+    paper: https://arxiv.org/abs/2611.02497
+  access: closed
+  tags: [benchmark, leaderboard, real-world, agentic-loop]
+  note: >-
+    Distinct from RoboColiseum (Agent2Act, 2610.27865). Project site robocolosseum.ai
+    required a login on 2026-11-04.
+  added: 2026-11-04

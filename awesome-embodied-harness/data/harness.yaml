@@ -3762,3 +3762,70 @@
   access: closed
   tags: [tool-use, memory, manipulation, 3d]
   added: 2026-11-03
+
+- id: auriga
+  name: Auriga
+  title: >-
+    Auriga Technical Report: A Task-Agnostic Agent Harness for Zero-Shot Embodied
+    Manipulation
+  date: 2026-10
+  summary: >-
+    Task-agnostic harness in which the model decides over an explicit task belief and acts
+    by tool calls or synthesized Python, with calibrated 3D measurement, trajectory previews
+    before motion and tolerance checks that stop the robot on divergence; reports first
+    place on RoboDojo at 57.7% (first-party).
+  links:
+    paper: https://arxiv.org/abs/2611.01112
+    code: https://github.com/lose4578/Auriga
+    project: https://auriga.stelledge.com/
+  access: open
+  tags: [agentic-loop, code-as-policy, tool-use, failure-recovery, manipulation]
+  added: 2026-11-04
+
+- id: uni-robot-agent
+  name: uni-robot-agent
+  title: 'Democratizing Robot-Use Agents: A Unified Harness with Open Models'
+  aliases: [Democratizing Robot-Use Agents]
+  date: 2026-11
+  summary: >-
+    Unified harness for robot-use agents built on open-weight models and designed for
+    further training; out-of-the-box Qwen3.8-Flash-Next scores 31.39 on RoboDojo without
+    privileged inputs, above a published GPT-6 Astra result, and is tested on 19 real tasks
+    (first-party).
+  links:
+    paper: https://arxiv.org/abs/2611.01560
+    code: https://github.com/Open-RUA/uni-robot-agent
+    project: https://openrua.ai/uni-robot-agent
+  access: open
+  tags: [agentic-loop, tool-use, manipulation, real-world]
+  added: 2026-11-04
+
+- id: worldsketch
+  name: WorldSketch
+  title: 'WorldSketch: Sketching World Models for Zero-Shot Mobile Manipulation'
+  date: 2026-10
+  summary: >-
+    Instead of generating actions, a VLM agent queries perception tools to build and
+    visually validate a minimal kinematic world model of the task, which a geometric planner
+    optimizes over and execution feedback revises; reports 91% zero-shot on RoboCasa and 97%
+    on LIBERO-PRO (first-party).
+  links:
+    paper: https://arxiv.org/abs/2611.00513
+  access: closed
+  tags: [world-model, agentic-loop, tool-use, mobile-manipulation]
+  added: 2026-11-04
+
+- id: tampagent
+  name: TAMPAgent
+  title: 'TAMPAgent: Agentic Belief-Space Planning for Mobile Manipulation'
+  date: 2026-11
+  summary: >-
+    LVLM agent that writes partial task plans of parameterized observation and execution
+    actions, completes them with classical search and binds geometric parameters through a
+    tool API, interleaving observation and manipulation under partial observability.
+  links:
+    paper: https://arxiv.org/abs/2611.03584
+    project: https://umishra.me/TAMPAgent/
+  access: closed
+  tags: [planning, tool-use, mobile-manipulation, long-horizon]
+  added: 2026-11-04

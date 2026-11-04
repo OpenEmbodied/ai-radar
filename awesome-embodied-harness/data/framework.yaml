@@ -464,3 +464,19 @@
   access: closed
   tags: [humanoid, mobile-manipulation, benchmark, teleop]
   added: 2026-10-24
+
+- id: agentic-fleet-serving
+  name: Serving Agentic Robot Fleets
+  title: >-
+    Serving Agentic Robot Fleets: Workload Characterization, KV-Cache Thrashing, and
+    Admission Control
+  date: 2026-11
+  summary: >-
+    Characterizes fleets of agentic robots (VLM brain, tool harness, VLA policy) on
+    LIBERO-PRO traces: brain contexts reach 215k tokens and KV-cache thrashing collapses
+    throughput as robots grow, which a simple active-episode admission cap restores.
+  links:
+    paper: https://arxiv.org/abs/2611.01404
+  access: closed
+  tags: [agentic-loop, dual-system, multi-robot]
+  added: 2026-11-04

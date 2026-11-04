@@ -1245,3 +1245,33 @@
   tags: [memory, navigation, spatial-reasoning]
   note: Promoted from the queue.
   added: 2026-11-01
+
+- id: life-lifelong
+  name: LIFE (Learning to Live)
+  title: 'Learning to Live: A Step Toward Lifelong Embodied Intelligence'
+  aliases: [Learning to Live]
+  date: 2026-10
+  summary: >-
+    Lifelong framework where streaming gates (RoboBeats) decide when observations warrant a
+    response or memory write, a Plastic Memory keeps source evidence so new indexes can be
+    added later, and Explore-Distill-Mount turns solved problems into reusable tools;
+    replayed on 24 hours of real robot video.
+  links:
+    paper: https://arxiv.org/abs/2611.00180
+  access: closed
+  tags: [memory, self-improving, skill-library]
+  added: 2026-11-04
+
+- id: scene-graph-memory-swap
+  name: Do Embodied VLMs Use Their Scene-Graph Memory?
+  title: Do Embodied VLMs Actually Use Their Scene-Graph Memory?
+  date: 2026-11
+  summary: >-
+    Diagnostic graph-swap test that gives each embodied-QA episode another episode's scene
+    graph and counts changed answers, showing whether memory delivered as text or through a
+    graph encoder is actually relied on.
+  links:
+    paper: https://arxiv.org/abs/2611.02056
+  access: closed
+  tags: [memory, scene-graph, benchmark]
+  added: 2026-11-04

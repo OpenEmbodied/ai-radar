@@ -3,12 +3,13 @@
 # Open-Source Frameworks & Runtimes
 
 > Robot-agent frameworks, runtimes and SDKs you can install and run today.  
-> Layer: L0-L4 · 28 entries · [overview](../README.md#framework) · [survey](../SURVEY.md)
+> Layer: L0-L4 · 29 entries · [overview](../README.md#framework) · [survey](../SURVEY.md)
 
 **Legend:** 🟢 open · 🟡 partial · 🔵 api · ⚪ closed. Hover a name for the full paper title. Newest first within each year.
 
 **2026**
 
+- ⚪ [**Serving Agentic Robot Fleets**](https://arxiv.org/abs/2611.01404 "Serving Agentic Robot Fleets: Workload Characterization, KV-Cache Thrashing, and Admission Control") · 2026-11 — Characterizes fleets of agentic robots (VLM brain, tool harness, VLA policy) on LIBERO-PRO traces: brain contexts reach 215k tokens and KV-cache thrashing collapses throughput as robots grow, which a simple active-episode admission cap restores.
 - 🟢 [**TARSphere**](https://arxiv.org/abs/2610.30043 "TARSphere: A Robot-Oriented Full-Stack Framework for Long-Horizon Embodied Agents in Evolving Physical and Social Environments") · 2026-10 — Full stack for long-horizon embodied agents: simulator infrastructure with embodied NPCs and an event-driven FSM for task state, a harness letting a frozen MLLM act through multi-level skills with hierarchical memory, and a 360-episode benchmark. _Note: Real-robot support is still listed as TODO in the README._ [code](https://github.com/xuyicheng-zju/TARSphere) · [project](https://xuyicheng-zju.github.io/TARSphere/)
 - ⚪ [**LocoManiLab**](https://arxiv.org/abs/2610.30876 "LocoManiLab: A Unified Testbed for Data, Policies, Controllers, and Deployment in Humanoid Loco-Manipulation") · 2026-10 — Humanoid loco-manipulation testbed covering data collection and generation, policy training, evaluation and deployment: 234 tasks in five household scene types, 51.5 hours of simulated teleoperation, and comparisons of 12 policies and 5 controllers.
 - 🟢 [**quackd**](https://github.com/rokbenko/quackd) · 2026-08 — CLI that registers heterogeneous robots through capability manifests and lets an LLM (hosted or local) choose one declared skill at a time in a camera-feedback loop, under a contract on allowed skills, step budgets and human approval; supports multi-robot 'flocks'. _Note: Very early single-developer project; README reports only one real robot (SO-101 arm) tested, other bodies simulated or mocked._

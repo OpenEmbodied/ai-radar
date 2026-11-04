@@ -1101,3 +1101,20 @@
     The code repository named in the abstract (zebehn/vla-start-suppression) did not resolve
     on 2026-11-03.
   added: 2026-11-03
+
+- id: delay-meets-drift
+  name: When Delay Meets Drift
+  title: >-
+    When Delay Meets Drift: Physical Safety of Robot Foundation Models Is a Cross-Layer
+    Problem
+  date: 2026-11
+  summary: >-
+    Treats physical safety as cross-layer variation across environment, model, compute and
+    execution; in 4,000 paired pi0.5 LIBERO episodes a 400 ms delay adds 3.5 points of
+    violations at the training viewpoint but 37 points under a 60-degree camera shift
+    (first-party).
+  links:
+    paper: https://arxiv.org/abs/2611.02101
+  access: closed
+  tags: [safety, vla, uncertainty]
+  added: 2026-11-04
