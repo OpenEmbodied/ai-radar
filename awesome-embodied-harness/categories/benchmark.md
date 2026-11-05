@@ -3,13 +3,16 @@
 # Benchmarks & Evaluation
 
 > Benchmarks, evaluation suites and leaderboards for embodied agents, reasoning models and VLAs.  
-> Layer: L6 · 170 entries · [overview](../README.md#benchmark) · [survey](../SURVEY.md)
+> Layer: L6 · 173 entries · [overview](../README.md#benchmark) · [survey](../SURVEY.md)
 
 **Legend:** 🟢 open · 🟡 partial · 🔵 api · ⚪ closed. Hover a name for the full paper title. Newest first within each year.
 
 **2026**
 
+- 🟢 [**RoboScope Kit**](https://arxiv.org/abs/2611.03850 "RoboScope Kit: Unified Interfaces for Fast and Scalable Embodied-AI Evaluation") · 2026-11 — Wraps each model once as a Policy and each benchmark once as an adapter around its own evaluator, scheduling simulator workers and policy replicas as separate pools; evaluates LIBERO-Long 4.45x faster than the official StarVLA evaluator with equivalent success (first-party). [code](https://github.com/MINT-SJTU/RoboScope-Kit) · [project](https://roboscope.pages.dev/)
 - ⚪ [**RoboColosseum**](https://arxiv.org/abs/2611.02497 "RoboColosseum: Evaluating Physical Intelligence at Scale In-The-Wild") · 2026-11 — Distributed evaluation network with unified policy serving and standardized protocols across locally operated robots; 5,699 blinded pairwise trials at 124 sites compare five VLAs and three frontier agents on four embodiments, finding weak cross-embodiment ranking agreement. _Note: Distinct from RoboColiseum (Agent2Act, 2610.27865). Project site robocolosseum.ai required a login on 2026-11-04._
+- ⚪ [**DexArena**](https://arxiv.org/abs/2611.02629 "DexArena: A Unified Benchmark for Long-Horizon Dexterous Manipulation") · 2026-11 — Benchmark of 10 long-horizon and 30 stage-level bimanual dexterous tasks across household and industrial scenes, each long-horizon task composed of explicitly defined, physically grounded stages. _Note: The linked repository holds only a placeholder README (checked 2026-11-05). Promoted from the queue._ [project](https://sipair-elastic.github.io/DexArena-website/)
+- ⚪ [**Answering Without Arriving**](https://arxiv.org/abs/2611.01958 "Answering Without Arriving: An Evidence Audit for Embodied Question Answering") · 2026-11 — Multi-room EQA benchmark of 200 episodes and 800 questions with an evaluation ladder that holds questions fixed while varying the evidence given to the answerer, separating correct answers from evidence actually observed. _Note: Promoted from the queue._
 - ⚪ [**WorldOracle**](https://arxiv.org/abs/2610.18826 "WorldOracle: Benchmarking Action-Conditioned World Models against Real-World Executions") · 2026-10 — Benchmarks action-conditioned world models against paired real-world executions from the same observation and actions, scoring physical state correctness, interaction alignment, key-area fidelity and multi-view coherence.
 - ⚪ [**WorldFailBench**](https://arxiv.org/abs/2610.33565 "WorldFailBench: Do World Models Understand Policy Failures?") · 2026-10 — Tests whether world models used as policy evaluators reproduce how and at which stages policies fail, and when small scene changes flip success to failure, rather than only matching task outcomes. _Note: Promoted from the queue._
 - ⚪ [**World Models' Last Exam in Physics**](https://arxiv.org/abs/2610.08791) · 2026-10 — Measurement-based benchmark of 40 controlled tasks across mechanics, optics, fluids, thermal and phase change, electromagnetism and surface tension, scoring physical consistency of video world models without reference videos.

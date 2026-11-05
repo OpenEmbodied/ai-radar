@@ -1441,3 +1441,18 @@
   access: open
   tags: [memory, awesome-list]
   added: 2026-11-03
+
+- id: embodied-ai-science-survey
+  name: Embodied AI for Scientific Discovery
+  title: >-
+    Embodied AI for Scientific Discovery: From Physical Action to Scientific Evidence
+  date: 2026-11
+  summary: >-
+    Review treating robot learning and AI for science as one problem with latent specimen,
+    apparatus and measurement state, organized by operational, epistemic and evidential
+    closure of the experiment loop.
+  links:
+    paper: https://arxiv.org/abs/2611.04371
+  access: open
+  tags: [awesome-list, planning]
+  added: 2026-11-05

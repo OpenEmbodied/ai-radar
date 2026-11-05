@@ -1275,3 +1275,35 @@
   access: closed
   tags: [memory, scene-graph, benchmark]
   added: 2026-11-04
+
+- id: helm-language-memory
+  name: HeLM
+  title: 'HeLM: Hierarchical Explicit Language Memory for Non-Markovian Manipulation'
+  date: 2026-11
+  summary: >-
+    Hierarchical VLA framework that keeps task-relevant history as explicit language through
+    factorized event detection and event-triggered memory updates, evaluated on 10 real
+    non-Markovian tasks with 56 variants including inter-episode memory.
+  links:
+    paper: https://arxiv.org/abs/2611.02660
+    code: https://github.com/kimspacehuni/HeLM
+    project: https://kimspacehuni.github.io/HeLM/
+  access: open
+  tags: [memory, vla, long-horizon, real-world]
+  note: Promoted from the queue.
+  added: 2026-11-05
+
+- id: spark-embodied-rag
+  name: SPARK
+  title: 'SPARK: Self-Correcting Embodied Memory via Physical Re-Observation'
+  date: 2026-10
+  summary: >-
+    Corrective multi-episode embodied RAG: a semantic critic flags doubtful regions of the
+    knowledge base, a planner schedules targeted revisits and a selective merge adds,
+    removes or replaces entries from the new observations.
+  links:
+    paper: https://arxiv.org/abs/2611.00344
+  access: closed
+  tags: [memory, navigation, self-improving]
+  note: Promoted from the queue.
+  added: 2026-11-05

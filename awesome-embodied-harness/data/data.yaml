@@ -1638,3 +1638,41 @@
   tags: [data-collection, teleop, hitl]
   note: Promoted from the queue.
   added: 2026-11-01
+
+- id: pyrua-datafarm
+  name: PyRUA-DataFarm
+  title: >-
+    PyRUA-DataFarm: LLM Agent as a Cost-Efficient Teleoperator for Real-Ready Robot Data
+  aliases: [DataFarm]
+  date: 2026-11
+  summary: >-
+    A coding agent rebuilds a requested task in simulation from one calibration episode
+    (scene, expert controller, success judge), and a video model renders photoreal
+    multi-view episodes; policies trained only on this data match teleoperation-trained ones
+    on five real tasks (first-party).
+  links:
+    paper: https://arxiv.org/abs/2611.05320
+    code: https://github.com/DAGroup-PKU/PyRUA-Lean/tree/DataFarm
+    project: https://dagroup-pku.github.io/PyRUA-Lean/DataFarm
+  access: open
+  tags: [data-generation, code-as-policy, sim2real, video]
+  added: 2026-11-05
+
+- id: cimi
+  name: CIMI (Contact Imitation Interface)
+  title: >-
+    Contact Imitation Interface: Transferring Dexterous Skills by Showing How Contact
+    Unfolds
+  date: 2026-10
+  summary: >-
+    Contact-grounded demonstration and learning interfaces for transferring human dexterity
+    to robot hands: shared contact geometry and fingertip views with contact-first
+    retargeting, plus a hierarchical contact-surface planner and controller.
+  links:
+    paper: https://arxiv.org/abs/2610.41028
+    code: https://github.com/ariszxxu/CIMI
+    project: https://nus-lins-lab.github.io/CIMIWeb/
+  access: open
+  tags: [dexterous, data-collection, cross-embodiment]
+  note: Promoted from the queue.
+  added: 2026-11-05

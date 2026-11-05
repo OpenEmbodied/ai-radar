@@ -3032,3 +3032,53 @@
     Distinct from RoboColiseum (Agent2Act, 2610.27865). Project site robocolosseum.ai
     required a login on 2026-11-04.
   added: 2026-11-04
+
+- id: roboscope-kit
+  name: RoboScope Kit
+  title: 'RoboScope Kit: Unified Interfaces for Fast and Scalable Embodied-AI Evaluation'
+  date: 2026-11
+  summary: >-
+    Wraps each model once as a Policy and each benchmark once as an adapter around its own
+    evaluator, scheduling simulator workers and policy replicas as separate pools; evaluates
+    LIBERO-Long 4.45x faster than the official StarVLA evaluator with equivalent success
+    (first-party).
+  links:
+    paper: https://arxiv.org/abs/2611.03850
+    code: https://github.com/MINT-SJTU/RoboScope-Kit
+    project: https://roboscope.pages.dev/
+  access: open
+  tags: [benchmark, vla]
+  added: 2026-11-05
+
+- id: dexarena
+  name: DexArena
+  title: 'DexArena: A Unified Benchmark for Long-Horizon Dexterous Manipulation'
+  date: 2026-11
+  summary: >-
+    Benchmark of 10 long-horizon and 30 stage-level bimanual dexterous tasks across
+    household and industrial scenes, each long-horizon task composed of explicitly defined,
+    physically grounded stages.
+  links:
+    paper: https://arxiv.org/abs/2611.02629
+    project: https://sipair-elastic.github.io/DexArena-website/
+  access: closed
+  tags: [benchmark, dexterous, long-horizon]
+  note: >-
+    The linked repository holds only a placeholder README (checked 2026-11-05). Promoted
+    from the queue.
+  added: 2026-11-05
+
+- id: answering-without-arriving
+  name: Answering Without Arriving
+  title: 'Answering Without Arriving: An Evidence Audit for Embodied Question Answering'
+  date: 2026-11
+  summary: >-
+    Multi-room EQA benchmark of 200 episodes and 800 questions with an evaluation ladder
+    that holds questions fixed while varying the evidence given to the answerer, separating
+    correct answers from evidence actually observed.
+  links:
+    paper: https://arxiv.org/abs/2611.01958
+  access: closed
+  tags: [benchmark, navigation, memory]
+  note: Promoted from the queue.
+  added: 2026-11-05

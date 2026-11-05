@@ -1118,3 +1118,20 @@
   access: closed
   tags: [safety, vla, uncertainty]
   added: 2026-11-04
+
+- id: text-action-divergence
+  name: Say the Same, Act Differently
+  title: >-
+    Say the Same, Act Differently: Diagnosing and Steering Text-Action Divergence in
+    Reasoning VLAs
+  date: 2026-11
+  summary: >-
+    Shows visual perturbations along a text-neutral action subspace change a reasoning VLA's
+    physical action while its rationale stays word-for-word identical, inducing collisions
+    in 52.6% of driving scenes, so readable rationales cannot certify safe actions.
+  links:
+    paper: https://arxiv.org/abs/2611.04166
+  access: closed
+  tags: [security, vla, safety]
+  note: NeurIPS 2026.
+  added: 2026-11-05

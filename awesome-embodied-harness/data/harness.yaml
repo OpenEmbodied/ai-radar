@@ -3829,3 +3829,53 @@
   access: closed
   tags: [planning, tool-use, mobile-manipulation, long-horizon]
   added: 2026-11-04
+
+- id: dimure
+  name: DiMuRe
+  title: 'DiMuRe: Diagnosis-Guided Multilevel Recovery for Robotic Task Execution'
+  aliases: [LIBERO-Disturb]
+  date: 2026-11
+  summary: >-
+    Recovery layer for robot-use agents that uses phase-specific evidence and method
+    preconditions to choose program reuse, predefined recovery skills (including bounded VLA
+    grasping) or MLLM-written corrective code, verifying each attempt; introduces
+    LIBERO-Disturb for mid-execution disturbances.
+  links:
+    paper: https://arxiv.org/abs/2611.04226
+  access: closed
+  tags: [failure-recovery, code-as-policy, success-detection, benchmark]
+  added: 2026-11-05
+
+- id: feijoa
+  name: FEIJOA
+  title: 'FEIJOA: Task-Driven Grounding and Execution for Mobile Manipulation'
+  date: 2026-11
+  summary: >-
+    Language-model agent that grounds an instruction at test time by iteratively querying a
+    grounding tool over a posed RGB-D scan, inside an embodiment-aware harness that checks
+    skill preconditions, samples reachable base poses and verifies effects; 35/50 real Spot
+    trials (first-party).
+  links:
+    paper: https://arxiv.org/abs/2611.04080
+    project: https://williamshen-nz.github.io/feijoa/
+  access: closed
+  tags: [agentic-loop, tool-use, success-detection, mobile-manipulation]
+  added: 2026-11-05
+
+- id: arpg-mdp-designers
+  name: ARPG (LLMs as MDP Designers)
+  title: >-
+    LLMs as MDP Designers: A Dependency-Aware Agentic Framework for Automated Robot Policy
+    Generation
+  aliases: [ARPG]
+  date: 2026-11
+  summary: >-
+    Uses LLM agents as designers of RL pipelines rather than runtime controllers:
+    sequential, dependency-aware MDP formulation with local verification, then modular
+    simulator implementation, so generated code yields learnable policies in Isaac Sim.
+  links:
+    paper: https://arxiv.org/abs/2611.04974
+  access: closed
+  tags: [code-as-policy, rl, agentic-loop]
+  note: NeurIPS 2026.
+  added: 2026-11-05
