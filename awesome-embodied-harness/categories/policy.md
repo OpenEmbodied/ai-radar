@@ -3,12 +3,13 @@
 # VLA Models & Skill Policies
 
 > "System 1" vision-language-action models and skill policies a harness calls, including hierarchical and dual-system designs.  
-> Layer: L1 · 101 entries · [overview](../README.md#policy) · [survey](../SURVEY.md)
+> Layer: L1 · 102 entries · [overview](../README.md#policy) · [survey](../SURVEY.md)
 
 **Legend:** 🟢 open · 🟡 partial · 🔵 api · ⚪ closed. Hover a name for the full paper title. Newest first within each year.
 
 **2026**
 
+- ⚪ [**OopsieRecover**](https://arxiv.org/abs/2611.08462 "OopsieRecover: Learning Transferable VLA Corrections from Semantic Interventions") · 2026-11 — Infers the intent behind a handful of corrective demonstrations by abduction and encodes it as dense spatial representations and conditional costs that steer a VLA away from undesirable actions, generalizing corrections to new objects and scenes. [project](https://robin-lab.cs.utexas.edu/oopsierecover)
 - 🟡 [**λ₀ (HumanVerse)**](https://arxiv.org/abs/2610.18950 "$λ_0$: Scaling Open-World Egocentric Human Data for Humanoid Loco-Manipulation") · 2026-10 — Humanoid whole-body loco-manipulation foundation model mid-trained on HumanVerse, 500 hours of egocentric human video with body and hand motion, aligned to the robot through a human-to-humanoid pipeline; transfers to Unitree G1. _Note: Training code, a Stage II checkpoint, a Stage III example and G1 robot data collection are released (checked 2026-11-02); the full HumanVerse dataset is not (only a 20-clip viewer)._ [code](https://github.com/LambdaHumanoid/openlambda) · [project](https://lambdahumanoid.github.io/) · [weights](https://huggingface.co/lambda-humanoid/lambda0-midtrain-100k)
 - ⚪ [**VLRLA**](https://arxiv.org/abs/2610.19517 "VLRLA: Deployment-Time Adaptation of Vision-Language-Action Models through In-Context Reinforcement Learning") · 2026-10 — Adds an in-context reinforcement learning module to existing VLAs that learns from histories of observations, actions, rewards and terminations, so the policy improves during deployment with frozen parameters.
 - 🟡 [**VLDA**](https://arxiv.org/abs/2610.25874 "Vision-Language-Delta-Action: Learning Compact Deltas as Actionable Transition Interfaces for Robotic Manipulation") · 2026-10 — Reformulates future prediction in VLAs as compact, actionable transition deltas instead of full future states, using them as the interface between semantic understanding and action generation. _Note: Code provided as a cookbook in the LoongForge framework._ [code](https://github.com/baidu-baige/LoongForge/tree/master/cookbook/loongforge-vlda)

@@ -3,13 +3,14 @@
 # Surveys & Position Papers
 
 > Surveys, position papers and essays that frame embodied agents and their harnesses.  
-> Layer: meta · 97 entries · [overview](../README.md#survey) · [survey](../SURVEY.md)
+> Layer: meta · 98 entries · [overview](../README.md#survey) · [survey](../SURVEY.md)
 
 **Legend:** 🟢 open · 🟡 partial · 🔵 api · ⚪ closed. Hover a name for the full paper title. Newest first within each year.
 
 **2026**
 
 - 🟢 [**Embodied AI for Scientific Discovery**](https://arxiv.org/abs/2611.04371 "Embodied AI for Scientific Discovery: From Physical Action to Scientific Evidence") · 2026-11 — Review treating robot learning and AI for science as one problem with latent specimen, apparatus and measurement state, organized by operational, epistemic and evidential closure of the experiment loop.
+- 🟢 [**Dexterous Robotic Hands in the Foundation-Model Era**](https://arxiv.org/abs/2611.06724 "Dexterous Robotic Hands in the Foundation-Model Era: A Full-Stack Survey of Hardware, Data, Cross-Embodiment Transfer, Learning, and Evaluation") · 2026-11 — Survey of dexterous hands from January 2024 to November 2026 across five layers (hardware, data, cross-embodiment transfer, learning and foundation models, evaluation), with human hand-object understanding and tactile sensing as cross-cutting views.
 - 🟢 [**When the Past Shapes Action**](https://arxiv.org/abs/2610.41688 "When the Past Shapes Action: Understanding Embodied Memory") · 2026-10 — Survey of embodied memory organized by six requirements (world-state persistence, task progress, belief maintenance, experiential learning and more) and eight architectural categories from recurrent states to spatial and experience-based memory.
 - ⚪ [**VLA memory survey**](https://arxiv.org/abs/2610.23319 "From Sliding Windows to Self-evolving Lifelong Memory: A Dual-perspective Survey of Memory Paradigms for Long-Horizon Robotics VLA Models") · 2026-10 — Survey of VLA memory mechanisms organized by memory scope and persistence into five paradigms plus an emerging self-evolving lifelong-memory frontier, comparing representative systems on characteristics, complexity and cost.
 - 🟢 [**Video Generation Meets Agent Harness**](https://arxiv.org/abs/2610.40191 "Video Generation Meets Agent Harness: Agentic Video Generation, Agentic World Modeling and Recursive Self-Improvement") · 2026-10 — Report on harnesses around video models (runtimes that build context, expose tools, keep state, route feedback and manage budgets) covering agentic video generation, agentic world modeling with engines or agent-written programs, and recursive self-improvement. [code](https://github.com/agentic-videogen/awesome-agentic-videogen) · [project](https://agentic-videogen.github.io/)

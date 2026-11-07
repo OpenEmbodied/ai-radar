@@ -6,7 +6,7 @@
   url: https://arxiv.org/abs/2610.40828
   title: 'From Teleoperation to Long-Horizon Dexterity: Evaluating Visuomotor Skills and Offline Proxies for Dexterous Manipulation'
   first_seen: 2026-11-03
-  last_checked: 2026-11-05
+  last_checked: 2026-11-07
   suggested_category: benchmark
   reason: 'Verified; over the daily cap on 2026-11-03. 281 policies over about 1,700 real dexterous-insertion trials; offline proxies vs real success (CoRL 2026 workshop).'
 
@@ -14,23 +14,15 @@
   url: https://arxiv.org/abs/2611.01713
   title: Route-Guided CBF-QP Repair for Safe Vision-Language-Action Models
   first_seen: 2026-11-04
-  last_checked: 2026-11-05
+  last_checked: 2026-11-07
   suggested_category: safety
   reason: 'Verified; over the daily cap on 2026-11-04. CBF-QP safety filter with route guidance from VLA action chunks on SafeLIBERO.'
-
-- name: Rollout then Recycle
-  url: https://arxiv.org/abs/2611.03168
-  title: 'Rollout then Recycle: 3,718 Labelled Real-Robot Episodes from Benchmarking 7 Policies on 12 Tasks'
-  first_seen: 2026-11-04
-  last_checked: 2026-11-05
-  suggested_category: data
-  reason: 'Verified; over the daily cap on 2026-11-04. Labelled SO-101 failure corpus (73% failures) on the Hugging Face Hub; dataset link not yet identified.'
 
 - name: Trusting Imagined Futures
   url: https://arxiv.org/abs/2611.04873
   title: 'Trusting Imagined Futures: Auditing Imagined Rewards for VLA Post-Training'
   first_seen: 2026-11-05
-  last_checked: 2026-11-05
+  last_checked: 2026-11-07
   suggested_category: verification
   reason: 'Verified; over the daily cap on 2026-11-05. Audits world-model predicted rewards against execution feedback before accepting VLA post-training supervision.'
 
@@ -38,22 +30,46 @@
   url: https://arxiv.org/abs/2611.05155
   title: Asynchronous Robot Policies
   first_seen: 2026-11-05
-  last_checked: 2026-11-05
+  last_checked: 2026-11-07
   suggested_category: policy
   reason: 'Verified; over the daily cap on 2026-11-05. VLM updates a semantic memory asynchronously at low frequency for a fast vision-action expert; code at arp.insait.ai (site verified).'
-
-- name: Caging VLN
-  url: https://arxiv.org/abs/2611.04972
-  title: Caging Vision-Language Navigation for Legged Robots via Barrier-Certified Safety Architecture
-  first_seen: 2026-11-05
-  last_checked: 2026-11-05
-  suggested_category: safety
-  reason: 'Verified; over the daily cap on 2026-11-05. Barrier-certified physical-grounding layer around a VLA navigation planner for legged robots.'
 
 - name: VagueBench
   url: https://arxiv.org/abs/2611.03765
   title: 'VagueBench: Benchmarking the Robustness of Embodied Agents on Ambient Context Illusions'
   first_seen: 2026-11-05
-  last_checked: 2026-11-05
+  last_checked: 2026-11-07
   suggested_category: benchmark
   reason: 'Verified; over the daily cap on 2026-11-05. AI2-THOR benchmark for embodied agents under contextually minimal instructions.'
+
+- name: PHIL
+  url: https://arxiv.org/abs/2611.05667
+  title: 'Correct Robots Before They Make Mistakes: Proactive Human-in-the-Loop Intervention via Preference Learning'
+  first_seen: 2026-11-07
+  last_checked: 2026-11-07
+  suggested_category: policy
+  reason: 'Verified; over the daily cap on 2026-11-07. XR preview of predicted motion lets operators intervene before failures, with preference-based post-training; project intuitive-robots.github.io/PHIL-page.'
+
+- name: MESA
+  url: https://arxiv.org/abs/2611.05567
+  title: 'MESA: An Evaluation Framework for Compositional, Semantic, and Spatial Generalization in Robotics'
+  first_seen: 2026-11-07
+  last_checked: 2026-11-07
+  suggested_category: benchmark
+  reason: 'Verified; over the daily cap on 2026-11-07. Five suites isolating generalization axes for language-conditioned policies (CoRL 2026); project pairlab.github.io/MESA.'
+
+- name: Open-HumanWAM
+  url: https://arxiv.org/abs/2611.06817
+  title: 'Open-HumanWAM: An Open Recipe for Scaling Human and Robot Experience for Embodied Foundation Models'
+  first_seen: 2026-11-07
+  last_checked: 2026-11-07
+  suggested_category: data
+  reason: 'Verified; over the daily cap on 2026-11-07. Open 50K-hour egocentric pretraining recipe with a log-linear scaling law; code DAGroup-PKU/HumanNet (Open-HumanWAM branch).'
+
+- name: Embodied RAG++
+  url: https://arxiv.org/abs/2611.07517
+  title: 'Embodied RAG++: Retrieval-Augmented Generation From What Exists to What Works in Embodied Scenes'
+  first_seen: 2026-11-07
+  last_checked: 2026-11-07
+  suggested_category: memory
+  reason: 'Verified; over the daily cap on 2026-11-07. Capability-grounded robot-object assignment over scene graphs and product manuals; E2W-Bench.'

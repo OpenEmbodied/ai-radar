@@ -3082,3 +3082,69 @@
   tags: [benchmark, navigation, memory]
   note: Promoted from the queue.
   added: 2026-11-05
+
+- id: criteria-exposure
+  name: Learning the Task or the Verifier?
+  title: >-
+    Learning the Task or Learning the Verifier? Rethinking Criteria Exposure in Embodied
+    Self-Improvement
+  aliases: [Criteria Exposure, RSIJudge]
+  date: 2026-11
+  summary: >-
+    Shows that exposing a benchmark's success checks to a self-improving coding agent
+    inflates scores that vanish when the checks change slightly within the same instructions
+    and yields skills that transfer poorly; proposes instruction-faithful criteria.
+  links:
+    paper: https://arxiv.org/abs/2611.08318
+    project: https://dagroup-pku.github.io/PyRUA-Lean/RSIJudge
+  access: closed
+  tags: [benchmark, self-improving, code-as-policy, success-detection]
+  added: 2026-11-07
+
+- id: roboarcade
+  name: RoboARCade
+  title: 'RoboARCade: Benchmarking Agentic Robot Control'
+  date: 2026-11
+  summary: >-
+    Long-horizon MuJoCo manipulation benchmark across three embodiments for frontier agents
+    acting directly as robot policies, with swappable interfaces; GPT-6 Astra scores 49.8%,
+    agents falsely claim success on 24-39% of subtasks, and self-revised prompts raise
+    scores (first-party).
+  links:
+    paper: https://arxiv.org/abs/2611.08209
+    project: https://roboarcade.org
+  access: closed
+  tags: [benchmark, agentic-loop, manipulation, success-detection]
+  added: 2026-11-07
+
+- id: vabar
+  name: VABAR
+  title: 'VABAR: A Variational Automation Benchmark for Agentic Robotics'
+  date: 2026-11
+  summary: >-
+    Open simulation benchmark on the Newton physics engine for agentic robotics in
+    variational automation: six industrial, medical and infrastructure task classes with
+    standardized variations, difficulty tiers and 33 skills with programmatic reference
+    solutions.
+  links:
+    paper: https://arxiv.org/abs/2611.06881
+  access: closed
+  tags: [benchmark, code-as-policy, skill-library, manipulation]
+  added: 2026-11-07
+
+- id: robocasa-mem
+  name: RoboCasa-Mem
+  title: >-
+    Robocasa-Mem: Benchmarking Environment and Process Memory in Long-Horizon Mobile
+    Manipulation
+  date: 2026-11
+  summary: >-
+    Nine mobile manipulation tasks that need environment memory (locations, attributes,
+    relations) or process memory (progress, scheduling), scored by behavior-conditioned
+    evaluation that checks consistency with the robot's own history; 1,800 demonstrations
+    and a hierarchical memory baseline.
+  links:
+    paper: https://arxiv.org/abs/2611.06475
+  access: closed
+  tags: [benchmark, memory, mobile-manipulation, long-horizon]
+  added: 2026-11-07

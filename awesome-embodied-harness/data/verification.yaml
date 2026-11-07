@@ -1229,3 +1229,21 @@
   access: open
   tags: [reward-model, success-detection, video]
   added: 2026-11-04
+
+- id: vla-tug
+  name: VLA-Tug
+  title: >-
+    Failure Prediction and Classification in Vision-Language-Action Models Via Calibrated
+    Latent Probing
+  date: 2026-11
+  summary: >-
+    Lightweight probe over a VLA backbone's latent layers for early, calibrated failure
+    detection with bounded missed-detection and false-alarm rates; supervising on
+    pre-failure segments raises early detection by up to 30% at matched false positives
+    (first-party).
+  links:
+    paper: https://arxiv.org/abs/2611.08425
+    project: https://vla-tug.github.io
+  access: closed
+  tags: [success-detection, uncertainty, vla, safety]
+  added: 2026-11-07

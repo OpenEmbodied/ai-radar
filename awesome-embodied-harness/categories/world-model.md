@@ -3,12 +3,13 @@
 # World Models
 
 > Learned world models and simulators used for planning, policy evaluation and data generation.  
-> Layer: L6 · 78 entries · [overview](../README.md#world-model) · [survey](../SURVEY.md)
+> Layer: L6 · 79 entries · [overview](../README.md#world-model) · [survey](../SURVEY.md)
 
 **Legend:** 🟢 open · 🟡 partial · 🔵 api · ⚪ closed. Hover a name for the full paper title. Newest first within each year.
 
 **2026**
 
+- 🟢 [**Interactive World Simulation with Cosmos**](https://arxiv.org/abs/2611.06627 "Interactive World Simulation with Cosmos for Physical AI") · 2026-11 · NVIDIA — NVIDIA framework adapting Cosmos world foundation models to real-time interactive simulation that streams observations in response to actions and scene controls, either predicting action consequences or rendering state from an external simulator, across navigation, manipulation and multi-view driving. [code](https://github.com/NVIDIA/cosmos) · [project](https://research.nvidia.com/labs/cosmos-lab/cosmos-simulation) · [weights](https://huggingface.co/collections/nvidia/cosmos3-examples)
 - ⚪ [**VQ-WM**](https://arxiv.org/abs/2610.25600 "Vector-Quantized World Model: Latent Feedback Motion Planning for Robot Manipulation") · 2026-10 — Latent feedback motion planning that searches for shortest paths over vector-quantized latent states with a discrete transition model, then reaches each latent subgoal with continuous visual feedback control, to curb compounding errors over long horizons.
 - ⚪ [**Stateful Harness (State World Models)**](https://arxiv.org/abs/2610.26811 "State World Models: Execute the Rules, Generate the Pixels") · 2026-10 — Separates world evolution from rendering: a stateful harness maintains an evolving world state under specified rules, renders each event with a frozen video model, and uses the generated clip to update state, so interactions follow persistent rules even when state is off-screen.
 - ⚪ [**Spatial Memory Intelligence**](https://arxiv.org/abs/2610.02521 "Spatial Memory Intelligence: Endowing World Models with Understanding-Driven Long-Term Memory") · 2026-10 — Uses a multimodal understanding model to manage long-range spatial memory in long-video world models through four operations: spatial clustering, within-cluster sparsification, action-aware retrieval and reliability-aware filtering. _Note: Repository lists training and evaluation code as coming soon (checked 2026-10-06)._ [project](https://spatial-memory-intelligence.github.io/)

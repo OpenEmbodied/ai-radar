@@ -1850,3 +1850,18 @@
   tags: [hitl, rl, manipulation]
   note: Promoted from the queue.
   added: 2026-10-30
+
+- id: oopsierecover
+  name: OopsieRecover
+  title: 'OopsieRecover: Learning Transferable VLA Corrections from Semantic Interventions'
+  date: 2026-11
+  summary: >-
+    Infers the intent behind a handful of corrective demonstrations by abduction and encodes
+    it as dense spatial representations and conditional costs that steer a VLA away from
+    undesirable actions, generalizing corrections to new objects and scenes.
+  links:
+    paper: https://arxiv.org/abs/2611.08462
+    project: https://robin-lab.cs.utexas.edu/oopsierecover
+  access: closed
+  tags: [failure-recovery, hitl, vla, manipulation]
+  added: 2026-11-07

@@ -1044,3 +1044,19 @@
   tags: [planning, failure-recovery, memory]
   note: IROS 2026. Promoted from the queue.
   added: 2026-11-01
+
+- id: eviseek
+  name: EviSeek
+  title: >-
+    EviSeek: An Evidence-Centric Agentic Framework for Embodied Active Information Seeking
+  date: 2026-11
+  summary: >-
+    Training-free agent for active embodied question answering that turns each question into
+    explicit evidence demands, links viewpoint changes and interactions to the evidence they
+    should reveal and keeps only relevant evidence; +7.1 points with Qwen3-VL-32B on
+    ESI-Bench (first-party).
+  links:
+    paper: https://arxiv.org/abs/2611.06434
+  access: closed
+  tags: [agentic-loop, memory, planning]
+  added: 2026-11-07

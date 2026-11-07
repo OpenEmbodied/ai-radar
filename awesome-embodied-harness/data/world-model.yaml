@@ -1391,3 +1391,22 @@
   tags: [world-model, rl, manipulation]
   note: Promoted from the queue.
   added: 2026-10-30
+
+- id: cosmos-interactive-sim
+  name: Interactive World Simulation with Cosmos
+  title: Interactive World Simulation with Cosmos for Physical AI
+  date: 2026-11
+  org: NVIDIA
+  summary: >-
+    NVIDIA framework adapting Cosmos world foundation models to real-time interactive
+    simulation that streams observations in response to actions and scene controls, either
+    predicting action consequences or rendering state from an external simulator, across
+    navigation, manipulation and multi-view driving.
+  links:
+    paper: https://arxiv.org/abs/2611.06627
+    code: https://github.com/NVIDIA/cosmos
+    project: https://research.nvidia.com/labs/cosmos-lab/cosmos-simulation
+    weights: https://huggingface.co/collections/nvidia/cosmos3-examples
+  access: open
+  tags: [world-model, video, manipulation, navigation]
+  added: 2026-11-07

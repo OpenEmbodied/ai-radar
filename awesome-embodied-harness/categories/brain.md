@@ -3,12 +3,13 @@
 # Embodied Reasoning Models & Planners
 
 > "System 2" models trained or adapted for embodied reasoning, spatial grounding, pointing and task planning.  
-> Layer: L4 · 58 entries · [overview](../README.md#brain) · [survey](../SURVEY.md)
+> Layer: L4 · 59 entries · [overview](../README.md#brain) · [survey](../SURVEY.md)
 
 **Legend:** 🟢 open · 🟡 partial · 🔵 api · ⚪ closed. Hover a name for the full paper title. Newest first within each year.
 
 **2026**
 
+- ⚪ [**EviSeek**](https://arxiv.org/abs/2611.06434 "EviSeek: An Evidence-Centric Agentic Framework for Embodied Active Information Seeking") · 2026-11 — Training-free agent for active embodied question answering that turns each question into explicit evidence demands, links viewpoint changes and interactions to the evidence they should reveal and keeps only relevant evidence; +7.1 points with Qwen3-VL-32B on ESI-Bench (first-party).
 - 🟢 [**SimpleVLN**](https://arxiv.org/abs/2610.23203 "SimpleVLN: Towards Simple and Frontier Vision-Language Navigation") · 2026-10 — Architecture-preserving recipe for turning a native multimodal LLM into a VLN agent through formulation (single-turn inputs with fixed-budget global-local memory), data construction and optimization choices rather than task-specific modules. [code](https://github.com/simplevln/SimpleVLN) · [project](https://simplevln.github.io/)
 - 🟢 [**RynnUnify**](https://arxiv.org/abs/2610.32965 "RynnUnify: Towards Unified Embodied Brain") · 2026-10 · Alibaba DAMO Academy — 16B unified embodied model with interleaved video-language reasoning for spatial reasoning, physical prediction and long-horizon visual planning, plus an RL-trained agentic extension that consults video predictions and a world-action extension for robot control. [code](https://github.com/alibaba-damo-academy/RynnUnify) · [project](https://alibaba-damo-academy.github.io/RynnUnify.github.io/) · [weights](https://huggingface.co/Alibaba-DAMO-Academy/RynnUnify-Base)
 - ⚪ [**OmniBrain-0**](https://arxiv.org/abs/2610.36013 "OmniBrain-0: A Unified Agentic Model for Embodied Intelligence") · 2026-10 — Lightweight unified decision model for manipulation and navigation that tracks progress and recovers from failures, built by distilling strong agents' interaction experience into domain experts and consolidating them, with a rubric-guided self-improvement data flywheel. _Note: Repository says code release is coming soon._ [code](https://github.com/luo-yc17/OmniBrain-0) · [project](https://public-bots.github.io/OmniBrain-0/)
