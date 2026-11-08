@@ -1865,3 +1865,39 @@
   access: closed
   tags: [failure-recovery, hitl, vla, manipulation]
   added: 2026-11-07
+
+- id: asynchronous-robot-policies
+  name: Asynchronous Robot Policies (ARP)
+  title: Asynchronous Robot Policies
+  aliases: [ARP]
+  date: 2026-11
+  summary: >-
+    Decouples semantic reasoning from action generation: a VLM updates a semantic memory at
+    low frequency while a lightweight vision-action expert, trained on staleness and delay,
+    generates actions at high frequency from that memory.
+  links:
+    paper: https://arxiv.org/abs/2611.05155
+    project: https://arp.insait.ai
+  access: closed
+  tags: [dual-system, memory, vla, manipulation]
+  note: Promoted from the queue.
+  added: 2026-11-08
+
+- id: phil
+  name: PHIL
+  title: >-
+    Correct Robots Before They Make Mistakes: Proactive Human-in-the-Loop Intervention via
+    Preference Learning
+  date: 2026-11
+  summary: >-
+    Operators preview a policy's predicted motion in XR and intervene before undesirable
+    actions; rejected predictions paired with corrections drive preference-based
+    post-training, raising X-VLA from 57.8% to 76.9% with five corrections versus HG-DAgger
+    (first-party).
+  links:
+    paper: https://arxiv.org/abs/2611.05667
+    project: https://intuitive-robots.github.io/PHIL-page/
+  access: closed
+  tags: [hitl, vla, manipulation, real-world]
+  note: Promoted from the queue.
+  added: 2026-11-08

@@ -3,13 +3,14 @@
 # Verification, Failure Detection & Recovery
 
 > "Exit codes" for robots: success detection, failure reasoning, self-reflection, recovery and knowing when to ask for help.  
-> Layer: L5 · 71 entries · [overview](../README.md#verification) · [survey](../SURVEY.md)
+> Layer: L5 · 72 entries · [overview](../README.md#verification) · [survey](../SURVEY.md)
 
 **Legend:** 🟢 open · 🟡 partial · 🔵 api · ⚪ closed. Hover a name for the full paper title. Newest first within each year.
 
 **2026**
 
 - ⚪ [**VLA-Tug**](https://arxiv.org/abs/2611.08425 "Failure Prediction and Classification in Vision-Language-Action Models Via Calibrated Latent Probing") · 2026-11 — Lightweight probe over a VLA backbone's latent layers for early, calibrated failure detection with bounded missed-detection and false-alarm rates; supervising on pre-failure segments raises early detection by up to 30% at matched false positives (first-party). [project](https://vla-tug.github.io)
+- ⚪ [**Trusting Imagined Futures**](https://arxiv.org/abs/2611.04873 "Trusting Imagined Futures: Auditing Imagined Rewards for VLA Post-Training") · 2026-11 — Audits world-model-predicted rewards against execution feedback before accepting imagined candidates as VLA post-training supervision, accepting a candidate only if its predicted advantage clears a margin and its audit risk passes a threshold. _Note: Promoted from the queue._
 - 🟢 [**D&A (Describe & Assess)**](https://arxiv.org/abs/2611.03622 "D&A: Decoupling Description and Assessment Enables VLMs as Zero-Shot Robotic Reward Models") · 2026-11 — Zero-shot VLM progress estimation that first describes what happened in a robot video and then assesses progress separately, countering the confirmation bias that makes frontier models hallucinate progress in failed executions. [code](https://github.com/memmelma/dna) · [project](https://weirdlabuw.github.io/dna)
 - ⚪ [**Which Hand Was Late?**](https://arxiv.org/abs/2610.37533 "Which Hand Was Late? Diagnosis for Robot Failure Recovery in Bimanual Tool Use") · 2026-10 — Measures which sensing channels let a failure diagnoser identify bimanual tool-use failures, such as tool slip, mistimed hands and compound causes, on a simulated task with causes read from recorded traces. _Note: Promoted from the queue._
 - ⚪ [**VeriVLA**](https://arxiv.org/abs/2610.21985 "VeriVLA: Adaptive Test-Time Verification for Flow-Based VLAs with Latent World Models") · 2026-10 — Training-free trigger uses within-chunk temporal variation and cross-sample variance of two flow-VLA samples to detect critical states, where a JEPA latent world model ranks candidate action chunks by predicted outcomes before execution.

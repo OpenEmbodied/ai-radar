@@ -276,17 +276,17 @@ Counts by category and year of first release, generated from `data/`.
 | [Embodied Harnesses](categories/harness.md) | L4 | 227 | 0 | 10 | 30 | 23 | 14 | 150 | 85 |
 | [Open-Source Frameworks & Runtimes](categories/framework.md) | L0-L4 | 29 | 0 | 1 | 5 | 11 | 5 | 7 | 26 |
 | [Action Interfaces, Skills & Tool Protocols](categories/interface.md) | L2 | 48 | 0 | 0 | 5 | 10 | 11 | 22 | 22 |
-| [World State, Memory & Spatial Context](categories/memory.md) | L3 | 75 | 0 | 4 | 6 | 15 | 10 | 40 | 33 |
+| [World State, Memory & Spatial Context](categories/memory.md) | L3 | 76 | 0 | 4 | 6 | 15 | 10 | 41 | 33 |
 | [Embodied Reasoning Models & Planners](categories/brain.md) | L4 | 59 | 0 | 0 | 5 | 4 | 18 | 32 | 32 |
-| [VLA Models & Skill Policies](categories/policy.md) | L1 | 102 | 0 | 1 | 5 | 7 | 42 | 47 | 58 |
+| [VLA Models & Skill Policies](categories/policy.md) | L1 | 104 | 0 | 1 | 5 | 7 | 42 | 49 | 58 |
 | [World Models](categories/world-model.md) | L6 | 79 | 0 | 1 | 3 | 7 | 26 | 42 | 44 |
-| [Verification, Failure Detection & Recovery](categories/verification.md) | L5 | 71 | 0 | 0 | 4 | 7 | 14 | 46 | 28 |
-| [Safety, Guardrails & Security](categories/safety.md) | L5 | 67 | 0 | 0 | 1 | 9 | 15 | 42 | 21 |
+| [Verification, Failure Detection & Recovery](categories/verification.md) | L5 | 72 | 0 | 0 | 4 | 7 | 14 | 47 | 28 |
+| [Safety, Guardrails & Security](categories/safety.md) | L5 | 68 | 0 | 0 | 1 | 9 | 15 | 43 | 21 |
 | [Multi-Robot & Fleet Orchestration](categories/multi-agent.md) | L4 | 55 | 0 | 0 | 5 | 8 | 13 | 29 | 22 |
 | [Simulators & Environments](categories/sim.md) | L6 | 59 | 12 | 1 | 6 | 5 | 10 | 25 | 43 |
-| [Benchmarks & Evaluation](categories/benchmark.md) | L6 | 177 | 5 | 1 | 4 | 19 | 31 | 117 | 95 |
-| [Data, Teleoperation & Training Infrastructure](categories/data.md) | L6 | 98 | 5 | 0 | 9 | 18 | 35 | 31 | 67 |
-| **Total** |  | **1244** | 23 | 20 | 96 | 153 | 274 | 678 | 598 |
+| [Benchmarks & Evaluation](categories/benchmark.md) | L6 | 180 | 5 | 1 | 4 | 19 | 31 | 120 | 96 |
+| [Data, Teleoperation & Training Infrastructure](categories/data.md) | L6 | 99 | 5 | 0 | 9 | 18 | 35 | 32 | 67 |
+| **Total** |  | **1253** | 23 | 20 | 96 | 153 | 274 | 687 | 599 |
 <!-- END GENERATED: stats -->
 
 ---

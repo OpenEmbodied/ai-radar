@@ -1247,3 +1247,19 @@
   access: closed
   tags: [success-detection, uncertainty, vla, safety]
   added: 2026-11-07
+
+- id: trusting-imagined-futures
+  name: Trusting Imagined Futures
+  title: 'Trusting Imagined Futures: Auditing Imagined Rewards for VLA Post-Training'
+  aliases: [TIF]
+  date: 2026-11
+  summary: >-
+    Audits world-model-predicted rewards against execution feedback before accepting
+    imagined candidates as VLA post-training supervision, accepting a candidate only if its
+    predicted advantage clears a margin and its audit risk passes a threshold.
+  links:
+    paper: https://arxiv.org/abs/2611.04873
+  access: closed
+  tags: [reward-model, world-model, vla, uncertainty]
+  note: Promoted from the queue.
+  added: 2026-11-08

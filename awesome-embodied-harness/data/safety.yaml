@@ -1135,3 +1135,19 @@
   tags: [security, vla, safety]
   note: NeurIPS 2026.
   added: 2026-11-05
+
+- id: route-guided-cbf
+  name: Route-Guided CBF-QP Repair
+  title: Route-Guided CBF-QP Repair for Safe Vision-Language-Action Models
+  date: 2026-11
+  summary: >-
+    Post-hoc safety module that uses a VLA's predicted action chunk to detect blocked
+    trajectories and adds entry-exit-rejoin route guidance as a soft term in a CBF-QP filter
+    whose safety constraint stays hard, improving collision avoidance and task success on
+    SafeLIBERO.
+  links:
+    paper: https://arxiv.org/abs/2611.01713
+  access: closed
+  tags: [safety, vla, manipulation]
+  note: Promoted from the queue.
+  added: 2026-11-08

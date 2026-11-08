@@ -3,7 +3,7 @@
 # Safety, Guardrails & Security
 
 > Guardrails, permissions, constitutions, red-teaming and security of model-driven robots.  
-> Layer: L5 · 67 entries · [overview](../README.md#safety) · [survey](../SURVEY.md)
+> Layer: L5 · 68 entries · [overview](../README.md#safety) · [survey](../SURVEY.md)
 
 **Legend:** 🟢 open · 🟡 partial · 🔵 api · ⚪ closed. Hover a name for the full paper title. Newest first within each year.
 
@@ -11,6 +11,7 @@
 
 - ⚪ [**When Delay Meets Drift**](https://arxiv.org/abs/2611.02101 "When Delay Meets Drift: Physical Safety of Robot Foundation Models Is a Cross-Layer Problem") · 2026-11 — Treats physical safety as cross-layer variation across environment, model, compute and execution; in 4,000 paired pi0.5 LIBERO episodes a 400 ms delay adds 3.5 points of violations at the training viewpoint but 37 points under a 60-degree camera shift (first-party).
 - ⚪ [**Say the Same, Act Differently**](https://arxiv.org/abs/2611.04166 "Say the Same, Act Differently: Diagnosing and Steering Text-Action Divergence in Reasoning VLAs") · 2026-11 — Shows visual perturbations along a text-neutral action subspace change a reasoning VLA's physical action while its rationale stays word-for-word identical, inducing collisions in 52.6% of driving scenes, so readable rationales cannot certify safe actions. _Note: NeurIPS 2026._
+- ⚪ [**Route-Guided CBF-QP Repair**](https://arxiv.org/abs/2611.01713 "Route-Guided CBF-QP Repair for Safe Vision-Language-Action Models") · 2026-11 — Post-hoc safety module that uses a VLA's predicted action chunk to detect blocked trajectories and adds entry-exit-rejoin route guidance as a soft term in a CBF-QP filter whose safety constraint stays hard, improving collision avoidance and task success on SafeLIBERO. _Note: Promoted from the queue._
 - ⚪ [**WBAG**](https://arxiv.org/abs/2610.01083 "WBAG: A Whole-Body and Attached-Geometry Safety Framework for Vision-Language-Action Manipulation") · 2026-10 — Inference-time VLA safety layer that models the whole arm plus grasp-dependent attached-object geometry as a changing safe set and turns it into differentiable CBF constraints that minimally modify the VLA's operational-space action; evaluated on SafeLIBERO.
 - ⚪ [**VLA-Stem**](https://arxiv.org/abs/2610.37378 "VLA-Stem: A Lightweight Safety Mechanism for Vision-Language-Action Models via Reinforcement Learning") · 2026-10 — RL-trained module that turns a frozen VLA's action chunks into motion references and adapts execution to spatial constraints and dynamic obstacles; reports 52.8% collision-free success versus 23.7% for the strongest safety baseline in simulation (first-party).
 - ⚪ [**VLA task-redirection attacks**](https://arxiv.org/abs/2610.23566 "Enhancing Visual Task-Redirection Attacks on Vision-Language-Action Models via Closed-Loop Optimization") · 2026-10 — Shows that visual perturbations optimized against fixed targets fail once the attacked trajectory diverges, and optimizes them in closed loop so a VLA is steered to complete an attacker-specified task.

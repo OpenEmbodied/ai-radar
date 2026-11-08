@@ -1307,3 +1307,22 @@
   tags: [memory, navigation, self-improving]
   note: Promoted from the queue.
   added: 2026-11-05
+
+- id: embodied-rag-plus
+  name: Embodied RAG++
+  title: >-
+    Embodied RAG++: Retrieval-Augmented Generation From What Exists to What Works in
+    Embodied Scenes
+  aliases: [E2W-Bench]
+  date: 2026-11
+  summary: >-
+    Spatially grounded retrieval that links dynamic scene graphs to product manuals to
+    assign robots to objects by capability, availability, reach and connectors, with the
+    E2W-Bench benchmark; reaches 0.90-1.00 pair accuracy versus at most 0.55 for baselines
+    (first-party).
+  links:
+    paper: https://arxiv.org/abs/2611.07517
+  access: closed
+  tags: [memory, scene-graph, multi-robot]
+  note: Promoted from the queue.
+  added: 2026-11-08

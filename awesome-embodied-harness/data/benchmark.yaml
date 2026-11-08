@@ -3148,3 +3148,56 @@
   access: closed
   tags: [benchmark, memory, mobile-manipulation, long-horizon]
   added: 2026-11-07
+
+- id: teleop-dexterity-eval
+  name: Teleoperation to Long-Horizon Dexterity
+  title: >-
+    From Teleoperation to Long-Horizon Dexterity: Evaluating Visuomotor Skills and Offline
+    Proxies for Dexterous Manipulation
+  date: 2026-10
+  summary: >-
+    Evaluates 281 imitation-learning policies from seven families in about 1,700 real
+    five-finger RJ45 grasp-and-insert trials, finding observation and action representations
+    dominate optimizer choices and only five of 67 offline metrics track real success.
+  links:
+    paper: https://arxiv.org/abs/2610.40828
+  access: closed
+  tags: [benchmark, dexterous, real-world]
+  note: CoRL 2026 workshop. Promoted from the queue.
+  added: 2026-11-08
+
+- id: vaguebench
+  name: VagueBench
+  title: >-
+    VagueBench: Benchmarking the Robustness of Embodied Agents on Ambient Context Illusions
+  date: 2026-11
+  summary: >-
+    AI2-THOR benchmark of 1,303 semantically equivalent instruction pairs that strip
+    non-essential context (entities, procedures, constraints, prior knowledge), testing
+    whether embodied agents still execute correctly under minimal instructions.
+  links:
+    paper: https://arxiv.org/abs/2611.03765
+  access: closed
+  tags: [benchmark, planning]
+  note: Promoted from the queue.
+  added: 2026-11-08
+
+- id: mesa
+  name: MESA
+  title: >-
+    MESA: An Evaluation Framework for Compositional, Semantic, and Spatial Generalization in
+    Robotics
+  aliases: [BiMESA]
+  date: 2026-11
+  summary: >-
+    Evaluation framework with five suites separating in-distribution performance from
+    spatial, object-instance, object-category and subtask-composition generalization, plus a
+    bimanual BiMESA; the best of seven baselines reaches 52% on MESA (first-party).
+  links:
+    paper: https://arxiv.org/abs/2611.05567
+    code: https://github.com/pairlab/mesa-env
+    project: https://pairlab.github.io/MESA
+  access: open
+  tags: [benchmark, manipulation, data-generation]
+  note: CoRL 2026. Promoted from the queue.
+  added: 2026-11-08

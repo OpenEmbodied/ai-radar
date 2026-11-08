@@ -1676,3 +1676,25 @@
   tags: [dexterous, data-collection, cross-embodiment]
   note: Promoted from the queue.
   added: 2026-11-05
+
+- id: open-humanwam
+  name: Open-HumanWAM
+  title: >-
+    Open-HumanWAM: An Open Recipe for Scaling Human and Robot Experience for Embodied
+    Foundation Models
+  date: 2026-11
+  summary: >-
+    Open recipe for scaling egocentric human pretraining to 50,000 hours with a curated
+    hand-motion-annotated corpus, a log-linear scaling law from data hours to robot success,
+    and world-action models pretrained on human and mixed human-robot data.
+  links:
+    paper: https://arxiv.org/abs/2611.06817
+    code: https://github.com/DAGroup-PKU/HumanNet/tree/Open-HumanWAM
+    project: https://dagroup-pku.github.io/open-humanwam/
+    weights: https://huggingface.co/collections/DAGroup-PKU/open-humanwam
+  access: partial
+  tags: [dataset, world-model, cross-embodiment, video]
+  note: >-
+    The full 50K-hour corpus and public evaluation commands are listed as coming soon
+    (checked 2026-11-08). Promoted from the queue.
+  added: 2026-11-08
