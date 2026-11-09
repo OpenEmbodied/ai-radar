@@ -1163,16 +1163,21 @@
   org: Hugging Face
   summary: >-
     PyTorch library covering hardware-agnostic robot and teleop control (SO-100 arms to
-    humanoids), the LeRobotDataset format with Hub streaming, reference policies and an
-    asynchronous inference stack.
+    humanoids), the LeRobotDataset format with Hub streaming, reference policies and a
+    remote inference and rollout stack.
   links:
     paper: https://arxiv.org/abs/2602.22818
     code: https://github.com/huggingface/lerobot
     docs: https://huggingface.co/docs/lerobot/index
   access: open
   tags: [dataset, teleop, vla, rl]
-  note: Library launched May 2024; arXiv paper Feb 2026 (ICLR 2026).
+  note: >-
+    Library launched May 2024; arXiv paper Feb 2026 (ICLR 2026). v0.7.0 (Nov 2026) replaces
+    the async inference stack with a remote policy server, adds interactive chat-style
+    rollout sessions, Wilson-interval evaluation reporting and a RoboLab benchmark on Isaac
+    Lab, and many new VLA and world-action policies.
   added: 2026-09-29
+  updated: 2026-11-09
 
 - id: droid
   name: DROID

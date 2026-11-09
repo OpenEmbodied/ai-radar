@@ -29,11 +29,12 @@
   links:
     paper: https://arxiv.org/abs/2609.25636
     code: https://github.com/AutoLab-SAI-SJTU/RoboFollow
-    project: https://mrc-crm.github.io/RoboFollow/
     data: https://huggingface.co/datasets/AutoLab-SJTU/robofollow-data
   access: open
   tags: [benchmark, vla, manipulation]
+  note: Project page removed (404 on 2026-11-09).
   added: 2026-09-29
+  updated: 2026-11-09
 
 - id: real-i-challenge
   name: REAL-I Challenge
@@ -1116,11 +1117,11 @@
   links:
     paper: https://arxiv.org/abs/2505.23764
     code: https://github.com/OpenRobotLab/MMSI-Bench
-    project: https://runsenxu.com/projects/MMSI_Bench
   access: open
   tags: [benchmark, spatial-reasoning]
-  note: ICLR 2026.
+  note: ICLR 2026. Project page removed (404 on 2026-11-09).
   added: 2026-09-29
+  updated: 2026-11-09
 
 - id: agibot-world-challenge
   name: AgiBot World Challenge
@@ -2087,10 +2088,14 @@
   links:
     paper: https://arxiv.org/abs/2609.23407
     code: https://github.com/PKU-VaLuE-Lab/OmniEcho
-  access: closed
+    data: https://huggingface.co/datasets/PKU-VaLuE-Lab/OmniEchoBench
+  access: open
   tags: [benchmark, navigation, spatial-reasoning]
-  note: Repository lists data and evaluation code as coming soon (checked 2026-10-04).
+  note: >-
+    Benchmark annotations, media, data-generation pipelines and QA and navigation evaluation
+    code are released (checked 2026-11-09).
   added: 2026-10-04
+  updated: 2026-11-09
 
 - id: vla-behavioural-robustness
   name: VLA behavioural robustness
@@ -2728,10 +2733,11 @@
     identical seeds to separate physical vulnerabilities from planner sensitivity.
   links:
     paper: https://arxiv.org/abs/2610.30197
-    code: https://github.com/jonajoy142/embodied-agent-chaos
-  access: open
+  access: closed
   tags: [benchmark, failure-recovery, safety, manipulation]
+  note: The code repository named in the abstract no longer resolved on 2026-11-09.
   added: 2026-10-24
+  updated: 2026-11-09
 
 - id: dual-exam
   name: Dual Exam
@@ -2800,10 +2806,11 @@
   added: 2026-10-28
 
 - id: physladder
-  name: PhysLadder
+  name: LLM4Robot-Bench
   title: >-
-    How High Can GPT-6 Astra Climb in Contact-Rich Manipulation? PhysLadder: A Hierarchical,
-    Matched Sim-Real Benchmark for Physical Interaction
+    LLM4Robot-Bench: How Far Can GPT-6 Astra Go in Robotic Manipulation? A Hierarchical,
+    Paired Sim-Real Benchmark
+  aliases: [PhysLadder]
   date: 2026-10
   summary: >-
     16 household contact-rich tasks at three cumulative levels (contact selection, force
@@ -2813,7 +2820,9 @@
     paper: https://arxiv.org/abs/2610.34527
   access: closed
   tags: [benchmark, manipulation, real-world, sim2real]
+  note: Renamed from PhysLadder in arXiv v3 (Nov 2026); results unchanged.
   added: 2026-10-28
+  updated: 2026-11-09
 
 - id: robotagentbench
   name: RobotAgentBench
@@ -3060,13 +3069,16 @@
     physically grounded stages.
   links:
     paper: https://arxiv.org/abs/2611.02629
+    code: https://github.com/SIPAIR-Elastic/DexArena
     project: https://sipair-elastic.github.io/DexArena-website/
-  access: closed
+    data: https://huggingface.co/datasets/SIPAIR/DexArena
+  access: open
   tags: [benchmark, dexterous, long-horizon]
   note: >-
-    The linked repository holds only a placeholder README (checked 2026-11-05). Promoted
+    Code, demonstrations and baseline checkpoints released (checked 2026-11-09). Promoted
     from the queue.
   added: 2026-11-05
+  updated: 2026-11-09
 
 - id: answering-without-arriving
   name: Answering Without Arriving

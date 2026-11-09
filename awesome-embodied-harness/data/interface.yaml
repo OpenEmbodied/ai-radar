@@ -352,11 +352,14 @@
     tasks.
   links:
     paper: https://arxiv.org/abs/2511.18203
-    code: https://github.com/YzyLmc/skill_wrapper
     project: https://yzylmc.github.io/skill-wrapper/
-  access: open
+  access: closed
   tags: [planning, skill-library, long-horizon]
+  note: >-
+    The code repository (also linked from the project page) no longer resolved on
+    2026-11-09.
   added: 2026-09-29
+  updated: 2026-11-09
 
 - id: seam
   name: SEAM

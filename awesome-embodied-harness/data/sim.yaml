@@ -742,8 +742,12 @@
     docs: https://mujoco.readthedocs.io/en/stable/
   access: open
   tags: [rl, sim2real]
-  note: Date is the IROS 2012 paper (Todorov, Erez, Tassa).
+  note: >-
+    Date is the IROS 2012 paper (Todorov, Erez, Tassa). MuJoCo 4.0.0 (Nov 2026) adds
+    speculative contacts and elasto-plastic springs and flexes, splits the Python package,
+    and includes breaking changes to tendon side sites, RK4 and deformables.
   added: 2026-09-29
+  updated: 2026-11-09
 
 - id: gazebo
   name: Gazebo
@@ -1049,8 +1053,13 @@
     episodes.
   links:
     paper: https://arxiv.org/abs/2610.37799
+    code: https://github.com/anashoussaini/Dexsuite
     project: https://dexsuiteorg.github.io
-  access: closed
+    docs: https://dexsuite.readthedocs.io/
+  access: open
   tags: [dexterous, teleop, benchmark, dataset]
-  note: Project page says code is coming soon. Promoted from the queue.
+  note: >-
+    Code released and linked from the project page, with documentation and a PyPI package
+    (checked 2026-11-09). Promoted from the queue.
   added: 2026-11-01
+  updated: 2026-11-09

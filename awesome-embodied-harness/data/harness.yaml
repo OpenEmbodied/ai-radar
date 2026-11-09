@@ -3273,18 +3273,24 @@
 - id: hexashell
   name: HexaShell
   title: >-
-    HexaShell: A Thin Harness for Exploring the Limits of VLM Agents as Robot Coding Agents
+    HexaShell: A Universal Harness for Robot Coding Agents in Simulation and the Real World
   date: 2026-10
   summary: >-
-    Deliberately thin harness that only turns a coding agent's command-line instructions
-    into bimanual robot motion; after each failed attempt the agent reads logs, diagnoses
-    the cause and writes or fixes small tool programs, keeping what it learns as code.
+    Thin, task-agnostic harness of 14 basic motion, perception and state tools that a robot
+    coding agent calls in one Python cell per turn, shared across four simulated benchmarks
+    and real robots via small adapters, testing how far general tools go versus task-tuned
+    code.
   links:
     paper: https://arxiv.org/abs/2610.23479
     code: https://github.com/HexaFuture/HexaShell
   access: open
   tags: [code-as-policy, agentic-loop, self-improving, manipulation]
+  note: >-
+    arXiv v3 (Nov 2026) retitled the paper from "A Thin Harness for Exploring the Limits of
+    VLM Agents as Robot Coding Agents" and broadened it to multiple simulators and real
+    robots.
   added: 2026-10-20
+  updated: 2026-11-09
 
 - id: law-agent
   name: LAW
@@ -3825,10 +3831,11 @@
     tool API, interleaving observation and manipulation under partial observability.
   links:
     paper: https://arxiv.org/abs/2611.03584
-    project: https://umishra.me/TAMPAgent/
   access: closed
   tags: [planning, tool-use, mobile-manipulation, long-horizon]
+  note: Project page linked from the abstract returned 404 on 2026-11-09.
   added: 2026-11-04
+  updated: 2026-11-09
 
 - id: dimure
   name: DiMuRe

@@ -298,22 +298,23 @@
 
 - id: emboteam
   name: EmboTeam
-  title: >-
-    EmboTeam: Grounding LLM Reasoning into Reactive Behavior Trees via PDDL for Embodied
-    Multi-Robot Collaboration
+  title: 'EmboTeam: Asymmetric State Grounding for Heterogeneous Multi-Robot Collaboration'
   date: 2026-01
   org: Institute of Software, Chinese Academy of Sciences
   summary: >-
-    Three-stage planner for heterogeneous teams: an LLM writes PDDL problems, a classical
-    planner searches for action sequences, and plans compile into behavior trees for
-    reactive control with a shared blackboard; introduces the MACE-THOR benchmark (42
-    tasks).
+    Neuro-symbolic multi-robot framework in which an LLM writes structured state
+    expectations that PDDL search verifies and grounds into a team-level parallel behavior
+    tree whose robot subtrees check preconditions and effects, replan locally and sync via a
+    blackboard; introduces MACE-THOR (42 tasks).
   links:
     paper: https://arxiv.org/abs/2601.11063
   access: closed
   tags: [multi-robot, planning, long-horizon, benchmark]
-  note: First-party comparison reports gains over LaMMA-P on MACE-THOR.
+  note: >-
+    Retitled in arXiv v3 (Nov 2026); reports task success rising from 12% to 55% over
+    LaMMA-P on MACE-THOR (first-party).
   added: 2026-09-29
+  updated: 2026-11-09
 
 - id: interactgen
   name: InteractGen
