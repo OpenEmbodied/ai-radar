@@ -1263,3 +1263,17 @@
   tags: [reward-model, world-model, vla, uncertainty]
   note: Promoted from the queue.
   added: 2026-11-08
+
+- id: llm-weight-debugging
+  name: Can LLMs Debug Robots by Editing Their Weights?
+  title: Can LLMs Debug Robots by Editing Their Weights?
+  date: 2026-11
+  summary: >-
+    GPT-6 Astra reads a pi0.5 policy's weights and, with budgeted simulator feedback and no
+    gradients or new demonstrations, edits 65 token-embedding rows to repair instruction
+    grounding, raising held-out paraphrase success from 86.3% to 92.0% (first-party).
+  links:
+    paper: https://arxiv.org/abs/2611.09376
+  access: closed
+  tags: [self-improving, vla, failure-recovery]
+  added: 2026-11-10

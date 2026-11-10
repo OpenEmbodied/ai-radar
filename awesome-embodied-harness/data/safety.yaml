@@ -1151,3 +1151,17 @@
   tags: [safety, vla, manipulation]
   note: Promoted from the queue.
   added: 2026-11-08
+
+- id: vla-goal-editing
+  name: Localizing and Editing VLA Goal Representation
+  title: Localizing and Editing the Goal Representation of a Vision-Language-Action Model
+  date: 2026-11
+  summary: >-
+    Finds OpenVLA ignores prohibitions such as "do not put the bowl on the stove", executing
+    the forbidden task in 79% of negated LIBERO-Goal rollouts, and locates where the goal is
+    represented with patching, probes and steering for runtime monitoring.
+  links:
+    paper: https://arxiv.org/abs/2611.08895
+  access: closed
+  tags: [safety, vla, manipulation]
+  added: 2026-11-10

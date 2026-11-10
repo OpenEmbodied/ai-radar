@@ -3938,3 +3938,72 @@
   access: closed
   tags: [self-improving, rl, failure-recovery, vla]
   added: 2026-11-07
+
+- id: amp1
+  name: AMP1 (Agentic Manipulation Policies)
+  title: On Agentic Manipulation Policies
+  aliases: [AMP1, On Agentic Manipulation Policies]
+  date: 2026-11
+  org: Apple
+  summary: >-
+    Reference harness in which a generalist model commands a manipulator directly with no
+    built-in grasp or place skills, unchanged across single-arm, bimanual and mobile setups;
+    reports 85.6% zero-shot on RoboLab-120 versus 49.2% for a leading VLA, and 104 of 108
+    real trials (first-party).
+  links:
+    paper: https://arxiv.org/abs/2611.09892
+    code: https://github.com/apple-aiml-research/ml-amp
+    project: https://apple-aiml-research.github.io/ml-amp/
+  access: open
+  tags: [agentic-loop, tool-use, memory, manipulation, real-world]
+  added: 2026-11-10
+
+- id: cua-embodied
+  name: Computer-Use Agents Are Embodied Generalists
+  title: Computer-Use Agents Are Embodied Generalists
+  aliases: [CUA-Embodied]
+  date: 2026-11
+  summary: >-
+    Recasts embodied tasks as software: an app renders the agent's view of a physical
+    environment and exposes controls, so one unmodified computer-use agent acts through
+    screenshots, keyboard and mouse; it placed in four ECCV workshop competitions
+    (first-party).
+  links:
+    paper: https://arxiv.org/abs/2611.09847
+    code: https://github.com/Pranjal2041/cua-embodied
+    project: https://pranjal2041.github.io/cua-embodied
+  access: open
+  tags: [agentic-loop, tool-use, navigation]
+  added: 2026-11-10
+
+- id: a2-meas
+  name: A2-MEAS
+  title: Toward the Era of Agentic Embodied Intelligence
+  aliases: [A2-WLA, MetaBrain]
+  date: 2026-11
+  summary: >-
+    Embodied multi-agent framework using code as a scaling interface: learned correction
+    codes combining language, spatial evidence, history and action proposals are distilled
+    into policy weights in training and steer a frozen policy at deployment; reports 0.6411
+    Q-score on the BEHAVIOR 2026 public tasks (first-party).
+  links:
+    paper: https://arxiv.org/abs/2611.09124
+  access: closed
+  tags: [failure-recovery, code-as-policy, vla, long-horizon]
+  added: 2026-11-10
+
+- id: vla-handover
+  name: VLA Handover
+  title: >-
+    VLA Handover: Failure-Prediction-Based Switching from On-Robot to Server VLA Models
+  date: 2026-11
+  summary: >-
+    Runs a small on-robot VLA and hands control to a large server VLA only when failure is
+    predicted, minimizing server requests under a required success probability without
+    retraining either model; 49-77% fewer requests than server-only control on LIBERO
+    (first-party).
+  links:
+    paper: https://arxiv.org/abs/2611.08987
+  access: closed
+  tags: [dual-system, on-device, uncertainty, vla]
+  added: 2026-11-10

@@ -3,12 +3,13 @@
 # World State, Memory & Spatial Context
 
 > Scene graphs, semantic maps, spatial and episodic memory; the harness's context window onto the world.  
-> Layer: L3 · 76 entries · [overview](../README.md#memory) · [survey](../SURVEY.md)
+> Layer: L3 · 77 entries · [overview](../README.md#memory) · [survey](../SURVEY.md)
 
 **Legend:** 🟢 open · 🟡 partial · 🔵 api · ⚪ closed. Hover a name for the full paper title. Newest first within each year.
 
 **2026**
 
+- ⚪ [**HiMEM**](https://arxiv.org/abs/2611.09355 "HiMEM: Hippocampus-Inspired Memory Consolidation, Pruning, and Composition for Vision-Language-Action Models in 3D Scenes") · 2026-11 — VLA memory that consolidates episodic experiences into compact semantic memories, prunes redundant episodes and composes multiple memories for new scenarios; raises pi0 from 91.88% to 98.20% on LIBERO (first-party).
 - 🟢 [**HeLM**](https://arxiv.org/abs/2611.02660 "HeLM: Hierarchical Explicit Language Memory for Non-Markovian Manipulation") · 2026-11 — Hierarchical VLA framework that keeps task-relevant history as explicit language through factorized event detection and event-triggered memory updates, evaluated on 10 real non-Markovian tasks with 56 variants including inter-episode memory. _Note: Promoted from the queue._ [code](https://github.com/kimspacehuni/HeLM) · [project](https://kimspacehuni.github.io/HeLM/)
 - ⚪ [**Embodied RAG++**](https://arxiv.org/abs/2611.07517 "Embodied RAG++: Retrieval-Augmented Generation From What Exists to What Works in Embodied Scenes") · 2026-11 — Spatially grounded retrieval that links dynamic scene graphs to product manuals to assign robots to objects by capability, availability, reach and connectors, with the E2W-Bench benchmark; reaches 0.90-1.00 pair accuracy versus at most 0.55 for baselines (first-party). _Note: Promoted from the queue._
 - ⚪ [**Do Embodied VLMs Use Their Scene-Graph Memory?**](https://arxiv.org/abs/2611.02056 "Do Embodied VLMs Actually Use Their Scene-Graph Memory?") · 2026-11 — Diagnostic graph-swap test that gives each embodied-QA episode another episode's scene graph and counts changed answers, showing whether memory delivered as text or through a graph encoder is actually relied on.

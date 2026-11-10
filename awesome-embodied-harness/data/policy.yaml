@@ -1901,3 +1901,40 @@
   tags: [hitl, vla, manipulation, real-world]
   note: Promoted from the queue.
   added: 2026-11-08
+
+- id: meituan-robotics-0
+  name: Meituan-Robotics-0
+  title: >-
+    Meituan-Robotics-0: A Vision-Language-Action Foundation Model for Desktop Manipulation
+  aliases: [MR0]
+  date: 2026-11
+  org: Meituan
+  summary: >-
+    Desktop-manipulation VLA trained on 147M vision-language samples and 15,060 hours of
+    robot data across 12 embodiments, with Rollback correction data for CFG-DAgger and an
+    event-driven agent that tracks task events and replans; 93.6% on RoboTwin 2.0
+    (first-party).
+  links:
+    paper: https://arxiv.org/abs/2611.08577
+    code: https://github.com/Meituan-Robotics/Meituan-Robotics-0
+    project: https://meituan-robotics.github.io/Meituan-Robotics-0/
+  access: open
+  tags: [vla, cross-embodiment, hitl, manipulation]
+  added: 2026-11-10
+
+- id: prism-skill-primitives
+  name: PRISM
+  title: >-
+    PRISM: Primitive Routing via In-context Skill Mixing for Retentive VLA Adaptation
+  date: 2026-11
+  summary: >-
+    Stores each VLA skill family as a parameter-level low-rank primitive, exploiting the
+    observation that per-skill LoRA updates occupy a distinguishable subspace, and routes
+    among primitives along a trajectory so new tasks reuse skills without forgetting old
+    ones.
+  links:
+    paper: https://arxiv.org/abs/2611.08917
+  access: closed
+  tags: [skill-library, vla, long-horizon, manipulation]
+  note: NeurIPS 2026.
+  added: 2026-11-10

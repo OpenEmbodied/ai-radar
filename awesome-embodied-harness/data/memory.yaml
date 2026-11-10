@@ -1326,3 +1326,19 @@
   tags: [memory, scene-graph, multi-robot]
   note: Promoted from the queue.
   added: 2026-11-08
+
+- id: himem
+  name: HiMEM
+  title: >-
+    HiMEM: Hippocampus-Inspired Memory Consolidation, Pruning, and Composition for
+    Vision-Language-Action Models in 3D Scenes
+  date: 2026-11
+  summary: >-
+    VLA memory that consolidates episodic experiences into compact semantic memories, prunes
+    redundant episodes and composes multiple memories for new scenarios; raises pi0 from
+    91.88% to 98.20% on LIBERO (first-party).
+  links:
+    paper: https://arxiv.org/abs/2611.09355
+  access: closed
+  tags: [memory, vla, manipulation]
+  added: 2026-11-10

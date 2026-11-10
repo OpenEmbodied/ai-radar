@@ -3213,3 +3213,52 @@
   tags: [benchmark, manipulation, data-generation]
   note: CoRL 2026. Promoted from the queue.
   added: 2026-11-08
+
+- id: agentic-robotics-controlled-study
+  name: Controlled Study of Agentic Robotics
+  title: >-
+    A Controlled Study of Models, Skills, Feedback, and Curriculum in Agentic Robotics
+  date: 2026-11
+  summary: >-
+    Controlled study of the coding-agent self-learning loop across nine manipulation tasks,
+    631 configurations and 28K agent rollouts, varying model, skill priors, feedback and
+    curriculum; finds the bottleneck is turning feedback into the right policy update rather
+    than access to information.
+  links:
+    paper: https://arxiv.org/abs/2611.09030
+  access: closed
+  tags: [benchmark, code-as-policy, self-improving, manipulation]
+  added: 2026-11-10
+
+- id: homeloop
+  name: HomeLoop
+  title: >-
+    HomeLoop: A Simulation Framework and Benchmark for Robot-IoT Coordination in Everyday
+    Domestic Assistance and Safety
+  date: 2026-11
+  summary: >-
+    Isaac Sim framework and 20-task benchmark combining robots, IoT devices, wearables,
+    simulated residents, faulty sensors and evolving hazards, scored by temporal-logic
+    runtime monitors; the best of six VLMs scores 61.9% and models tend to over-intervene
+    (first-party).
+  links:
+    paper: https://arxiv.org/abs/2611.08914
+  access: closed
+  tags: [benchmark, safety, agentic-loop]
+  added: 2026-11-10
+
+- id: seeing-what-matters
+  name: Seeing What Matters
+  title: >-
+    Seeing What Matters: Benchmarking Task-Conditioned Actionable Spatial Belief for
+    Manipulation
+  date: 2026-11
+  summary: >-
+    Benchmark of 860 cases testing whether a view-selection policy acquires the specific
+    observations a manipulation command needs, with a belief-state reference pipeline at
+    about 99% while seven VLMs reach 26-43% (first-party).
+  links:
+    paper: https://arxiv.org/abs/2611.09794
+  access: closed
+  tags: [benchmark, spatial-reasoning, manipulation]
+  added: 2026-11-10
