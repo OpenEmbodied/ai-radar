@@ -4007,3 +4007,54 @@
   access: closed
   tags: [dual-system, on-device, uncertainty, vla]
   added: 2026-11-10
+
+- id: reskill
+  name: ReSkill
+  title: 'ReSkill: Selective Self-Improvement for Robot Manipulation'
+  date: 2026-11
+  summary: >-
+    Coding agent builds an object-centric task graph from a skill library, localizes
+    failures from node-level records and revises only failing stages or skills after paired
+    full-task comparisons, yielding a policy that runs without the agent; 62 of 80 real
+    trials (first-party).
+  links:
+    paper: https://arxiv.org/abs/2611.10510
+  access: closed
+  tags: [self-improving, skill-library, code-as-policy, manipulation]
+  added: 2026-11-11
+
+- id: wicl-roboscript
+  name: WICL (RoboScript)
+  title: World In-Context Learning for Agentic Robot Manipulation
+  aliases: [World In-Context Learning]
+  date: 2026-11
+  summary: >-
+    A frozen model starts from one demonstration, rehearses the task in simulation and
+    writes the feedback into a task memory rather than its weights, then deploys that memory
+    on new scenes; reports 83.4% across RoboTwin 2.0 with one demonstration per task
+    (first-party).
+  links:
+    paper: https://arxiv.org/abs/2611.12885
+    code: https://github.com/ArcheOne-AI/RoboScript
+    project: https://ArcheOne-AI.github.io/RoboScript
+  access: open
+  tags: [memory, agentic-loop, manipulation]
+  note: Not the same system as the 2024 RoboScript code-generation framework.
+  added: 2026-11-11
+
+- id: flip-anything
+  name: Flip Anything
+  title: Flip Anything with Agentic Robotics Self-Learning
+  date: 2026-11
+  summary: >-
+    A coding agent develops bimanual object-flipping strategies through iterative learning
+    in physics simulation across object geometries, progressing from handovers to toppling,
+    pushing and thin-object recovery; success rises from 24.7% to 95.0% and the graph-based
+    code runs on real robots (first-party).
+  links:
+    paper: https://arxiv.org/abs/2611.11941
+    project: https://berkeleyautomation.github.io/flipanything/
+  access: closed
+  tags: [self-improving, code-as-policy, manipulation]
+  note: CoRL 2026 late-breaking.
+  added: 2026-11-11

@@ -3262,3 +3262,48 @@
   access: closed
   tags: [benchmark, spatial-reasoning, manipulation]
   added: 2026-11-10
+
+- id: embodied-first-exam
+  name: Embodied First Exam
+  title: Embodied First Exam
+  date: 2026-11
+  summary: >-
+    Agent-native evaluation of coding agents controlling robots, with 1,156 tasks in 35
+    suites on 47 robots; agents choose direct control, code or training a policy, under a
+    realistic no-reset setting, a real-time variant or a privileged upper-bound setting.
+  links:
+    paper: https://arxiv.org/abs/2611.12177
+  access: closed
+  tags: [benchmark, agentic-loop, code-as-policy]
+  added: 2026-11-11
+
+- id: harp-bench
+  name: HARP-Bench
+  title: 'HARP-Bench: Benchmarking Robot Manipulation Around Active Humans'
+  date: 2026-11
+  summary: >-
+    Manipulation benchmark that treats human activity as part of the task, with cueing,
+    contribution, interruption and co-presence conditions, paired human-free variants and a
+    demonstration-generation pipeline; evaluates VLA, imitation and heuristic policies.
+  links:
+    paper: https://arxiv.org/abs/2611.11123
+    code: https://github.com/UMass-Embodied-AGI/harp
+  access: open
+  tags: [benchmark, manipulation, hitl]
+  note: CoRL 2026.
+  added: 2026-11-11
+
+- id: geomind
+  name: GeoMind
+  title: 'GeoMind: A Benchmark for Spatial Understanding in Robotic Manipulation'
+  date: 2026-11
+  summary: >-
+    Tabletop benchmark of 54 task variants for spatial reasoning and spatial memory in
+    evolving scenes, with an automated pipeline for verified task instances; agents struggle
+    to track identities after spatial changes.
+  links:
+    paper: https://arxiv.org/abs/2611.12175
+  access: closed
+  tags: [benchmark, spatial-reasoning, memory, manipulation]
+  note: The repository named in the abstract did not resolve on 2026-11-11.
+  added: 2026-11-11

@@ -1165,3 +1165,36 @@
   access: closed
   tags: [safety, vla, manipulation]
   added: 2026-11-10
+
+- id: armedagent
+  name: ArmedAgent
+  title: 'When Coding Agents Get Arms: Safety Risks Across the Digital-Physical Boundary'
+  aliases: [When Coding Agents Get Arms]
+  date: 2026-11
+  summary: >-
+    Benchmark of 36 tasks in five scenarios for coding agents that control a robot arm
+    zero-shot, covering robustness, malicious use and indirect prompt injection from web
+    pages or email reaching the physical world; finds substantial risks under widely used
+    agent frameworks.
+  links:
+    paper: https://arxiv.org/abs/2611.11438
+  access: closed
+  tags: [safety, security, code-as-policy, benchmark]
+  added: 2026-11-11
+
+- id: robot-correction-unlearning
+  name: Who Taught the Robot That?
+  title: >-
+    Who Taught the Robot That? Removing One User's Corrections from a Robot Policy That
+    Learns Online
+  date: 2026-11
+  summary: >-
+    Shows that whether a robot learning online from several users can forget one user's
+    corrections depends on how people corrected it, and that retraining on an ordered log of
+    remaining sessions recovers the never-corrected robot for takeover-style corrections.
+  links:
+    paper: https://arxiv.org/abs/2611.10280
+  access: closed
+  tags: [safety, hitl]
+  note: HumanRLI workshop, CoRL 2026.
+  added: 2026-11-11

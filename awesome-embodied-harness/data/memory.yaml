@@ -1342,3 +1342,20 @@
   access: closed
   tags: [memory, vla, manipulation]
   added: 2026-11-10
+
+- id: simplevo
+  name: SimplEvo
+  title: >-
+    Review the Episodes, Refine the Lessons: Simple Memory Evolution for Embodied Agents
+  aliases: [Review the Episodes, Refine the Lessons]
+  date: 2026-11
+  summary: >-
+    Tests how far an MLLM improves under direct control with only self-written text
+    memories, a task memory from one demonstration and a working memory refined after each
+    training episode; lifts GPT-6 Astra on EBench from 46.7% to 81.7% and tops RoboDojo
+    (first-party).
+  links:
+    paper: https://arxiv.org/abs/2611.11509
+  access: closed
+  tags: [memory, self-improving, agentic-loop, manipulation]
+  added: 2026-11-11

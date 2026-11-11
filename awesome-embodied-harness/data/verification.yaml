@@ -1277,3 +1277,54 @@
   access: closed
   tags: [self-improving, vla, failure-recovery]
   added: 2026-11-10
+
+- id: streaming-failure-forecasting
+  name: Streaming Failure Forecasting
+  title: >-
+    Streaming Failure Forecasting: VLA Failure Monitors That Keep Learning After Deployment
+  aliases: [SFF]
+  date: 2026-11
+  summary: >-
+    VLA failure monitor that keeps learning after deployment from each episode's success
+    label by refitting only its last linear layer, ranking failures better than a frozen
+    monitor across unannounced task and policy switches on 434 real SO-101 runs.
+  links:
+    paper: https://arxiv.org/abs/2611.11688
+    project: https://sff-research.org
+  access: closed
+  tags: [success-detection, uncertainty, vla]
+  added: 2026-11-11
+
+- id: weightsmith
+  name: WeightSmith
+  title: >-
+    Distilling Instructions into Weights: Closed-Form Edits Fix a Robot Policy's Misreading
+  aliases: [Distilling Instructions into Weights]
+  date: 2026-11
+  summary: >-
+    Closed-form instruction distillation copies the per-layer effect of an explicit
+    rewording into a VLA's language-model MLP weights without gradients or data, fixing a
+    pi0.5 policy that bound "in the bowl" to the wrong object (27 to 106 successes of 128)
+    (first-party).
+  links:
+    paper: https://arxiv.org/abs/2611.11894
+    code: https://github.com/adeeb10abbas/weightsmith
+    project: https://ali-adeeb.com/weightsmith/
+  access: open
+  tags: [failure-recovery, vla, manipulation]
+  added: 2026-11-11
+
+- id: mind-policy-diagnosis
+  name: MIND
+  title: Detecting and Explaining Robot Policy Failures from Sparse Internal Features
+  aliases: [Mechanistic Interpretability for Neural Diagnosis]
+  date: 2026-11
+  summary: >-
+    Sparse-autoencoder features of a visuomotor policy's activations, grounded in robot
+    state and steering effects, are tracked during execution to detect failures and describe
+    them by the features driving the change.
+  links:
+    paper: https://arxiv.org/abs/2611.10400
+  access: closed
+  tags: [success-detection, safety]
+  added: 2026-11-11
