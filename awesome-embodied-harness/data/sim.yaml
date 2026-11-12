@@ -1063,3 +1063,19 @@
     (checked 2026-11-09). Promoted from the queue.
   added: 2026-11-01
   updated: 2026-11-09
+
+- id: holidayfactory
+  name: HolidayFactory 1.0
+  title: >-
+    HolidayFactory 1.0: Simulating, Generating, and Evaluating Industrial Robot Tasks
+  date: 2026-11
+  summary: >-
+    Framework for industrial robot work where scene state persists across repeated jobs:
+    extended hydroelastic contact simulation on Newton, generation of workplaces and
+    scenario variants, and job-level metrics and rubrics.
+  links:
+    paper: https://arxiv.org/abs/2611.11789
+  access: closed
+  tags: [benchmark, data-generation, manipulation]
+  note: Promoted from the queue.
+  added: 2026-11-12

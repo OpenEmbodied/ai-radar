@@ -3,12 +3,13 @@
 # Surveys & Position Papers
 
 > Surveys, position papers and essays that frame embodied agents and their harnesses.  
-> Layer: meta · 98 entries · [overview](../README.md#survey) · [survey](../SURVEY.md)
+> Layer: meta · 99 entries · [overview](../README.md#survey) · [survey](../SURVEY.md)
 
 **Legend:** 🟢 open · 🟡 partial · 🔵 api · ⚪ closed. Hover a name for the full paper title. Newest first within each year.
 
 **2026**
 
+- 🟢 [**From Egocentric Human Video to Robot Manipulation**](https://arxiv.org/abs/2611.13610 "From Egocentric Human Video to Robot Manipulation in the Era of Embodied Intelligence") · 2026-11 — Survey of learning robot manipulation from egocentric human video, organized into explicit embodiment transfer, action and task supervision, representation pretraining, and latent action and dynamics modeling. [project](https://mikewu597.github.io/Ego2Robot_Learning/)
 - 🟢 [**Embodied AI for Scientific Discovery**](https://arxiv.org/abs/2611.04371 "Embodied AI for Scientific Discovery: From Physical Action to Scientific Evidence") · 2026-11 — Review treating robot learning and AI for science as one problem with latent specimen, apparatus and measurement state, organized by operational, epistemic and evidential closure of the experiment loop.
 - 🟢 [**Dexterous Robotic Hands in the Foundation-Model Era**](https://arxiv.org/abs/2611.06724 "Dexterous Robotic Hands in the Foundation-Model Era: A Full-Stack Survey of Hardware, Data, Cross-Embodiment Transfer, Learning, and Evaluation") · 2026-11 — Survey of dexterous hands from January 2024 to November 2026 across five layers (hardware, data, cross-embodiment transfer, learning and foundation models, evaluation), with human hand-object understanding and tactile sensing as cross-cutting views.
 - 🟢 [**When the Past Shapes Action**](https://arxiv.org/abs/2610.41688 "When the Past Shapes Action: Understanding Embodied Memory") · 2026-10 — Survey of embodied memory organized by six requirements (world-state persistence, task progress, belief maintenance, experiential learning and more) and eight architectural categories from recurrent states to spatial and experience-based memory.

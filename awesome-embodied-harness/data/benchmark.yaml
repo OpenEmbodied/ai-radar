@@ -3307,3 +3307,36 @@
   tags: [benchmark, spatial-reasoning, memory, manipulation]
   note: The repository named in the abstract did not resolve on 2026-11-11.
   added: 2026-11-11
+
+- id: vla-knn
+  name: How Much of Your VLA Is kNN
+  title: How Much of Your VLA Is kNN
+  date: 2026-11
+  summary: >-
+    Retrieving nearby demonstrations and replaying their action chunks reaches 91.7% on
+    LIBERO without training and degrades least under LIBERO-Plus; across nine VLAs,
+    fine-tuning mostly improves the backbone as a retrieval key, and a Local Action
+    Consistency metric tracks this.
+  links:
+    paper: https://arxiv.org/abs/2611.13160
+  access: closed
+  tags: [benchmark, vla, memory]
+  note: >-
+    CoRL 2026 workshop. The repository named in the abstract (sereact/lerobot_knn) did not
+    resolve on 2026-11-12.
+  added: 2026-11-12
+
+- id: stochastic-challenges
+  name: Stochastic Challenges
+  title: Benchmarking Real-World Robotic Manipulation through Stochastic Challenges
+  date: 2026-11
+  summary: >-
+    Real-world benchmarking paradigm in which reproducible scenes are sampled from a shared
+    random distribution, so different robots in different labs can be compared by success
+    rate over hidden-test-like task samples.
+  links:
+    paper: https://arxiv.org/abs/2611.12804
+  access: closed
+  tags: [benchmark, real-world, manipulation]
+  note: CoRL 2026. Promoted from the queue.
+  added: 2026-11-12

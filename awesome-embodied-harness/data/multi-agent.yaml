@@ -975,3 +975,19 @@
   access: closed
   tags: [multi-robot, code-as-policy, self-improving, planning]
   added: 2026-11-04
+
+- id: biomars-2
+  name: BioMARS 2.0
+  title: >-
+    BioMARS 2.0: a robotic biologist for formulating and adapting biological experiments
+  date: 2026-11
+  summary: >-
+    Human-in-the-loop multi-agent robotic system linking literature-grounded protocol
+    generation, phenotype-driven adaptation of culture conditions in robotic organoid
+    culture, and evidence-based selection of interventions for wet-lab testing.
+  links:
+    paper: https://arxiv.org/abs/2611.12139
+  access: closed
+  tags: [hitl, planning, long-horizon]
+  note: Promoted from the queue.
+  added: 2026-11-12

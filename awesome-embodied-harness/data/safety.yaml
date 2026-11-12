@@ -1198,3 +1198,21 @@
   tags: [safety, hitl]
   note: HumanRLI workshop, CoRL 2026.
   added: 2026-11-11
+
+- id: leash-roborisk
+  name: LEASH (RoboRisk)
+  title: 'LEASH: Stay Safe in Agentic Robotics'
+  aliases: [RoboRisk]
+  date: 2026-11
+  summary: >-
+    RoboRisk benchmark of 92 simulated and 13 physical closed-loop tasks spanning refusal,
+    plan repair, execution-time hazards, injection and sequential memory, on which six
+    frontier models show high harm rates, plus LEASH, a lease-enforced safety harness that
+    gates tasks, actions and commitments.
+  links:
+    paper: https://arxiv.org/abs/2611.14115
+    code: https://github.com/zhuqinfeng1999/LEASH
+    project: https://zhuqinfeng1999.github.io/LEASH/
+  access: open
+  tags: [safety, security, agentic-loop, benchmark]
+  added: 2026-11-12

@@ -1703,3 +1703,20 @@
     The full 50K-hour corpus and public evaluation commands are listed as coming soon
     (checked 2026-11-08). Promoted from the queue.
   added: 2026-11-08
+
+- id: tooldex
+  name: ToolDex
+  title: 'ToolDex: An Ego-Exo Human Demonstration Dataset for Creative Physical Tool Use'
+  date: 2026-11
+  summary: >-
+    Large egocentric-exocentric dataset of humans selecting, adapting and repurposing
+    objects as tools, recorded with eight external cameras and annotated for hands, tools
+    and targets, with benchmarks for tool-use reasoning, 3D/4D reconstruction and policy
+    learning.
+  links:
+    paper: https://arxiv.org/abs/2611.09036
+    project: https://tooluse-dataset.github.io/
+  access: closed
+  tags: [dataset, video, tool-use]
+  note: Promoted from the queue.
+  added: 2026-11-12

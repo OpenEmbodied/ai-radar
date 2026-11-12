@@ -1472,3 +1472,20 @@
   access: open
   tags: [dexterous, cross-embodiment, data-collection]
   added: 2026-11-07
+
+- id: ego2robot-survey
+  name: From Egocentric Human Video to Robot Manipulation
+  title: >-
+    From Egocentric Human Video to Robot Manipulation in the Era of Embodied Intelligence
+  aliases: [Ego2Robot]
+  date: 2026-11
+  summary: >-
+    Survey of learning robot manipulation from egocentric human video, organized into
+    explicit embodiment transfer, action and task supervision, representation pretraining,
+    and latent action and dynamics modeling.
+  links:
+    paper: https://arxiv.org/abs/2611.13610
+    project: https://mikewu597.github.io/Ego2Robot_Learning/
+  access: open
+  tags: [cross-embodiment, video, awesome-list]
+  added: 2026-11-12

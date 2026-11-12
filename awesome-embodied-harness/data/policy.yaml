@@ -1938,3 +1938,36 @@
   tags: [skill-library, vla, long-horizon, manipulation]
   note: NeurIPS 2026.
   added: 2026-11-10
+
+- id: victr
+  name: VICTR
+  title: 'VICTR: Value-Informed In-Context Learning for Vision-Language-Action Models'
+  date: 2026-11
+  summary: >-
+    In-context VLA adaptation that retrieves demonstration chunks by estimated task progress
+    from an in-context value function rather than visual similarity, feeding them to a
+    post-trained pi0.5; raises unseen real-world success from 6.2% to 23.8% (first-party).
+  links:
+    paper: https://arxiv.org/abs/2611.08698
+    project: https://ai4ce.github.io/VICTR/
+  access: closed
+  tags: [vla, memory, reward-model, manipulation]
+  note: Promoted from the queue.
+  added: 2026-11-12
+
+- id: dash-humanoid
+  name: DASH
+  title: >-
+    Decoupled Asynchronous System for Humanoids (DASH): Latency-Agnostic Scaling of
+    Vision-Language-Action Models for Humanoid Manipulation
+  date: 2026-11
+  summary: >-
+    Splits a humanoid VLA into a slow vision-language System 2 and a fast flow-matching
+    System 1 running concurrently, with staleness-aware training and chunk aggregation,
+    holding a 20 Hz control rate from 0.8B to 8B backbones (first-party).
+  links:
+    paper: https://arxiv.org/abs/2611.11854
+  access: closed
+  tags: [dual-system, humanoid, vla, dexterous]
+  note: Promoted from the queue.
+  added: 2026-11-12

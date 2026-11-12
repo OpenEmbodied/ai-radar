@@ -3,12 +3,13 @@
 # Data, Teleoperation & Training Infrastructure
 
 > Datasets, data-collection and teleoperation systems, and training frameworks.  
-> Layer: L6 · 99 entries · [overview](../README.md#data) · [survey](../SURVEY.md)
+> Layer: L6 · 100 entries · [overview](../README.md#data) · [survey](../SURVEY.md)
 
 **Legend:** 🟢 open · 🟡 partial · 🔵 api · ⚪ closed. Hover a name for the full paper title. Newest first within each year.
 
 **2026**
 
+- ⚪ [**ToolDex**](https://arxiv.org/abs/2611.09036 "ToolDex: An Ego-Exo Human Demonstration Dataset for Creative Physical Tool Use") · 2026-11 — Large egocentric-exocentric dataset of humans selecting, adapting and repurposing objects as tools, recorded with eight external cameras and annotated for hands, tools and targets, with benchmarks for tool-use reasoning, 3D/4D reconstruction and policy learning. _Note: Promoted from the queue._ [project](https://tooluse-dataset.github.io/)
 - 🟢 [**PyRUA-DataFarm**](https://arxiv.org/abs/2611.05320 "PyRUA-DataFarm: LLM Agent as a Cost-Efficient Teleoperator for Real-Ready Robot Data") · 2026-11 — A coding agent rebuilds a requested task in simulation from one calibration episode (scene, expert controller, success judge), and a video model renders photoreal multi-view episodes; policies trained only on this data match teleoperation-trained ones on five real tasks (first-party). [code](https://github.com/DAGroup-PKU/PyRUA-Lean/tree/DataFarm) · [project](https://dagroup-pku.github.io/PyRUA-Lean/DataFarm)
 - 🟡 [**Open-HumanWAM**](https://arxiv.org/abs/2611.06817 "Open-HumanWAM: An Open Recipe for Scaling Human and Robot Experience for Embodied Foundation Models") · 2026-11 — Open recipe for scaling egocentric human pretraining to 50,000 hours with a curated hand-motion-annotated corpus, a log-linear scaling law from data hours to robot success, and world-action models pretrained on human and mixed human-robot data. _Note: The full 50K-hour corpus and public evaluation commands are listed as coming soon (checked 2026-11-08). Promoted from the queue._ [code](https://github.com/DAGroup-PKU/HumanNet/tree/Open-HumanWAM) · [project](https://dagroup-pku.github.io/open-humanwam/) · [weights](https://huggingface.co/collections/DAGroup-PKU/open-humanwam)
 - ⚪ [**VOMMI**](https://arxiv.org/abs/2610.08220 "VOMMI: Collecting and Leveraging Portable Demonstrations for Mobile Manipulation") · 2026-10 — Portable, robot-free RGB demonstration collection for mobile manipulation: body and hand views are synchronized, trajectories refined offline with sparse geometric anchors, and local-motion tokens condition VLA post-training through a residual adapter.

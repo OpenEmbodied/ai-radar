@@ -1359,3 +1359,20 @@
   access: closed
   tags: [memory, self-improving, agentic-loop, manipulation]
   added: 2026-11-11
+
+- id: memory-clock
+  name: Is Your Robots Memory Just a Clock?
+  title: >-
+    Is Your Robot's Memory Just a Clock? Temporal Shortcuts in Memory-Augmented VLA Policies
+  aliases: [Phantom progress]
+  date: 2026-11
+  summary: >-
+    Shows memory VLAs that sample frames by time treat a brief pause or wrist fidget as work
+    done (phantom progress), cutting RoboMME counting success from 47 to 16 of 50, and
+    traces the failure to a temporal shortcut learned from steadily paced demonstrations.
+  links:
+    paper: https://arxiv.org/abs/2611.14488
+    code: https://github.com/bennidict23/memory-clock
+  access: open
+  tags: [memory, vla, benchmark]
+  added: 2026-11-12

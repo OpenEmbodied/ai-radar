@@ -4058,3 +4058,33 @@
   tags: [self-improving, code-as-policy, manipulation]
   note: CoRL 2026 late-breaking.
   added: 2026-11-11
+
+- id: roboace
+  name: RoboACE
+  title: 'RoboACE: Adversarial Co-Evolution for Robot Self-Improvement'
+  date: 2026-11
+  summary: >-
+    Jointly evolves a curriculum harness that proposes informative challenges from
+    capability evidence and an execution harness that answers with reusable revisions, both
+    around frozen foundation models; reaches 74.0% on LIBERO-PRO, 15 points above its
+    initial deployment (first-party).
+  links:
+    paper: https://arxiv.org/abs/2611.13034
+  access: closed
+  tags: [self-improving, agentic-loop, vla, manipulation]
+  added: 2026-11-12
+
+- id: curies-jarvis
+  name: Curies Jarvis
+  title: 'Curie''s Jarvis: Autonomous Robotic Chemistry Experiments from Printed Protocols'
+  date: 2026-11
+  summary: >-
+    Robot arm that runs bench chemistry set up for people: reads steps from a photo of a
+    printed protocol, finds unmarked containers and tells identical ones apart by reading
+    labels in four views, and relocates targets before every step; 9 of 10 protocol runs on
+    a Franka (first-party).
+  links:
+    paper: https://arxiv.org/abs/2611.13251
+  access: closed
+  tags: [agentic-loop, tool-use, manipulation, real-world]
+  added: 2026-11-12

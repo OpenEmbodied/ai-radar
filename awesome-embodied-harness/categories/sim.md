@@ -3,12 +3,13 @@
 # Simulators & Environments
 
 > Physics simulators, rendering stacks and environment platforms for building and testing harnesses.  
-> Layer: L6 · 59 entries · [overview](../README.md#sim) · [survey](../SURVEY.md)
+> Layer: L6 · 60 entries · [overview](../README.md#sim) · [survey](../SURVEY.md)
 
 **Legend:** 🟢 open · 🟡 partial · 🔵 api · ⚪ closed. Hover a name for the full paper title. Newest first within each year.
 
 **2026**
 
+- ⚪ [**HolidayFactory 1.0**](https://arxiv.org/abs/2611.11789 "HolidayFactory 1.0: Simulating, Generating, and Evaluating Industrial Robot Tasks") · 2026-11 — Framework for industrial robot work where scene state persists across repeated jobs: extended hydroelastic contact simulation on Newton, generation of workplaces and scenario variants, and job-level metrics and rubrics. _Note: Promoted from the queue._
 - ⚪ [**WorldMirror**](https://arxiv.org/abs/2610.31834 "WorldMirror: Agentic Real-to-Sim Generation of Interactive Worlds from In-the-Wild Robot Demonstrations") · 2026-10 — Real-to-sim as iterative refinement of an executable world program: a coding agent decomposes a demonstration scene, orchestrates image and 3D generation tools and corrects reconstruction errors from verification feedback until trajectories replay consistently.
 - 🟡 [**WEDGE**](https://arxiv.org/abs/2610.19420 "From Failures to Learnable Worlds: Policy-Conditioned Environment Generation for Navigation Agents") · 2026-10 — Weakness-guided environment generation: an LLM proposes executable weakness features by contrasting a pretrained navigation agent's successful and failed rollouts, validates them, and generates training environments targeting the strongest ones each round. _Note: Repository releases the weakness-discovery loop and episode corpora._ [code](https://github.com/zhangyuejoslin/WEDGE) · [project](https://zhangyuejoslin.github.io/WEDGE/)
 - ⚪ [**USDCraft**](https://arxiv.org/abs/2610.11322 "USDCraft: Geometrically Grounded Programmatic Modeling of Articulated 3D Assets for Simulation") · 2026-10 — A pretrained LLM writes and revises executable programs that build simulation-ready articulated assets from partial or corrupted meshes, guided by a metric textual analysis of the source geometry; no task-specific training. [project](https://xingyoujun.github.io/usdcraft)
