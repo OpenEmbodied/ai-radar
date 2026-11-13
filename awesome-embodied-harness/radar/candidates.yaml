@@ -1,3 +1,13 @@
 # Items the radar has seen but not added yet (see CONTRIBUTING.md and radar/PLAYBOOK.md).
 # Two kinds: announcements that cannot be verified yet, and verified items that were over
 # a run's daily cap. The next run re-triages over-cap items first.
+
+- name: AgiBot GO-3 Preview
+  url: https://roboticsandautomationnews.com/2026/11/05/agibot-unveils-go-3-preview-and-takes-top-spot-on-three-embodied-ai-benchmarks/106711/
+  title: GO-3 Preview embodied foundation model (WRAM architecture)
+  first_seen: 2026-11-13
+  last_checked: 2026-11-13
+  suggested_category: policy
+  reason: >-
+    News report only (2026-11-05): claims first place on RoboDojo, RoboTwin and RoboColiseum and
+    full open-sourcing by the end of 2026. No official AgiBot page, paper or repository found yet.

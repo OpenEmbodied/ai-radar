@@ -1410,3 +1410,25 @@
   access: open
   tags: [world-model, video, manipulation, navigation]
   added: 2026-11-07
+
+- id: gr00t-2
+  name: GR00T 2
+  title: >-
+    GR00T 2: Scaling Robot Foundation Models for Generalization, Dexterity, and Adaptation
+  date: 2026-11
+  org: NVIDIA
+  summary: >-
+    NVIDIA's world-action model family that predicts future video and robot actions together
+    across grippers, dexterous hands and humanoids; reports 40% zero-shot success on 50
+    unseen tasks, 95% after five demonstrations each, and a WAM API through which a
+    reasoning model directs it (first-party).
+  links:
+    paper: https://research.nvidia.com/labs/gear/gr00t-2/assets/gr00t2_whitepaper.pdf
+    project: https://research.nvidia.com/labs/gear/gr00t-2/
+    data: https://huggingface.co/datasets/nvidia/PhysicalAI-Human-1M-100K
+  access: partial
+  tags: [world-model, cross-embodiment, dexterous, humanoid, agentic-loop]
+  note: >-
+    Announced at CoRL 2026 (2026-11-09) alongside Isaac Lab 3.0. The project page lists code
+    as available in December 2026; weights were not public on 2026-11-13.
+  added: 2026-11-13

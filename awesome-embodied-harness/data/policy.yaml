@@ -1971,3 +1971,23 @@
   tags: [dual-system, humanoid, vla, dexterous]
   note: Promoted from the queue.
   added: 2026-11-12
+
+- id: neo-vla
+  name: NEO-VLA
+  title: From Pixels to Actions--Towards Native Vision-Language-Action Policies
+  date: 2026-11
+  org: LMMs-Lab
+  summary: >-
+    Encoder-free VLA: lightweight patch convolutions feed pixels into a backbone where
+    vision evolves jointly with language, and a flow-matching action expert draws on visual
+    features from several depths; reports that native architectures outperform encoder-based
+    ones on LIBERO and RoboTwin 2.0 (first-party).
+  links:
+    paper: https://arxiv.org/abs/2611.06918
+    code: https://github.com/EvolvingLMMs-Lab/NEO/tree/main/VLAKit
+    project: https://weichenfan.github.io/NEO-VLA-Page/
+    weights: https://huggingface.co/weepiess2383/NEO-VLA
+    data: https://huggingface.co/datasets/weepiess2383/NEO-VLA-Action-Pretrain
+  access: open
+  tags: [vla, manipulation]
+  added: 2026-11-13
