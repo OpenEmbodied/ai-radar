@@ -3,12 +3,13 @@
 # Multi-Robot & Fleet Orchestration
 
 > Coordinating multiple robots, fleets and human-robot teams with language-model agents.  
-> Layer: L4 · 56 entries · [overview](../README.md#multi-agent) · [survey](../SURVEY.md)
+> Layer: L4 · 57 entries · [overview](../README.md#multi-agent) · [survey](../SURVEY.md)
 
 **Legend:** 🟢 open · 🟡 partial · 🔵 api · ⚪ closed. Hover a name for the full paper title. Newest first within each year.
 
 **2026**
 
+- 🟢 [**NSDL**](https://arxiv.org/abs/2611.16671 "NSDL: Neuro-Symbolic Division of Labor for Multi-Robot Task Planning") · 2026-11 — Heterogeneous multi-robot planner in which a small VLM writes a plan sketch of unmet goals and robot assignments and a deterministic solver, called as a tool, expands it into a joint plan; 97.0% out-of-distribution accuracy on VIKI-L2 with a 7B model, plus the new LOCUS-Bench (first-party). [code](https://github.com/Xincheng-Tan/NSDL)
 - ⚪ [**Late Autumn**](https://arxiv.org/abs/2611.02391 "Late Autumn: LLM Agents Specialize a General Multi-Robot Planner for One Warehouse") · 2026-11 — LLM coding agents run autonomous research campaigns that specialize a general lifelong multi-robot planner to one warehouse, raising throughput 22-60% on unseen seeds through reviewable commit chains, while some patches multiply planner compute by over 100x (first-party).
 - ⚪ [**BioMARS 2.0**](https://arxiv.org/abs/2611.12139 "BioMARS 2.0: a robotic biologist for formulating and adapting biological experiments") · 2026-11 — Human-in-the-loop multi-agent robotic system linking literature-grounded protocol generation, phenotype-driven adaptation of culture conditions in robotic organoid culture, and evidence-based selection of interventions for wet-lab testing. _Note: Promoted from the queue._
 - 🟢 [**VLA-Fabric**](https://arxiv.org/abs/2610.23018 "VLA-Fabric: Learning Interaction for Composable Multi-Arm VLA Agents") · 2026-10 — Runs one complete VLA per arm, preserving local perception and action ownership, and coordinates them through learned interaction during action generation rather than a centralized joint policy. [code](https://github.com/NEBULIS-Lab/VLA-Fabric) · [project](https://nebulis-lab.com/VLA-Fabric/)

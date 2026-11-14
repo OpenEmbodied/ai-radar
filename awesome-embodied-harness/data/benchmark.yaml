@@ -3340,3 +3340,20 @@
   tags: [benchmark, real-world, manipulation]
   note: CoRL 2026. Promoted from the queue.
   added: 2026-11-12
+
+- id: robo-swe
+  name: Robo-SWE
+  title: >-
+    Robo-SWE: An Executable Issue-Resolution Dataset Mined from Robot Software Repositories
+  date: 2026-11
+  summary: >-
+    236 executable issue-resolution tasks from merged pull requests in 28 robotics
+    repositories (ROS 2, simulators, algorithm libraries, robot-learning frameworks), each
+    with a container recipe and fail-then-pass tests; coding agents resolve 43.9% to 56.5%
+    (first-party).
+  links:
+    paper: https://arxiv.org/abs/2611.16116
+    data: https://huggingface.co/datasets/vharatian/Robo-SWE
+  access: open
+  tags: [benchmark, ros, leaderboard]
+  added: 2026-11-14

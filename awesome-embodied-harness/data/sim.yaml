@@ -1079,3 +1079,19 @@
   tags: [benchmark, data-generation, manipulation]
   note: Promoted from the queue.
   added: 2026-11-12
+
+- id: alloy-physics
+  name: Alloy
+  title: 'Alloy: A Multi-Material Physics Engine for Robot Learning'
+  date: 2026-11
+  summary: >-
+    Open-source physics engine on Newton, MuJoCo Warp and Warp in which rigid robots, cloth,
+    cables, liquids, granular and soft bodies share one GPU-parallel scene; built to be
+    driven by coding agents, with in-package docs, errors that name their fix, and the
+    engine exposed as MCP tools.
+  links:
+    paper: https://arxiv.org/abs/2611.16312
+    code: https://github.com/argonrobotics-ai/alloy
+  access: open
+  tags: [mcp, tool-use, sim2real]
+  added: 2026-11-14

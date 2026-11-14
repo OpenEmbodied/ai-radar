@@ -6,8 +6,40 @@
   url: https://roboticsandautomationnews.com/2026/11/05/agibot-unveils-go-3-preview-and-takes-top-spot-on-three-embodied-ai-benchmarks/106711/
   title: GO-3 Preview embodied foundation model (WRAM architecture)
   first_seen: 2026-11-13
-  last_checked: 2026-11-13
+  last_checked: 2026-11-14
   suggested_category: policy
   reason: >-
     News report only (2026-11-05): claims first place on RoboDojo, RoboTwin and RoboColiseum and
     full open-sourcing by the end of 2026. No official AgiBot page, paper or repository found yet.
+
+- name: Embodied-Corrector
+  url: https://arxiv.org/abs/2611.15651
+  title: 'Recover, Don''t Just Continue: Learning from Feedback for Physical Failure Understanding and Correction'
+  first_seen: 2026-11-14
+  last_checked: 2026-11-14
+  suggested_category: verification
+  reason: Verified; over the daily cap on 2026-11-14.
+
+- name: What Makes a VLA Reactive?
+  url: https://arxiv.org/abs/2611.15491
+  title: 'What Makes a VLA Reactive? A Study of Execution Strategies for Dynamic Manipulation'
+  first_seen: 2026-11-14
+  last_checked: 2026-11-14
+  suggested_category: benchmark
+  reason: Verified; over the daily cap on 2026-11-14.
+
+- name: ManiLadder
+  url: https://arxiv.org/abs/2611.16374
+  title: 'ManiLadder: Benchmarking Robot Manipulation Through a Categorized and Multi-Difficulty Level Task Ladder'
+  first_seen: 2026-11-14
+  last_checked: 2026-11-14
+  suggested_category: benchmark
+  reason: Verified; over the daily cap on 2026-11-14.
+
+- name: AstroMemBench
+  url: https://arxiv.org/abs/2611.16590
+  title: 'AstroMemBench: A Benchmark for Memory Systems in Embodied Spacecraft Agents'
+  first_seen: 2026-11-14
+  last_checked: 2026-11-14
+  suggested_category: memory
+  reason: Verified; over the daily cap on 2026-11-14.

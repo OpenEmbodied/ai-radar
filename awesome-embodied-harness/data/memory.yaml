@@ -1376,3 +1376,36 @@
   access: open
   tags: [memory, vla, benchmark]
   added: 2026-11-12
+
+- id: hemer
+  name: HeMeR
+  title: >-
+    HeMeR: Heterogeneous Memory Reconciliation for Embodied Agents via Structured KV Reuse
+  date: 2026-11
+  summary: >-
+    Inference framework that tracks declarative, procedural and working memory across an
+    embodied agent's decisions and recomputes only the KV-cache states whose memory content
+    changed; 83.20% real-world task success with per-step time cut from 2.94 to 1.87 s
+    versus MemRL (first-party).
+  links:
+    paper: https://arxiv.org/abs/2611.16487
+  access: closed
+  tags: [memory, on-device, real-world]
+  note: NeurIPS 2026 oral.
+  added: 2026-11-14
+
+- id: cgem
+  name: CGEM
+  title: >-
+    Remember What Changes the Odds: Critic-Gated Event Memory for Long-Horizon Manipulation
+  date: 2026-11
+  summary: >-
+    Event memory for long-horizon manipulation that stores only events a critic estimates
+    changed the probability of eventual success, as progress or failure records; 88.0%
+    success in a ten-subtask diagnostic environment where a 36-step window and kinematic
+    event memory both score 0% (first-party).
+  links:
+    paper: https://arxiv.org/abs/2611.16386
+  access: closed
+  tags: [memory, long-horizon, manipulation]
+  added: 2026-11-14

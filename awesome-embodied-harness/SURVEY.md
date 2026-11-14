@@ -273,20 +273,20 @@ Counts by category and year of first release, generated from `data/`.
 | Category | Layer | Total | ≤2021 | 2022 | 2023 | 2024 | 2025 | 2026 | open |
 |---|---|---|---|---|---|---|---|---|---|
 | [Surveys & Position Papers](categories/survey.md) | meta | 99 | 1 | 1 | 8 | 10 | 30 | 49 | 23 |
-| [Embodied Harnesses](categories/harness.md) | L4 | 236 | 0 | 10 | 30 | 23 | 14 | 159 | 88 |
-| [Open-Source Frameworks & Runtimes](categories/framework.md) | L0-L4 | 29 | 0 | 1 | 5 | 11 | 5 | 7 | 26 |
+| [Embodied Harnesses](categories/harness.md) | L4 | 240 | 0 | 10 | 30 | 23 | 14 | 163 | 89 |
+| [Open-Source Frameworks & Runtimes](categories/framework.md) | L0-L4 | 30 | 0 | 1 | 5 | 11 | 5 | 8 | 26 |
 | [Action Interfaces, Skills & Tool Protocols](categories/interface.md) | L2 | 48 | 0 | 0 | 5 | 10 | 11 | 22 | 21 |
-| [World State, Memory & Spatial Context](categories/memory.md) | L3 | 79 | 0 | 4 | 6 | 15 | 10 | 44 | 34 |
+| [World State, Memory & Spatial Context](categories/memory.md) | L3 | 81 | 0 | 4 | 6 | 15 | 10 | 46 | 34 |
 | [Embodied Reasoning Models & Planners](categories/brain.md) | L4 | 59 | 0 | 0 | 5 | 4 | 18 | 32 | 32 |
 | [VLA Models & Skill Policies](categories/policy.md) | L1 | 109 | 0 | 1 | 5 | 7 | 42 | 54 | 60 |
 | [World Models](categories/world-model.md) | L6 | 80 | 0 | 1 | 3 | 7 | 26 | 43 | 44 |
-| [Verification, Failure Detection & Recovery](categories/verification.md) | L5 | 76 | 0 | 0 | 4 | 7 | 14 | 51 | 29 |
-| [Safety, Guardrails & Security](categories/safety.md) | L5 | 72 | 0 | 0 | 1 | 9 | 15 | 47 | 22 |
-| [Multi-Robot & Fleet Orchestration](categories/multi-agent.md) | L4 | 56 | 0 | 0 | 5 | 8 | 13 | 30 | 22 |
-| [Simulators & Environments](categories/sim.md) | L6 | 60 | 12 | 1 | 6 | 5 | 10 | 26 | 44 |
-| [Benchmarks & Evaluation](categories/benchmark.md) | L6 | 188 | 5 | 1 | 4 | 19 | 31 | 128 | 98 |
+| [Verification, Failure Detection & Recovery](categories/verification.md) | L5 | 77 | 0 | 0 | 4 | 7 | 14 | 52 | 29 |
+| [Safety, Guardrails & Security](categories/safety.md) | L5 | 73 | 0 | 0 | 1 | 9 | 15 | 48 | 22 |
+| [Multi-Robot & Fleet Orchestration](categories/multi-agent.md) | L4 | 57 | 0 | 0 | 5 | 8 | 13 | 31 | 23 |
+| [Simulators & Environments](categories/sim.md) | L6 | 61 | 12 | 1 | 6 | 5 | 10 | 27 | 45 |
+| [Benchmarks & Evaluation](categories/benchmark.md) | L6 | 189 | 5 | 1 | 4 | 19 | 31 | 129 | 99 |
 | [Data, Teleoperation & Training Infrastructure](categories/data.md) | L6 | 100 | 5 | 0 | 9 | 18 | 35 | 33 | 67 |
-| **Total** |  | **1291** | 23 | 20 | 96 | 153 | 274 | 725 | 610 |
+| **Total** |  | **1303** | 23 | 20 | 96 | 153 | 274 | 737 | 614 |
 <!-- END GENERATED: stats -->
 
 ---

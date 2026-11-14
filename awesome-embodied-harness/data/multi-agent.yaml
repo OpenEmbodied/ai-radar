@@ -991,3 +991,19 @@
   tags: [hitl, planning, long-horizon]
   note: Promoted from the queue.
   added: 2026-11-12
+
+- id: nsdl
+  name: NSDL
+  title: 'NSDL: Neuro-Symbolic Division of Labor for Multi-Robot Task Planning'
+  date: 2026-11
+  summary: >-
+    Heterogeneous multi-robot planner in which a small VLM writes a plan sketch of unmet
+    goals and robot assignments and a deterministic solver, called as a tool, expands it
+    into a joint plan; 97.0% out-of-distribution accuracy on VIKI-L2 with a 7B model, plus
+    the new LOCUS-Bench (first-party).
+  links:
+    paper: https://arxiv.org/abs/2611.16671
+    code: https://github.com/Xincheng-Tan/NSDL
+  access: open
+  tags: [multi-robot, planning, tool-use, benchmark]
+  added: 2026-11-14

@@ -480,3 +480,20 @@
   access: closed
   tags: [agentic-loop, dual-system, multi-robot]
   added: 2026-11-04
+
+- id: xinfer
+  name: XInfer
+  title: Scaling VLA Serving Under Robotic Execution Constraints
+  date: 2026-11
+  summary: >-
+    Production VLA fleet-serving system from X Square Robot that coordinates heterogeneous
+    VLA computation with the response deadlines of robot execution, reaching 1.26 to 3.75
+    times the effective robot capacity of prior serving systems on production-derived
+    workloads (first-party).
+  links:
+    paper: https://arxiv.org/abs/2611.14969
+  access: closed
+  tags: [vla, real-world]
+  note: >-
+    The repository named in the paper (X-Square-Robot/xinfer) did not resolve on 2026-11-14.
+  added: 2026-11-14

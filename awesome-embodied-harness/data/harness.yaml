@@ -4088,3 +4088,71 @@
   access: closed
   tags: [agentic-loop, tool-use, manipulation, real-world]
   added: 2026-11-12
+
+- id: reins-robot-arms
+  name: Reins (robot arms)
+  title: >-
+    Reins: Frontier Multimodal Models Driving Real Robot Arms on Long-Horizon Tasks,
+    Zero-Shot
+  date: 2026-11
+  summary: >-
+    Harness in which an off-the-shelf frontier model drives a dual-arm robot through 3D
+    perception tools and atomic actions that report contact and grip, chaining conditioned
+    actions in one call while a narrator instance watches the cameras; 88% of real episodes
+    on five tasks with GPT-6.1 Sol (first-party).
+  links:
+    paper: https://arxiv.org/abs/2611.16632
+  access: closed
+  tags: [agentic-loop, tool-use, manipulation, real-world]
+  note: >-
+    Code promised upon publication. Not the driving-planning REINS skipped on 2026-11-11.
+  added: 2026-11-14
+
+- id: justrua
+  name: JustRUA
+  title: 'JustRUA: A Controlled Study of GPT-6 Robot-Use Agents'
+  date: 2026-11
+  summary: >-
+    Controlled study of robot-use agents that separates harness, action interface,
+    experience reuse and scene geometry; a lean harness keeping full episode history and
+    stopping motions early, plus geometry from predicted depth, lifts RoboDojo simulation
+    score from 29.7 to 50.3 with no learned policy (first-party).
+  links:
+    paper: https://arxiv.org/abs/2611.16009
+    code: https://github.com/ZefanW/JustRUA
+    project: https://zefanw.github.io/JustRUA/
+  access: open
+  tags: [agentic-loop, benchmark, manipulation]
+  added: 2026-11-14
+
+- id: ace-cap-0
+  name: ACE-CaP-0
+  title: 'ACE-CaP-0: Real-World Code-as-Policies in the Era of Experience'
+  date: 2026-11
+  summary: >-
+    Agentic recipe in which a coding agent refines real-world code policies using robot
+    demonstrations on request and simulation on demand, then freezes them; the frozen
+    programs reach 92.1% success (221/240 trials) on eight manipulation tasks with no human
+    or agent in the loop (first-party).
+  links:
+    paper: https://arxiv.org/abs/2611.16872
+  access: closed
+  tags: [code-as-policy, self-improving, manipulation, real-world]
+  added: 2026-11-14
+
+- id: h2e-vla-distillation
+  name: H2E
+  title: >-
+    What Can a VLA Learn from the Agent That Calls It? Task-Level Experience Distillation
+    for Embodied Navigation
+  date: 2026-11
+  summary: >-
+    Distills successful LLM-planner agent sessions, rather than the planner, into the VLA it
+    calls, relabeling every motion under the original instruction and masking detours, so
+    the VLA navigates alone; raises an 8B VLA from 35.0% to 44.9% on REVERIE-CE val-unseen
+    (first-party).
+  links:
+    paper: https://arxiv.org/abs/2611.16246
+  access: closed
+  tags: [vla, navigation, agentic-loop]
+  added: 2026-11-14

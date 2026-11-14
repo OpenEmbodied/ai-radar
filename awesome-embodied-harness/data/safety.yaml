@@ -1216,3 +1216,20 @@
   access: open
   tags: [safety, security, agentic-loop, benchmark]
   added: 2026-11-12
+
+- id: humanoid-estop-lessons
+  name: Runtime Safety on a Full-Size Humanoid
+  title: >-
+    Runtime Safety and Emergency Stops on a Full-Size Humanoid: Deployment Lessons and a
+    Case for Graduated Force Authority
+  date: 2026-11
+  summary: >-
+    Deployment report on the separate safety layer of an open-source Unitree H1-2 autonomy
+    stack: e-stops remove balance control so the robot falls, and manipulation limits trip
+    during walking; argues for granting robots force authority in stages with an explicitly
+    responsible party.
+  links:
+    paper: https://arxiv.org/abs/2611.15928
+  access: closed
+  tags: [safety, humanoid, real-world]
+  added: 2026-11-14

@@ -1328,3 +1328,19 @@
   access: closed
   tags: [success-detection, safety]
   added: 2026-11-11
+
+- id: hdh-action-verifier
+  name: HDH
+  title: >-
+    Learning Low-Latency Action Verification for Frozen Vision-Language-Action Models
+  date: 2026-11
+  summary: >-
+    Trains a compact action verifier from a frozen VLA's own deployment rollouts to score
+    each candidate action chunk for task success, then executes the best-scoring candidate;
+    82.3% average on four LIBERO-10 tasks and +22.6 points on three real tasks
+    (first-party).
+  links:
+    paper: https://arxiv.org/abs/2611.14834
+  access: closed
+  tags: [success-detection, vla, manipulation]
+  added: 2026-11-14
