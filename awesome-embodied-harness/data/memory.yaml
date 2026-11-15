@@ -1409,3 +1409,20 @@
   access: closed
   tags: [memory, long-horizon, manipulation]
   added: 2026-11-14
+
+- id: astromembench
+  name: AstroMemBench
+  title: 'AstroMemBench: A Benchmark for Memory Systems in Embodied Spacecraft Agents'
+  date: 2026-11
+  summary: >-
+    Memory benchmark for spacecraft agents with 2,240 instances across nine planetary,
+    on-orbit and deep-space tasks scored for completion, safety and resource use; memory
+    systems beat a native agent but not RAG within a session, while Mem0 leads RAG by 12.25
+    points after a restart (first-party).
+  links:
+    paper: https://arxiv.org/abs/2611.16590
+    code: https://github.com/flyingView/AstroMemBench-v1
+  access: open
+  tags: [memory, benchmark, long-horizon]
+  note: Promoted from the queue.
+  added: 2026-11-15

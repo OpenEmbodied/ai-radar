@@ -1344,3 +1344,21 @@
   access: closed
   tags: [success-detection, vla, manipulation]
   added: 2026-11-14
+
+- id: embodied-corrector
+  name: Embodied-Corrector
+  title: >-
+    Recover, Don't Just Continue: Learning from Feedback for Physical Failure Understanding
+    and Correction
+  date: 2026-11
+  summary: >-
+    Trains an embodied brain to judge failures, localize their cause and plan recovery from
+    perturbation-injected trajectories, with evaluation-first SFT and on-policy
+    distillation; adds 6.1 points of task success over a frozen VLA and 13.9 points with
+    fixed GPT-5.5 execution (first-party).
+  links:
+    paper: https://arxiv.org/abs/2611.15651
+  access: closed
+  tags: [failure-recovery, success-detection, planning]
+  note: Promoted from the queue.
+  added: 2026-11-15

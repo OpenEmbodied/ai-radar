@@ -276,17 +276,17 @@ Counts by category and year of first release, generated from `data/`.
 | [Embodied Harnesses](categories/harness.md) | L4 | 240 | 0 | 10 | 30 | 23 | 14 | 163 | 89 |
 | [Open-Source Frameworks & Runtimes](categories/framework.md) | L0-L4 | 30 | 0 | 1 | 5 | 11 | 5 | 8 | 26 |
 | [Action Interfaces, Skills & Tool Protocols](categories/interface.md) | L2 | 48 | 0 | 0 | 5 | 10 | 11 | 22 | 21 |
-| [World State, Memory & Spatial Context](categories/memory.md) | L3 | 81 | 0 | 4 | 6 | 15 | 10 | 46 | 34 |
+| [World State, Memory & Spatial Context](categories/memory.md) | L3 | 82 | 0 | 4 | 6 | 15 | 10 | 47 | 35 |
 | [Embodied Reasoning Models & Planners](categories/brain.md) | L4 | 59 | 0 | 0 | 5 | 4 | 18 | 32 | 32 |
 | [VLA Models & Skill Policies](categories/policy.md) | L1 | 109 | 0 | 1 | 5 | 7 | 42 | 54 | 60 |
 | [World Models](categories/world-model.md) | L6 | 80 | 0 | 1 | 3 | 7 | 26 | 43 | 44 |
-| [Verification, Failure Detection & Recovery](categories/verification.md) | L5 | 77 | 0 | 0 | 4 | 7 | 14 | 52 | 29 |
+| [Verification, Failure Detection & Recovery](categories/verification.md) | L5 | 78 | 0 | 0 | 4 | 7 | 14 | 53 | 29 |
 | [Safety, Guardrails & Security](categories/safety.md) | L5 | 73 | 0 | 0 | 1 | 9 | 15 | 48 | 22 |
 | [Multi-Robot & Fleet Orchestration](categories/multi-agent.md) | L4 | 57 | 0 | 0 | 5 | 8 | 13 | 31 | 23 |
 | [Simulators & Environments](categories/sim.md) | L6 | 61 | 12 | 1 | 6 | 5 | 10 | 27 | 45 |
-| [Benchmarks & Evaluation](categories/benchmark.md) | L6 | 189 | 5 | 1 | 4 | 19 | 31 | 129 | 99 |
-| [Data, Teleoperation & Training Infrastructure](categories/data.md) | L6 | 100 | 5 | 0 | 9 | 18 | 35 | 33 | 67 |
-| **Total** |  | **1303** | 23 | 20 | 96 | 153 | 274 | 737 | 614 |
+| [Benchmarks & Evaluation](categories/benchmark.md) | L6 | 191 | 5 | 1 | 4 | 19 | 31 | 131 | 99 |
+| [Data, Teleoperation & Training Infrastructure](categories/data.md) | L6 | 101 | 5 | 0 | 9 | 18 | 35 | 34 | 68 |
+| **Total** |  | **1308** | 23 | 20 | 96 | 153 | 274 | 742 | 616 |
 <!-- END GENERATED: stats -->
 
 ---

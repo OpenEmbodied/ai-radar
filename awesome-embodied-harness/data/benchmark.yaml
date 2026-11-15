@@ -3357,3 +3357,40 @@
   access: open
   tags: [benchmark, ros, leaderboard]
   added: 2026-11-14
+
+- id: vla-reactivity-study
+  name: What Makes a VLA Reactive?
+  title: >-
+    What Makes a VLA Reactive? A Study of Execution Strategies for Dynamic Manipulation
+  date: 2026-11
+  summary: >-
+    Study of pi0.5 on two dynamic simulation benchmarks and three real tasks varying
+    prediction and execution horizons, synchronous versus asynchronous inference and chunk
+    smoothing; about one second of prediction works best, and reactivity depends on the
+    execution pipeline as much as on the policy.
+  links:
+    paper: https://arxiv.org/abs/2611.15491
+  access: closed
+  tags: [benchmark, vla, manipulation]
+  note: CoRL 2026 workshop. Promoted from the queue.
+  added: 2026-11-15
+
+- id: maniladder
+  name: ManiLadder
+  title: >-
+    ManiLadder: Benchmarking Robot Manipulation Through a Categorized and Multi-Difficulty
+    Level Task Ladder
+  date: 2026-11
+  summary: >-
+    Simulation benchmark of 112 manipulation tasks in four calibrated difficulty levels with
+    eight categories each, spanning rigid and deformable objects, single and dual arms, and
+    grippers and dexterous hands; difficulty ordering is checked across policies, agentic
+    learning systems and real-world runs.
+  links:
+    paper: https://arxiv.org/abs/2611.16374
+  access: closed
+  tags: [benchmark, manipulation, dexterous]
+  note: >-
+    The project page named in the abstract did not resolve on 2026-11-15. Promoted from the
+    queue.
+  added: 2026-11-15

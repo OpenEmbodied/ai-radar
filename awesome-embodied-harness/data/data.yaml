@@ -1720,3 +1720,20 @@
   tags: [dataset, video, tool-use]
   note: Promoted from the queue.
   added: 2026-11-12
+
+- id: ropedia-xperience-2
+  name: Ropedia Xperience 2
+  title: >-
+    Ropedia Xperience 2: A Gold Standard for Scaling Physical AI Environments and Behaviors
+  date: 2026-11
+  summary: >-
+    Joint capture of environments and behaviors for physical AI: 1,589 metric-scale 3D scans
+    and 4,230 egocentric recordings of 74 tasks (131 hours), with scenes converted to
+    interactive simulation and human motion retargeted to whole-body robot trajectories.
+  links:
+    paper: https://arxiv.org/abs/2611.17060
+    code: https://github.com/Ropedia/Ropedia-Xperience-2
+    project: https://ropedia.com/xperience/2-research/
+  access: open
+  tags: [dataset, data-generation, humanoid, 3d]
+  added: 2026-11-15
