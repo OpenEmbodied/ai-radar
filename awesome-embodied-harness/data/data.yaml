@@ -1697,12 +1697,15 @@
     code: https://github.com/DAGroup-PKU/HumanNet/tree/Open-HumanWAM
     project: https://dagroup-pku.github.io/open-humanwam/
     weights: https://huggingface.co/collections/DAGroup-PKU/open-humanwam
+    data: https://huggingface.co/datasets/DAGroup-PKU/Open-HumanWAM-50K
   access: partial
   tags: [dataset, world-model, cross-embodiment, video]
   note: >-
-    The full 50K-hour corpus and public evaluation commands are listed as coming soon
-    (checked 2026-11-08). Promoted from the queue.
+    The 50K-hour corpus and RoboTwin 2.0 evaluation commands are public as of 2026-11-16;
+    RoboDojo weights and evaluation commands are still listed as coming soon. Promoted from
+    the queue.
   added: 2026-11-08
+  updated: 2026-11-16
 
 - id: tooldex
   name: ToolDex

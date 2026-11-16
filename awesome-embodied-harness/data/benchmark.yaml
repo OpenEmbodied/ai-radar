@@ -3248,10 +3248,11 @@
   added: 2026-11-10
 
 - id: seeing-what-matters
-  name: Seeing What Matters
+  name: Seeing What Execution Needs
   title: >-
-    Seeing What Matters: Benchmarking Task-Conditioned Actionable Spatial Belief for
+    Seeing What Execution Needs: Benchmarking Task-Conditioned Actionable Spatial Belief for
     Manipulation
+  aliases: [Seeing What Matters]
   date: 2026-11
   summary: >-
     Benchmark of 860 cases testing whether a view-selection policy acquires the specific
@@ -3262,6 +3263,7 @@
   access: closed
   tags: [benchmark, spatial-reasoning, manipulation]
   added: 2026-11-10
+  updated: 2026-11-16
 
 - id: embodied-first-exam
   name: Embodied First Exam
@@ -3319,12 +3321,15 @@
     Consistency metric tracks this.
   links:
     paper: https://arxiv.org/abs/2611.13160
-  access: closed
+    code: https://github.com/sereact/lerobot_knn
+    project: https://sereact.github.io/lerobot_knn
+  access: open
   tags: [benchmark, vla, memory]
   note: >-
-    CoRL 2026 workshop. The repository named in the abstract (sereact/lerobot_knn) did not
-    resolve on 2026-11-12.
+    CoRL 2026 workshop. Code released by 2026-11-16 as a LeRobot policy plugin
+    (--policy.type=knn).
   added: 2026-11-12
+  updated: 2026-11-16
 
 - id: stochastic-challenges
   name: Stochastic Challenges
@@ -3388,9 +3393,13 @@
     learning systems and real-world runs.
   links:
     paper: https://arxiv.org/abs/2611.16374
-  access: closed
+    project: https://maniladder-benchmark.github.io/
+    weights: https://huggingface.co/Linslab/ManiLadder_PI05_Models
+    data: https://huggingface.co/datasets/Linslab/ManiLadder_Dataset
+  access: partial
   tags: [benchmark, manipulation, dexterous]
   note: >-
-    The project page named in the abstract did not resolve on 2026-11-15. Promoted from the
-    queue.
+    Project page live by 2026-11-16, with pi0.5 checkpoints and the dataset on Hugging Face;
+    no code repository linked yet. Promoted from the queue.
   added: 2026-11-15
+  updated: 2026-11-16

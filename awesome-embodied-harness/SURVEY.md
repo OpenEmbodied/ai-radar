@@ -284,9 +284,9 @@ Counts by category and year of first release, generated from `data/`.
 | [Safety, Guardrails & Security](categories/safety.md) | L5 | 73 | 0 | 0 | 1 | 9 | 15 | 48 | 22 |
 | [Multi-Robot & Fleet Orchestration](categories/multi-agent.md) | L4 | 57 | 0 | 0 | 5 | 8 | 13 | 31 | 23 |
 | [Simulators & Environments](categories/sim.md) | L6 | 61 | 12 | 1 | 6 | 5 | 10 | 27 | 45 |
-| [Benchmarks & Evaluation](categories/benchmark.md) | L6 | 191 | 5 | 1 | 4 | 19 | 31 | 131 | 99 |
+| [Benchmarks & Evaluation](categories/benchmark.md) | L6 | 191 | 5 | 1 | 4 | 19 | 31 | 131 | 100 |
 | [Data, Teleoperation & Training Infrastructure](categories/data.md) | L6 | 101 | 5 | 0 | 9 | 18 | 35 | 34 | 68 |
-| **Total** |  | **1308** | 23 | 20 | 96 | 153 | 274 | 742 | 616 |
+| **Total** |  | **1308** | 23 | 20 | 96 | 153 | 274 | 742 | 617 |
 <!-- END GENERATED: stats -->
 
 ---

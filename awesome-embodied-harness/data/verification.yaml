@@ -290,8 +290,7 @@
 
 - id: guardian
   name: Guardian
-  title: >-
-    Guardian: Detecting Robotic Planning and Execution Errors with Vision-Language Models
+  title: 'Guardian: Detecting Robotic Manipulation Failures with Vision-Language Models'
   date: 2025-12
   org: Inria, ENS-PSL
   summary: >-
@@ -306,6 +305,7 @@
   access: open
   tags: [success-detection, failure-recovery, dataset, manipulation]
   added: 2026-09-29
+  updated: 2026-11-16
 
 - id: seal-vla-steering
   name: SEAL

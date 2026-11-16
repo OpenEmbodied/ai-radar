@@ -1095,12 +1095,14 @@
     neutral, nonsense, infeasible and wrong-task instructions.
   links:
     paper: https://arxiv.org/abs/2610.41609
-  access: closed
+    code: https://github.com/zebehn/vla-start-suppression
+  access: partial
   tags: [safety, vla, manipulation]
   note: >-
-    The code repository named in the abstract (zebehn/vla-start-suppression) did not resolve
-    on 2026-11-03.
+    Repository live by 2026-11-16 with code and episode records for two of the paper's
+    experiments (LIBERO-Goal and GR-1 humanoid); the rest are listed as coming soon.
   added: 2026-11-03
+  updated: 2026-11-16
 
 - id: delay-meets-drift
   name: When Delay Meets Drift
