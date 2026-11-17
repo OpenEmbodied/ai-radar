@@ -1060,3 +1060,19 @@
   access: closed
   tags: [agentic-loop, memory, planning]
   added: 2026-11-07
+
+- id: pear-rurl
+  name: PEAR (robot-use RL)
+  title: Training Reasoning Models in Simulation to Natively Use Real Robots
+  aliases: [RURL]
+  date: 2026-11
+  summary: >-
+    Trains an open-weight 27B reasoning model to drive robots natively, emitting
+    end-effector poses after a chain of thought with no harness, via robot-use RL in
+    simulation without demonstrations; LIBERO rises from 1.6% to 74.4% and it succeeds in
+    60% of real dual-arm trials (first-party).
+  links:
+    paper: https://arxiv.org/abs/2611.18562
+  access: closed
+  tags: [rl, agentic-loop, sim2real, manipulation]
+  added: 2026-11-17

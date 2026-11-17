@@ -1235,3 +1235,21 @@
   access: closed
   tags: [safety, humanoid, real-world]
   added: 2026-11-14
+
+- id: hazard-risk-fields
+  name: Hazard Risk Fields
+  title: >-
+    Grounding Object-to-Object Hazard Reasoning into 3D Risk Fields for Task-Conditioned
+    Safety
+  date: 2026-11
+  summary: >-
+    VLM safety tool that first decides whether a manipulation task must be refused,
+    otherwise names preventable object-pair hazards, which are grounded in 3D as continuous
+    risk fields that an obstacle-avoidance module uses to correct robot motions during
+    execution, in simulation and the real world.
+  links:
+    paper: https://arxiv.org/abs/2611.17566
+    project: https://vlm-hazard-riskfield.github.io
+  access: closed
+  tags: [safety, tool-use, manipulation, 3d]
+  added: 2026-11-17

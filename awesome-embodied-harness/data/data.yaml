@@ -1740,3 +1740,18 @@
   access: open
   tags: [dataset, data-generation, humanoid, 3d]
   added: 2026-11-15
+
+- id: agentic-teacher
+  name: Agentic-Teacher
+  title: 'Agentic-Teacher: An Agentic Data Engine for Failure-Driven VLA Post-Training'
+  date: 2026-11
+  summary: >-
+    Coding-agent data engine that analyzes a VLA's failed rollouts, writes validated code
+    policies that generate demonstrations from the states where it struggles, and curates
+    them for post-training; pi0 rises from 79.4% to 87.8% on LIBERO-10 and from 80.4% to
+    90.6% on MetaWorld-10 (first-party).
+  links:
+    paper: https://arxiv.org/abs/2611.17394
+  access: closed
+  tags: [data-generation, code-as-policy, vla, failure-recovery]
+  added: 2026-11-17

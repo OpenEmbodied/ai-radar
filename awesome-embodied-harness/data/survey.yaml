@@ -1489,3 +1489,35 @@
   access: open
   tags: [cross-embodiment, video, awesome-list]
   added: 2026-11-12
+
+- id: envisioning-agentic-robotics
+  name: Envisioning Agentic Robotics
+  title: 'Envisioning Agentic Robotics: A New Era of Robotic Systems'
+  date: 2026-11
+  summary: >-
+    Position paper arguing that a foundation model plus an embodied harness, an Embodied
+    System 2, forms the decision core of agentic robotics; proposes an evaluation framework
+    covering model capability and closed-loop system performance, and a roadmap toward
+    sustained autonomy.
+  links:
+    paper: https://arxiv.org/abs/2611.18359
+    project: https://grid-robotics-official.github.io/agentic-robotics-roadmap
+  access: open
+  tags: [agentic-loop, awesome-list, benchmark]
+  added: 2026-11-17
+
+- id: vla-life-cycle-survey
+  name: VLA Life-Cycle Survey
+  title: >-
+    Vision-Language-Action Models: A Life-Cycle Survey of Design, Training and Deployment
+  date: 2026-11
+  summary: >-
+    Survey of 88 VLA works from December 2022 to October 2026 along seven axes from inputs
+    and architecture to pretraining data, post-training and real-time execution, comparing
+    22 models on data, size, inference speed and hardware, and reviewing evidence that
+    near-perfect benchmark scores break under small perturbations.
+  links:
+    paper: https://arxiv.org/abs/2611.18372
+  access: open
+  tags: [vla, awesome-list]
+  added: 2026-11-17
