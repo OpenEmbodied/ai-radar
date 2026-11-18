@@ -1253,3 +1253,20 @@
   access: closed
   tags: [safety, tool-use, manipulation, 3d]
   added: 2026-11-17
+
+- id: sn-trv
+  name: SN-TRV
+  title: >-
+    Robustness as a Transferable Skill: Cross-Task Adversarial Defense for
+    Vision-Language-Action Policies
+  date: 2026-11
+  summary: >-
+    Transfers adversarial robustness learned on source manipulation tasks to independently
+    specialized VLA policies by applying a norm-calibrated mean of source defense updates to
+    the target visual encoder; raises physical PiPER success under printed adversarial
+    patches from 20.3% to 45.8% (first-party).
+  links:
+    paper: https://arxiv.org/abs/2611.18702
+  access: closed
+  tags: [security, vla, manipulation]
+  added: 2026-11-18

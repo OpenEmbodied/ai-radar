@@ -1991,3 +1991,36 @@
   access: open
   tags: [vla, manipulation]
   added: 2026-11-13
+
+- id: scalevla
+  name: ScaleVLA
+  title: 'ScaleVLA: Scaling Vision-Language-Action Models to 552 Billion Parameters'
+  date: 2026-11
+  summary: >-
+    Connects a 552B DeepSeek-V4.1-Flash backbone to a trainable action DiT and compares
+    backbones from 2B to 552B under one recipe: 10 demonstrations beat a 2B model trained on
+    50, LIBERO-PRO reaches 45.1% versus at most 31.3%, at 216 ms median latency per chunk
+    (first-party).
+  links:
+    paper: https://arxiv.org/abs/2611.21607
+    project: https://galaxygeneralrobotics.github.io/scalevla/
+  access: closed
+  tags: [vla, manipulation, real-world]
+  added: 2026-11-18
+
+- id: reread
+  name: ReRead
+  title: >-
+    ReRead: Wrong Predictions, Useful Representations - Correcting Frozen Robot Policies by
+    Re-reading Their Own Representations
+  date: 2026-11
+  summary: >-
+    Corrector that re-reads a frozen policy's current and previous KV caches to predict an
+    action residual, with no images and 4.17% added latency; on the 11 hardest RoboTwin 2.0
+    tasks it adds 23.45, 13.09 and 8.00 points to LingBot-VLA, pi0.5 and Fast-WAM
+    (first-party).
+  links:
+    paper: https://arxiv.org/abs/2611.20465
+  access: closed
+  tags: [vla, failure-recovery, manipulation]
+  added: 2026-11-18

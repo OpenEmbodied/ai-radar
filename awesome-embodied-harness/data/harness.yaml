@@ -4210,3 +4210,89 @@
   access: closed
   tags: [navigation, humanoid, agentic-loop, real-world]
   added: 2026-11-17
+
+- id: forceharness
+  name: ForceHarness
+  title: 'ForceHarness: Turning Force into Action and Physics for Frozen Frontier Models'
+  date: 2026-11
+  summary: >-
+    Harness that gives API-only frontier models force: self-terminating force primitives
+    close the loop beneath the model, and a physics translation layer returns force traces
+    as physical quantities with uncertainty; lifts GPT-6 Astra from 3.3% to 90.0% zero-shot
+    on a real arm without a wrist sensor (first-party).
+  links:
+    paper: https://arxiv.org/abs/2611.21099
+    code: https://github.com/showlab/ForceHarness
+    project: https://showlab.github.io/ForceHarness/
+  access: open
+  tags: [tool-use, agentic-loop, manipulation, benchmark]
+  note: >-
+    Also introduces HiddenPhys, a seven-task MuJoCo benchmark with hidden physical
+    variables.
+  added: 2026-11-18
+
+- id: robocoevo
+  name: RoboCoEvo
+  title: 'RoboCoEvo: Expanding Robot Capabilities through Agent-Policy Co-Evolution'
+  date: 2026-11
+  summary: >-
+    Failure-guided co-evolution in which an MLLM agent writes and refines code-as-policy
+    failure-detection and recovery programs that generate corrective experience,
+    post-training consolidates it into the VLA, and the VLA's new failure distribution
+    guides the next revisions; tested on BEHAVIOR-1K, RoboCasa and RoboTwin.
+  links:
+    paper: https://arxiv.org/abs/2611.19081
+  access: closed
+  tags: [self-improving, code-as-policy, failure-recovery, vla]
+  added: 2026-11-18
+
+- id: vision-agent-action
+  name: Self-Calibrating Vision-Agent-Action
+  title: >-
+    Self-Calibrating Vision-Agent-Action: Deploying Pick-and-Place to New Robot Cells
+    without Demonstrations or Fine-Tuning
+  aliases: [VAA]
+  date: 2026-11
+  summary: >-
+    Agentic pick-and-place that measures its own command map, camera geometry and lens
+    distortion from its motion and fingertips, then plans grasps from measured depth; across
+    18 simulated cells with gripper and frame changes it succeeds in 268/360 trials versus
+    76/360 for the best of eight released VLAs (first-party).
+  links:
+    paper: https://arxiv.org/abs/2611.19198
+  access: closed
+  tags: [agentic-loop, manipulation, cross-embodiment]
+  added: 2026-11-18
+
+- id: leap-vln
+  name: LeaP-VLN
+  title: >-
+    Learning and Verifying Progress: Closed-Loop Agentic Planning with Progress-Enhanced
+    Execution for Long-Horizon Vision-Language Navigation
+  date: 2026-11
+  summary: >-
+    Agentic VLN system running plan-execute-verify-recover cycles, in which an independent
+    progress verifier confirms subtask completion before the agent advances and triggers
+    recovery on route deviation, and the executor is co-trained on progress reasoning with a
+    two-stage curriculum.
+  links:
+    paper: https://arxiv.org/abs/2611.20676
+  access: closed
+  tags: [navigation, success-detection, failure-recovery, long-horizon]
+  added: 2026-11-18
+
+- id: agenticjevnav
+  name: AgenticJevNav
+  title: >-
+    AgenticJevNav: Agentic Object Search and Navigation via Event-Driven Verification
+  date: 2026-11
+  summary: >-
+    Agentic object-search architecture linking goal planning, evidence memory,
+    event-triggered verification after failed or low-progress segments, and a bounded
+    executor with an RGB reflex; 73.33% success over 60 simulated trials and 70.0% over 30
+    real quadruped trials (first-party).
+  links:
+    paper: https://arxiv.org/abs/2611.19912
+  access: closed
+  tags: [navigation, success-detection, legged, memory]
+  added: 2026-11-18

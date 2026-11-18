@@ -1426,3 +1426,35 @@
   tags: [memory, benchmark, long-horizon]
   note: Promoted from the queue.
   added: 2026-11-15
+
+- id: reusemem
+  name: ReuseMem
+  title: 'ReuseMem: One Memory, Multiple Goals in Robot Manipulation'
+  date: 2026-11
+  summary: >-
+    Records goal-independent visual memory once and retrieves complementary evidence for
+    each later manipulation request, with retrieval supervised by how well evidence supports
+    expert-action prediction; improves joint goal completion by 24.5 points over uniform
+    memory on four simulation tasks (first-party).
+  links:
+    paper: https://arxiv.org/abs/2611.21115
+  access: closed
+  tags: [memory, manipulation]
+  added: 2026-11-18
+
+- id: matrix-with-steps
+  name: A Matrix with Steps
+  title: >-
+    A Matrix with Steps: An Episodic and Procedural Memory Method for Tool-Using Agents and
+    Robots
+  date: 2026-11
+  summary: >-
+    Production agent memory that records every run as an episode but learns only from
+    outcomes confirmed by an external check, storing procedures in a delta-rule associative
+    matrix plus ordered step records; a simulated robot that judged its own success solved
+    35% of tasks, 79% with external verification (first-party).
+  links:
+    paper: https://arxiv.org/abs/2611.20230
+  access: closed
+  tags: [memory, success-detection, skill-library]
+  added: 2026-11-18

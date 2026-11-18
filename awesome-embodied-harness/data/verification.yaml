@@ -1362,3 +1362,19 @@
   tags: [failure-recovery, success-detection, planning]
   note: Promoted from the queue.
   added: 2026-11-15
+
+- id: cast-certified-selection
+  name: CAST
+  title: >-
+    Certify, Then Select: Viability-Aware Runtime Steering of Frozen Diffusion Policies
+  date: 2026-11
+  summary: >-
+    Test-time steering for frozen diffusion policies that samples several action chunks,
+    certifies each with a barrier condition, and executes the certified chunk a learned
+    value ensemble ranks highest, with proofs that certified steps stay safe and close to
+    the feasibility-conditioned policy.
+  links:
+    paper: https://arxiv.org/abs/2611.19047
+  access: closed
+  tags: [safety, uncertainty, manipulation]
+  added: 2026-11-18

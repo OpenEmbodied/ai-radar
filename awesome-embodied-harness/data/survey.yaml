@@ -1521,3 +1521,20 @@
   access: open
   tags: [vla, awesome-list]
   added: 2026-11-17
+
+- id: robotic-reward-models-survey
+  name: Robotic Reward Models Survey
+  title: Robotic Reward Models in the Foundation-Model Era
+  aliases: [RRM-Bench-1K]
+  date: 2026-11
+  summary: >-
+    Survey organizing 114 robotic reward models into outcome, absolute progress, relative,
+    temporal value and hybrid families, plus RRM-Bench-1K, 1,117 real-robot execution videos
+    with task-state labels on which 27 evaluators rank executions well but track progression
+    more than task state.
+  links:
+    paper: https://arxiv.org/abs/2611.20741
+    project: https://ethanliang99.github.io/awesome-robot-reward-model
+  access: open
+  tags: [reward-model, success-detection, awesome-list, benchmark]
+  added: 2026-11-18

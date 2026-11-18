@@ -3,13 +3,14 @@
 # Surveys & Position Papers
 
 > Surveys, position papers and essays that frame embodied agents and their harnesses.  
-> Layer: meta · 101 entries · [overview](../README.md#survey) · [survey](../SURVEY.md)
+> Layer: meta · 102 entries · [overview](../README.md#survey) · [survey](../SURVEY.md)
 
 **Legend:** 🟢 open · 🟡 partial · 🔵 api · ⚪ closed. Hover a name for the full paper title. Newest first within each year.
 
 **2026**
 
 - 🟢 [**VLA Life-Cycle Survey**](https://arxiv.org/abs/2611.18372 "Vision-Language-Action Models: A Life-Cycle Survey of Design, Training and Deployment") · 2026-11 — Survey of 88 VLA works from December 2022 to October 2026 along seven axes from inputs and architecture to pretraining data, post-training and real-time execution, comparing 22 models on data, size, inference speed and hardware, and reviewing evidence that near-perfect benchmark scores break under small perturbations.
+- 🟢 [**Robotic Reward Models Survey**](https://arxiv.org/abs/2611.20741 "Robotic Reward Models in the Foundation-Model Era") · 2026-11 — Survey organizing 114 robotic reward models into outcome, absolute progress, relative, temporal value and hybrid families, plus RRM-Bench-1K, 1,117 real-robot execution videos with task-state labels on which 27 evaluators rank executions well but track progression more than task state. [project](https://ethanliang99.github.io/awesome-robot-reward-model)
 - 🟢 [**From Egocentric Human Video to Robot Manipulation**](https://arxiv.org/abs/2611.13610 "From Egocentric Human Video to Robot Manipulation in the Era of Embodied Intelligence") · 2026-11 — Survey of learning robot manipulation from egocentric human video, organized into explicit embodiment transfer, action and task supervision, representation pretraining, and latent action and dynamics modeling. [project](https://mikewu597.github.io/Ego2Robot_Learning/)
 - 🟢 [**Envisioning Agentic Robotics**](https://arxiv.org/abs/2611.18359 "Envisioning Agentic Robotics: A New Era of Robotic Systems") · 2026-11 — Position paper arguing that a foundation model plus an embodied harness, an Embodied System 2, forms the decision core of agentic robotics; proposes an evaluation framework covering model capability and closed-loop system performance, and a roadmap toward sustained autonomy. [project](https://grid-robotics-official.github.io/agentic-robotics-roadmap)
 - 🟢 [**Embodied AI for Scientific Discovery**](https://arxiv.org/abs/2611.04371 "Embodied AI for Scientific Discovery: From Physical Action to Scientific Evidence") · 2026-11 — Review treating robot learning and AI for science as one problem with latent specimen, apparatus and measurement state, organized by operational, epistemic and evidential closure of the experiment loop.

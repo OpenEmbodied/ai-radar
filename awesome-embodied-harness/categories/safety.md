@@ -3,7 +3,7 @@
 # Safety, Guardrails & Security
 
 > Guardrails, permissions, constitutions, red-teaming and security of model-driven robots.  
-> Layer: L5 · 74 entries · [overview](../README.md#safety) · [survey](../SURVEY.md)
+> Layer: L5 · 75 entries · [overview](../README.md#safety) · [survey](../SURVEY.md)
 
 **Legend:** 🟢 open · 🟡 partial · 🔵 api · ⚪ closed. Hover a name for the full paper title. Newest first within each year.
 
@@ -11,6 +11,7 @@
 
 - ⚪ [**Who Taught the Robot That?**](https://arxiv.org/abs/2611.10280 "Who Taught the Robot That? Removing One User's Corrections from a Robot Policy That Learns Online") · 2026-11 — Shows that whether a robot learning online from several users can forget one user's corrections depends on how people corrected it, and that retraining on an ordered log of remaining sessions recovers the never-corrected robot for takeover-style corrections. _Note: HumanRLI workshop, CoRL 2026._
 - ⚪ [**When Delay Meets Drift**](https://arxiv.org/abs/2611.02101 "When Delay Meets Drift: Physical Safety of Robot Foundation Models Is a Cross-Layer Problem") · 2026-11 — Treats physical safety as cross-layer variation across environment, model, compute and execution; in 4,000 paired pi0.5 LIBERO episodes a 400 ms delay adds 3.5 points of violations at the training viewpoint but 37 points under a 60-degree camera shift (first-party).
+- ⚪ [**SN-TRV**](https://arxiv.org/abs/2611.18702 "Robustness as a Transferable Skill: Cross-Task Adversarial Defense for Vision-Language-Action Policies") · 2026-11 — Transfers adversarial robustness learned on source manipulation tasks to independently specialized VLA policies by applying a norm-calibrated mean of source defense updates to the target visual encoder; raises physical PiPER success under printed adversarial patches from 20.3% to 45.8% (first-party).
 - ⚪ [**Say the Same, Act Differently**](https://arxiv.org/abs/2611.04166 "Say the Same, Act Differently: Diagnosing and Steering Text-Action Divergence in Reasoning VLAs") · 2026-11 — Shows visual perturbations along a text-neutral action subspace change a reasoning VLA's physical action while its rationale stays word-for-word identical, inducing collisions in 52.6% of driving scenes, so readable rationales cannot certify safe actions. _Note: NeurIPS 2026._
 - ⚪ [**Runtime Safety on a Full-Size Humanoid**](https://arxiv.org/abs/2611.15928 "Runtime Safety and Emergency Stops on a Full-Size Humanoid: Deployment Lessons and a Case for Graduated Force Authority") · 2026-11 — Deployment report on the separate safety layer of an open-source Unitree H1-2 autonomy stack: e-stops remove balance control so the robot falls, and manipulation limits trip during walking; argues for granting robots force authority in stages with an explicitly responsible party.
 - ⚪ [**Route-Guided CBF-QP Repair**](https://arxiv.org/abs/2611.01713 "Route-Guided CBF-QP Repair for Safe Vision-Language-Action Models") · 2026-11 — Post-hoc safety module that uses a VLA's predicted action chunk to detect blocked trajectories and adds entry-exit-rejoin route guidance as a soft term in a CBF-QP filter whose safety constraint stays hard, improving collision avoidance and task success on SafeLIBERO. _Note: Promoted from the queue._

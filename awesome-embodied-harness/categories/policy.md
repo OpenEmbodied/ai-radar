@@ -3,13 +3,15 @@
 # VLA Models & Skill Policies
 
 > "System 1" vision-language-action models and skill policies a harness calls, including hierarchical and dual-system designs.  
-> Layer: L1 · 109 entries · [overview](../README.md#policy) · [survey](../SURVEY.md)
+> Layer: L1 · 111 entries · [overview](../README.md#policy) · [survey](../SURVEY.md)
 
 **Legend:** 🟢 open · 🟡 partial · 🔵 api · ⚪ closed. Hover a name for the full paper title. Newest first within each year.
 
 **2026**
 
 - ⚪ [**VICTR**](https://arxiv.org/abs/2611.08698 "VICTR: Value-Informed In-Context Learning for Vision-Language-Action Models") · 2026-11 — In-context VLA adaptation that retrieves demonstration chunks by estimated task progress from an in-context value function rather than visual similarity, feeding them to a post-trained pi0.5; raises unseen real-world success from 6.2% to 23.8% (first-party). _Note: Promoted from the queue._ [project](https://ai4ce.github.io/VICTR/)
+- ⚪ [**ScaleVLA**](https://arxiv.org/abs/2611.21607 "ScaleVLA: Scaling Vision-Language-Action Models to 552 Billion Parameters") · 2026-11 — Connects a 552B DeepSeek-V4.1-Flash backbone to a trainable action DiT and compares backbones from 2B to 552B under one recipe: 10 demonstrations beat a 2B model trained on 50, LIBERO-PRO reaches 45.1% versus at most 31.3%, at 216 ms median latency per chunk (first-party). [project](https://galaxygeneralrobotics.github.io/scalevla/)
+- ⚪ [**ReRead**](https://arxiv.org/abs/2611.20465 "ReRead: Wrong Predictions, Useful Representations - Correcting Frozen Robot Policies by Re-reading Their Own Representations") · 2026-11 — Corrector that re-reads a frozen policy's current and previous KV caches to predict an action residual, with no images and 4.17% added latency; on the 11 hardest RoboTwin 2.0 tasks it adds 23.45, 13.09 and 8.00 points to LingBot-VLA, pi0.5 and Fast-WAM (first-party).
 - ⚪ [**PRISM**](https://arxiv.org/abs/2611.08917 "PRISM: Primitive Routing via In-context Skill Mixing for Retentive VLA Adaptation") · 2026-11 — Stores each VLA skill family as a parameter-level low-rank primitive, exploiting the observation that per-skill LoRA updates occupy a distinguishable subspace, and routes among primitives along a trajectory so new tasks reuse skills without forgetting old ones. _Note: NeurIPS 2026._
 - ⚪ [**PHIL**](https://arxiv.org/abs/2611.05667 "Correct Robots Before They Make Mistakes: Proactive Human-in-the-Loop Intervention via Preference Learning") · 2026-11 — Operators preview a policy's predicted motion in XR and intervene before undesirable actions; rejected predictions paired with corrections drive preference-based post-training, raising X-VLA from 57.8% to 76.9% with five corrections versus HG-DAgger (first-party). _Note: Promoted from the queue._ [project](https://intuitive-robots.github.io/PHIL-page/)
 - ⚪ [**OopsieRecover**](https://arxiv.org/abs/2611.08462 "OopsieRecover: Learning Transferable VLA Corrections from Semantic Interventions") · 2026-11 — Infers the intent behind a handful of corrective demonstrations by abduction and encodes it as dense spatial representations and conditional costs that steer a VLA away from undesirable actions, generalizing corrections to new objects and scenes. [project](https://robin-lab.cs.utexas.edu/oopsierecover)
