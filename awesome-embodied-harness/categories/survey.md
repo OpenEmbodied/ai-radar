@@ -3,12 +3,13 @@
 # Surveys & Position Papers
 
 > Surveys, position papers and essays that frame embodied agents and their harnesses.  
-> Layer: meta · 102 entries · [overview](../README.md#survey) · [survey](../SURVEY.md)
+> Layer: meta · 103 entries · [overview](../README.md#survey) · [survey](../SURVEY.md)
 
 **Legend:** 🟢 open · 🟡 partial · 🔵 api · ⚪ closed. Hover a name for the full paper title. Newest first within each year.
 
 **2026**
 
+- 🟢 [**When the World Is the Test Suite**](https://arxiv.org/abs/2611.22291 "When the World Is the Test Suite: Agentic Intelligence for the Physical World") · 2026-11 — 83-page survey of coding agents that write, test and repair programs for robots, labs and industrial controllers, organized around how agents write physical-world programs (policies, rewards, tasks, training worlds), how those programs are tested with costly and fallible evidence, and how agents learn from results. [code](https://github.com/PhysicalWorldAgent/Awesome-PhysicalWorldAgent) · [project](https://physicalworldagent.github.io)
 - 🟢 [**VLA Life-Cycle Survey**](https://arxiv.org/abs/2611.18372 "Vision-Language-Action Models: A Life-Cycle Survey of Design, Training and Deployment") · 2026-11 — Survey of 88 VLA works from December 2022 to October 2026 along seven axes from inputs and architecture to pretraining data, post-training and real-time execution, comparing 22 models on data, size, inference speed and hardware, and reviewing evidence that near-perfect benchmark scores break under small perturbations.
 - 🟢 [**Robotic Reward Models Survey**](https://arxiv.org/abs/2611.20741 "Robotic Reward Models in the Foundation-Model Era") · 2026-11 — Survey organizing 114 robotic reward models into outcome, absolute progress, relative, temporal value and hybrid families, plus RRM-Bench-1K, 1,117 real-robot execution videos with task-state labels on which 27 evaluators rank executions well but track progression more than task state. [project](https://ethanliang99.github.io/awesome-robot-reward-model)
 - 🟢 [**From Egocentric Human Video to Robot Manipulation**](https://arxiv.org/abs/2611.13610 "From Egocentric Human Video to Robot Manipulation in the Era of Embodied Intelligence") · 2026-11 — Survey of learning robot manipulation from egocentric human video, organized into explicit embodiment transfer, action and task supervision, representation pretraining, and latent action and dynamics modeling. [project](https://mikewu597.github.io/Ego2Robot_Learning/)

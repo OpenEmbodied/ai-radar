@@ -4296,3 +4296,35 @@
   access: closed
   tags: [navigation, success-detection, legged, memory]
   added: 2026-11-18
+
+- id: interactvla
+  name: InteractVLA
+  title: >-
+    InteractVLA: Turning VLAs into Interactive Tools for Agentic Robotic Manipulation
+  date: 2026-11
+  summary: >-
+    Turns flow-based VLAs into steerable, inspectable tools for VLM agents: test-time
+    geometric guidance pushes the action expert toward an agent-chosen end-effector target,
+    and generated action chunks with camera reprojections are shown back to the agent to
+    diagnose errors and revise targets.
+  links:
+    paper: https://arxiv.org/abs/2611.22584
+  access: closed
+  tags: [tool-use, vla, agentic-loop, manipulation]
+  added: 2026-11-19
+
+- id: craft-scope-ladder
+  name: CRAFT
+  title: 'CRAFT: A Robot-Agent Harness with Scope-Aware Adaptation'
+  date: 2026-11
+  summary: >-
+    Harness that learns where objects belong from human corrections without retraining
+    skills, logging physical success separately from requirement satisfaction and using a
+    scope ladder of memory, explicit rules and a learner; asks fewer questions than LLM
+    agents with persistent memory in camera-grounded simulations.
+  links:
+    paper: https://arxiv.org/abs/2611.19952
+  access: closed
+  tags: [hitl, memory, agentic-loop]
+  note: Promoted from the queue.
+  added: 2026-11-19

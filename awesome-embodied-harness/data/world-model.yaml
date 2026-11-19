@@ -1432,3 +1432,19 @@
     Announced at CoRL 2026 (2026-11-09) alongside Isaac Lab 3.0. The project page lists code
     as available in December 2026; weights were not public on 2026-11-13.
   added: 2026-11-13
+
+- id: rwm-anymal-audit
+  name: Robotic World Model Audit
+  title: >-
+    Auditing a Learned Simulator for Legged Robots: The Robotic World Model on ANYmal D
+  date: 2026-11
+  summary: >-
+    End-to-end audit of a published learned simulator for ANYmal D: one-step checks misjudge
+    design choices (30% pruning keeps 90% of one-step skill but 39% at 2 s), and ensemble
+    disagreement ranks rollout error well yet covers only 4.6% of outcomes at one sigma.
+  links:
+    paper: https://arxiv.org/abs/2611.23118
+    code: https://github.com/joyjeet-singh/rwm
+  access: open
+  tags: [world-model, legged, uncertainty]
+  added: 2026-11-19

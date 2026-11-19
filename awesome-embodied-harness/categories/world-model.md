@@ -3,12 +3,13 @@
 # World Models
 
 > Learned world models and simulators used for planning, policy evaluation and data generation.  
-> Layer: L6 · 80 entries · [overview](../README.md#world-model) · [survey](../SURVEY.md)
+> Layer: L6 · 81 entries · [overview](../README.md#world-model) · [survey](../SURVEY.md)
 
 **Legend:** 🟢 open · 🟡 partial · 🔵 api · ⚪ closed. Hover a name for the full paper title. Newest first within each year.
 
 **2026**
 
+- 🟢 [**Robotic World Model Audit**](https://arxiv.org/abs/2611.23118 "Auditing a Learned Simulator for Legged Robots: The Robotic World Model on ANYmal D") · 2026-11 — End-to-end audit of a published learned simulator for ANYmal D: one-step checks misjudge design choices (30% pruning keeps 90% of one-step skill but 39% at 2 s), and ensemble disagreement ranks rollout error well yet covers only 4.6% of outcomes at one sigma. [code](https://github.com/joyjeet-singh/rwm)
 - 🟢 [**Interactive World Simulation with Cosmos**](https://arxiv.org/abs/2611.06627 "Interactive World Simulation with Cosmos for Physical AI") · 2026-11 · NVIDIA — NVIDIA framework adapting Cosmos world foundation models to real-time interactive simulation that streams observations in response to actions and scene controls, either predicting action consequences or rendering state from an external simulator, across navigation, manipulation and multi-view driving. [code](https://github.com/NVIDIA/cosmos) · [project](https://research.nvidia.com/labs/cosmos-lab/cosmos-simulation) · [weights](https://huggingface.co/collections/nvidia/cosmos3-examples)
 - 🟡 [**GR00T 2**](https://research.nvidia.com/labs/gear/gr00t-2/assets/gr00t2_whitepaper.pdf "GR00T 2: Scaling Robot Foundation Models for Generalization, Dexterity, and Adaptation") · 2026-11 · NVIDIA — NVIDIA's world-action model family that predicts future video and robot actions together across grippers, dexterous hands and humanoids; reports 40% zero-shot success on 50 unseen tasks, 95% after five demonstrations each, and a WAM API through which a reasoning model directs it (first-party). _Note: Announced at CoRL 2026 (2026-11-09) alongside Isaac Lab 3.0. The project page lists code as available in December 2026; weights were not public on 2026-11-13._ [project](https://research.nvidia.com/labs/gear/gr00t-2/) · [data](https://huggingface.co/datasets/nvidia/PhysicalAI-Human-1M-100K)
 - ⚪ [**VQ-WM**](https://arxiv.org/abs/2610.25600 "Vector-Quantized World Model: Latent Feedback Motion Planning for Robot Manipulation") · 2026-10 — Latent feedback motion planning that searches for shortest paths over vector-quantized latent states with a discrete transition model, then reaches each latent subgoal with continuous visual feedback control, to curb compounding errors over long horizons.

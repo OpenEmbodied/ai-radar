@@ -3403,3 +3403,40 @@
     no code repository linked yet. Promoted from the queue.
   added: 2026-11-15
   updated: 2026-11-16
+
+- id: practice-is-not-free
+  name: Practice Is Not Free
+  title: 'Practice Is Not Free: Measuring the Embodied Cost of Reset-Free Robot Practice'
+  date: 2026-11
+  summary: >-
+    Open low-cost SO-101 testbed in which two ACT policies reset each other while a ledger
+    records time, joint travel and human interventions per attempt, framing cost-aware
+    practice scheduling; a fixed retry limit saved no robot time in 51 minutes of hardware
+    runs (first-party).
+  links:
+    paper: https://arxiv.org/abs/2611.19979
+    code: https://github.com/Vedant2604/so101-cost-aware-scheduler
+  access: open
+  tags: [benchmark, self-improving, success-detection]
+  note: Promoted from the queue.
+  added: 2026-11-19
+
+- id: hospitalbench
+  name: HospitalBench
+  title: >-
+    HospitalBench: Diagnosing Where and Why Embodied Agents Fail on Long Hospital Task
+    Chains
+  date: 2026-11
+  summary: >-
+    Diagnostic Isaac Sim benchmark of ten hospital chores, each a causal chain of five
+    sub-tasks that VLM agents tackle through skill-level tools, reading where a chain
+    breaks, how agents react to failed calls and how their position estimates drift; first
+    results cover 15 of 60 planned runs.
+  links:
+    paper: https://arxiv.org/abs/2611.19274
+  access: closed
+  tags: [benchmark, long-horizon, tool-use]
+  note: >-
+    Preliminary version; scenes, task chains and scripted robot are promised for release.
+    Promoted from the queue.
+  added: 2026-11-19

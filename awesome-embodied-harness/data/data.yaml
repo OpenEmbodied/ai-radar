@@ -1755,3 +1755,36 @@
   access: closed
   tags: [data-generation, code-as-policy, vla, failure-recovery]
   added: 2026-11-17
+
+- id: hubego-100k
+  name: HubEgo-100K
+  title: 'HubEgo-100K: In-the-Wild Egocentric Video of Skilled Work for Robot Learning'
+  date: 2026-11
+  summary: >-
+    First release (v1.0) of an egocentric skilled-work dataset: 10,124 hours of 1080p video
+    with 100 Hz IMU from 12,227 contributors in 15,548 environments, 83% in workplaces, as
+    72,754 annotated episodes in LeRobot and MCAP formats under CC BY 4.0.
+  links:
+    paper: https://arxiv.org/abs/2611.21938
+    data: https://huggingface.co/datasets/HubLabs/HubEgo-100K
+  access: open
+  tags: [dataset, video, cross-embodiment]
+  added: 2026-11-19
+
+- id: ego2sim2humanoid
+  name: Ego2Sim2Humanoid
+  title: >-
+    Ego2Sim2Humanoid: Agentic Real-to-Sim for Learning Loco-Manipulation VLAs without Robot
+    Demonstrations
+  date: 2026-11
+  summary: >-
+    Converts egocentric-glasses recordings into physically verified humanoid training
+    trajectories: an agentic real-to-sim stage rebuilds collision and visual assets and
+    predicts contact bands, then grasp planning, stance optimization and whole-body motion
+    generation adapt the motion for loco-manipulation VLA training.
+  links:
+    paper: https://arxiv.org/abs/2611.19196
+  access: closed
+  tags: [data-generation, humanoid, sim2real, vla]
+  note: Promoted from the queue.
+  added: 2026-11-19

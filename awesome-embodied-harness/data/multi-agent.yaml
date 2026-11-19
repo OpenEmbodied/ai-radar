@@ -1007,3 +1007,36 @@
   access: open
   tags: [multi-robot, planning, tool-use, benchmark]
   added: 2026-11-14
+
+- id: roboteam
+  name: RoboTeam
+  title: >-
+    RoboTeam: Benchmarking Vision-Based Multi-Agent Control of Many Robot Arms in Real Time
+  date: 2026-11
+  summary: >-
+    Simulated benchmark of 36 long jobs in which agents control 4 to 16 arms in real time
+    from camera images alone; with an adaptive delegate-forking system, gpt-6.1-sol and
+    opus-5.5 complete 28 and 27 tasks, but a typical task costs 3.5 hours and 218 million
+    input tokens (first-party).
+  links:
+    paper: https://arxiv.org/abs/2611.22138
+  access: closed
+  tags: [multi-robot, benchmark, agentic-loop, manipulation]
+  added: 2026-11-19
+
+- id: heave-ho
+  name: Heave-Ho
+  title: 'Heave-Ho: Decentralized Long-Horizon Multi-Humanoid Collaboration'
+  date: 2026-11
+  summary: >-
+    Decentralized multi-humanoid loco-manipulation: multi-agent post-training adapts a
+    humanoid tracking model to physically coupled interaction, and a VLM planner with
+    speech-based leader-follower coordination synchronizes robots without network messages;
+    scales from two to ten robots, with the 12-task HH-Bench.
+  links:
+    paper: https://arxiv.org/abs/2611.22275
+    code: https://github.com/heaveho-humanoid/Heave-Ho
+    project: https://heaveho-humanoid.github.io/
+  access: open
+  tags: [multi-robot, humanoid, long-horizon, benchmark]
+  added: 2026-11-19

@@ -1538,3 +1538,20 @@
   access: open
   tags: [reward-model, success-detection, awesome-list, benchmark]
   added: 2026-11-18
+
+- id: physical-world-agent-survey
+  name: When the World Is the Test Suite
+  title: 'When the World Is the Test Suite: Agentic Intelligence for the Physical World'
+  date: 2026-11
+  summary: >-
+    83-page survey of coding agents that write, test and repair programs for robots, labs
+    and industrial controllers, organized around how agents write physical-world programs
+    (policies, rewards, tasks, training worlds), how those programs are tested with costly
+    and fallible evidence, and how agents learn from results.
+  links:
+    paper: https://arxiv.org/abs/2611.22291
+    code: https://github.com/PhysicalWorldAgent/Awesome-PhysicalWorldAgent
+    project: https://physicalworldagent.github.io
+  access: open
+  tags: [code-as-policy, awesome-list, self-improving]
+  added: 2026-11-19

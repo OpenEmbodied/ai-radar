@@ -1270,3 +1270,18 @@
   access: closed
   tags: [security, vla, manipulation]
   added: 2026-11-18
+
+- id: reachy-config-attacks
+  name: Network-Exposed Configuration Attacks
+  title: Network-Exposed Configuration Attacks on LLM-Controlled Social Robots
+  date: 2026-11
+  summary: >-
+    Security study of the Reachy Mini Lite showing an unauthenticated network attacker can
+    replace the cloud LLM's system prompt and personality through a management interface,
+    changing physical behavior where prompt injection failed; a review finds missing
+    authentication in 10 of 11 verifiable public applications.
+  links:
+    paper: https://arxiv.org/abs/2611.22761
+  access: closed
+  tags: [security, safety, real-world]
+  added: 2026-11-19
