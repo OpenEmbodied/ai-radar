@@ -3440,3 +3440,35 @@
     Preliminary version; scenes, task chains and scripted robot are promised for release.
     Promoted from the queue.
   added: 2026-11-19
+
+- id: robobuilder
+  name: RoboBuilder
+  title: 'RoboBuilder: Agentic Robot Co-Design with Real-world Video Feedback in the Loop'
+  date: 2026-11
+  summary: >-
+    Benchmark in which coding agents co-design robot hardware and programs from standard
+    parts, and every simulated pass is built and tested on a physical course: across 135
+    physical robots only 66% of simulated passes hold, and videos of real failures let
+    agents remove 72% of level-1 and level-2 failures (first-party).
+  links:
+    paper: https://arxiv.org/abs/2611.23855
+    code: https://github.com/ghadinehme/RoboBuilder
+    project: https://ghadinehme.com/robobuilder.github.io/
+  access: open
+  tags: [benchmark, code-as-policy, real-world, sim2real]
+  added: 2026-11-20
+
+- id: robodx
+  name: RoboDx
+  title: 'RoboDx: Repair and Diagnosis of Faults in Robot Software'
+  date: 2026-11
+  summary: >-
+    Repair-task generator for simulated robot navigation software with injected faults and
+    hidden driving verifiers; Claude Opus 5.5's repairs nearly all verify, yet on 50
+    two-fault tasks only 17 of 49 verified repairs remove both faults, and models name the
+    cause from measurements on at most 38 of 94 tasks (first-party).
+  links:
+    paper: https://arxiv.org/abs/2611.23816
+  access: closed
+  tags: [benchmark, ros, success-detection]
+  added: 2026-11-20

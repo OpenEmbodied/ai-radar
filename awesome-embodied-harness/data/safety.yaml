@@ -1285,3 +1285,37 @@
   access: closed
   tags: [security, safety, real-world]
   added: 2026-11-19
+
+- id: reclaim
+  name: RECLAIM
+  title: >-
+    RECLAIM: Robot-Vision-Informed Adversarial Patch Defense via Embodied Attention Feedback
+  date: 2026-11
+  summary: >-
+    Training-free defense that uses a frozen VLA's own attention response to local visual
+    edits, with robot geometry, to localize and purify adversarial patches during
+    closed-loop manipulation; raises LIBERO-Object success under attack from 0% to 70.0% at
+    548.9 ms per step (first-party).
+  links:
+    paper: https://arxiv.org/abs/2611.24494
+  access: closed
+  tags: [security, vla, manipulation]
+  added: 2026-11-20
+
+- id: vla-landmark-synonyms
+  name: VLA Landmark Synonyms
+  title: >-
+    Meaning Reaches Object Choice but Not Completion: Where Is a VLA Vulnerable to Landmark
+    Synonyms?
+  date: 2026-11
+  summary: >-
+    Probes the released GR00T N1.7 on LIBERO-Spatial: unseen synonyms of a landmark word
+    still steer it to the right bowl but complete 67.6% of episodes versus 100%, and
+    token-pasting interventions locate where meaning is lost around the VLM-to-action
+    connector.
+  links:
+    paper: https://arxiv.org/abs/2611.24076
+  access: closed
+  tags: [vla, safety, benchmark]
+  note: CoRL 2026 TAG workshop.
+  added: 2026-11-20

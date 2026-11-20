@@ -2024,3 +2024,18 @@
   access: closed
   tags: [vla, failure-recovery, manipulation]
   added: 2026-11-18
+
+- id: gti-task-intent
+  name: GTI
+  title: 'GTI: Grounding Task Intent Throughout Long-Horizon VLA Manipulation'
+  date: 2026-11
+  summary: >-
+    Keeps long-horizon task intent grounded by localizing the active subtask and phase,
+    conditioning the VLA on phase-specific visual targets for contact and completion, and
+    recovering via rollback and re-observation; GR00T on seen composite RoboCasa365 tasks
+    rises from 14.6% to 31.8% in distribution (first-party).
+  links:
+    paper: https://arxiv.org/abs/2611.23926
+  access: closed
+  tags: [vla, long-horizon, failure-recovery, manipulation]
+  added: 2026-11-20

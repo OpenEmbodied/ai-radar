@@ -4328,3 +4328,36 @@
   tags: [hitl, memory, agentic-loop]
   note: Promoted from the queue.
   added: 2026-11-19
+
+- id: replan-vla
+  name: RePlan-VLA
+  title: >-
+    RePlan-VLA: Progress-Aware Replanning for Long-Horizon Vision-Language-Action Models
+  date: 2026-11
+  summary: >-
+    VLA-agnostic execution framework that keeps the VLA for short-horizon skills while
+    monitoring robot motion to evaluate progress and revising the remaining plan from
+    observed outcomes, with no VLA fine-tuning; 21.9 and 10.4 points above the next baseline
+    on RoboCasa365 and CALVIN (first-party).
+  links:
+    paper: https://arxiv.org/abs/2611.23843
+  access: closed
+  tags: [planning, failure-recovery, vla, long-horizon]
+  added: 2026-11-20
+
+- id: aerorsi
+  name: AeroRSI
+  title: 'AeroRSI: Recursive Self-Improvement for Aerial Vision-Language Navigation'
+  date: 2026-11
+  summary: >-
+    Recursive self-improvement for UAV navigation policies that judge candidate repairs at
+    their own failure states by flying on from them, then distill verified repairs each
+    round; three rounds raise a 2B policy on TravelUAV from 46.4% to 67.5% and halve
+    collisions (first-party).
+  links:
+    paper: https://arxiv.org/abs/2611.24077
+    code: https://github.com/starsholic/AeroRSI
+    project: https://starsholic.github.io/AeroRSI/
+  access: open
+  tags: [self-improving, uav, vla, failure-recovery]
+  added: 2026-11-20

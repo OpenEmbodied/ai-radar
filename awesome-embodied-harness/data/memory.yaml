@@ -1458,3 +1458,20 @@
   access: closed
   tags: [memory, success-detection, skill-library]
   added: 2026-11-18
+
+- id: evonav
+  name: EvoNav
+  title: >-
+    Beyond Episodic Recall: Experience-to-Knowledge Evolution for Lifelong Embodied
+    Navigation
+  date: 2026-11
+  summary: >-
+    Two-timescale memory for lifelong object-goal navigation that consolidates observations,
+    spatial relations and task feedback into sparse experience atoms online, then distills
+    them into environment-specific structural knowledge to guide each new goal search.
+  links:
+    paper: https://arxiv.org/abs/2611.22321
+  access: closed
+  tags: [memory, navigation, self-improving]
+  note: Promoted from the queue.
+  added: 2026-11-20

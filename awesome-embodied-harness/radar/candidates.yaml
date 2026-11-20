@@ -6,32 +6,8 @@
   url: https://roboticsandautomationnews.com/2026/11/05/agibot-unveils-go-3-preview-and-takes-top-spot-on-three-embodied-ai-benchmarks/106711/
   title: GO-3 Preview embodied foundation model (WRAM architecture)
   first_seen: 2026-11-13
-  last_checked: 2026-11-19
+  last_checked: 2026-11-20
   suggested_category: policy
   reason: >-
     News report only (2026-11-05): claims first place on RoboDojo, RoboTwin and RoboColiseum and
     full open-sourcing by the end of 2026. No official AgiBot page, paper or repository found yet.
-
-- name: FailureGen
-  url: https://arxiv.org/abs/2611.22367
-  title: 'FailureGen: Scalable Robot Failure Data Generation with World Models'
-  first_seen: 2026-11-19
-  last_checked: 2026-11-19
-  suggested_category: data
-  reason: Verified; over the daily cap on 2026-11-19.
-
-- name: SR-VLA
-  url: https://arxiv.org/abs/2611.22356
-  title: 'SR-VLA: Stall-Reduced VLA Execution via Predicted-Input Lookahead and Selective KV Cache Repair'
-  first_seen: 2026-11-19
-  last_checked: 2026-11-19
-  suggested_category: framework
-  reason: Verified; over the daily cap on 2026-11-19.
-
-- name: EvoNav
-  url: https://arxiv.org/abs/2611.22321
-  title: 'Beyond Episodic Recall: Experience-to-Knowledge Evolution for Lifelong Embodied Navigation'
-  first_seen: 2026-11-19
-  last_checked: 2026-11-19
-  suggested_category: memory
-  reason: Verified; over the daily cap on 2026-11-19.

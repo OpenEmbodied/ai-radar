@@ -1448,3 +1448,19 @@
   access: open
   tags: [world-model, legged, uncertainty]
   added: 2026-11-19
+
+- id: doppel-wm
+  name: Doppel
+  title: 'Render the Robot, Generate the World: One Video World Model Across Embodiments'
+  date: 2026-11
+  summary: >-
+    Embodiment-agnostic video world model conditioned on camera-aligned renderings of future
+    body configurations plus action trajectories, trained on about 600 hours across eight
+    robot and human embodiments; improves PSNR over action-only baselines by 1.00 dB on
+    held-out trajectories (first-party).
+  links:
+    paper: https://arxiv.org/abs/2611.24925
+    project: https://doppelwm.github.io/
+  access: closed
+  tags: [world-model, cross-embodiment, video]
+  added: 2026-11-20

@@ -497,3 +497,21 @@
   note: >-
     The repository named in the paper (X-Square-Robot/xinfer) did not resolve on 2026-11-14.
   added: 2026-11-14
+
+- id: sr-vla
+  name: SR-VLA
+  title: >-
+    SR-VLA: Stall-Reduced VLA Execution via Predicted-Input Lookahead and Selective KV Cache
+    Repair
+  date: 2026-11
+  summary: >-
+    Hides VLA inference stalls by predicting next-boundary observations and state,
+    precomputing a speculative KV cache and action chunk, then accepting it or selectively
+    repairing the cache once real inputs arrive; 2.67x and 1.27x query speedups over
+    synchronous pi0.5 and OpenVLA-OFT on LIBERO (first-party).
+  links:
+    paper: https://arxiv.org/abs/2611.22356
+  access: closed
+  tags: [vla, on-device]
+  note: Promoted from the queue.
+  added: 2026-11-20

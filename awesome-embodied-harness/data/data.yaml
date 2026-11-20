@@ -1788,3 +1788,19 @@
   tags: [data-generation, humanoid, sim2real, vla]
   note: Promoted from the queue.
   added: 2026-11-19
+
+- id: failuregen
+  name: FailureGen
+  title: 'FailureGen: Scalable Robot Failure Data Generation with World Models'
+  date: 2026-11
+  summary: >-
+    Generates synthetic robot failure videos by fine-tuning an action-conditioned Cosmos
+    world model and transferring failure motion from recorded failures into successful host
+    contexts; a failure detector trained with the generated data detects 33 of 36 failure
+    intervals versus 28 with real data alone (first-party).
+  links:
+    paper: https://arxiv.org/abs/2611.22367
+  access: closed
+  tags: [data-generation, success-detection, world-model]
+  note: Promoted from the queue.
+  added: 2026-11-20
