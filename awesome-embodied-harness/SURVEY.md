@@ -273,20 +273,20 @@ Counts by category and year of first release, generated from `data/`.
 | Category | Layer | Total | ≤2021 | 2022 | 2023 | 2024 | 2025 | 2026 | open |
 |---|---|---|---|---|---|---|---|---|---|
 | [Surveys & Position Papers](categories/survey.md) | meta | 103 | 1 | 1 | 8 | 10 | 30 | 53 | 27 |
-| [Embodied Harnesses](categories/harness.md) | L4 | 252 | 0 | 10 | 30 | 23 | 14 | 175 | 91 |
+| [Embodied Harnesses](categories/harness.md) | L4 | 256 | 0 | 10 | 30 | 23 | 14 | 179 | 91 |
 | [Open-Source Frameworks & Runtimes](categories/framework.md) | L0-L4 | 31 | 0 | 1 | 5 | 11 | 5 | 9 | 26 |
 | [Action Interfaces, Skills & Tool Protocols](categories/interface.md) | L2 | 48 | 0 | 0 | 5 | 10 | 11 | 22 | 21 |
 | [World State, Memory & Spatial Context](categories/memory.md) | L3 | 85 | 0 | 4 | 6 | 15 | 10 | 50 | 35 |
-| [Embodied Reasoning Models & Planners](categories/brain.md) | L4 | 60 | 0 | 0 | 5 | 4 | 18 | 33 | 32 |
-| [VLA Models & Skill Policies](categories/policy.md) | L1 | 112 | 0 | 1 | 5 | 7 | 42 | 57 | 60 |
+| [Embodied Reasoning Models & Planners](categories/brain.md) | L4 | 62 | 0 | 0 | 5 | 4 | 18 | 35 | 32 |
+| [VLA Models & Skill Policies](categories/policy.md) | L1 | 113 | 0 | 1 | 5 | 7 | 42 | 58 | 60 |
 | [World Models](categories/world-model.md) | L6 | 82 | 0 | 1 | 3 | 7 | 26 | 45 | 45 |
-| [Verification, Failure Detection & Recovery](categories/verification.md) | L5 | 80 | 0 | 0 | 4 | 7 | 14 | 55 | 29 |
+| [Verification, Failure Detection & Recovery](categories/verification.md) | L5 | 81 | 0 | 0 | 4 | 7 | 14 | 56 | 29 |
 | [Safety, Guardrails & Security](categories/safety.md) | L5 | 78 | 0 | 0 | 1 | 9 | 15 | 53 | 22 |
 | [Multi-Robot & Fleet Orchestration](categories/multi-agent.md) | L4 | 59 | 0 | 0 | 5 | 8 | 13 | 33 | 24 |
 | [Simulators & Environments](categories/sim.md) | L6 | 62 | 12 | 1 | 6 | 5 | 10 | 28 | 45 |
-| [Benchmarks & Evaluation](categories/benchmark.md) | L6 | 195 | 5 | 1 | 4 | 19 | 31 | 135 | 102 |
-| [Data, Teleoperation & Training Infrastructure](categories/data.md) | L6 | 105 | 5 | 0 | 9 | 18 | 35 | 38 | 69 |
-| **Total** |  | **1352** | 23 | 20 | 96 | 153 | 274 | 786 | 628 |
+| [Benchmarks & Evaluation](categories/benchmark.md) | L6 | 198 | 5 | 1 | 4 | 19 | 31 | 138 | 103 |
+| [Data, Teleoperation & Training Infrastructure](categories/data.md) | L6 | 106 | 5 | 0 | 9 | 18 | 35 | 39 | 69 |
+| **Total** |  | **1364** | 23 | 20 | 96 | 153 | 274 | 798 | 629 |
 <!-- END GENERATED: stats -->
 
 ---

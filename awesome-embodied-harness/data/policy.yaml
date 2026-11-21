@@ -2039,3 +2039,19 @@
   access: closed
   tags: [vla, long-horizon, failure-recovery, manipulation]
   added: 2026-11-20
+
+- id: awaken-hi
+  name: Awaken-HI
+  title: 'Awaken-HI: Scaling Humanoid Intelligence with Whole-Body Human Experience'
+  date: 2026-11
+  summary: >-
+    Humanoid loco-manipulation VLA pretrained on Awaken-Human, about 50,000 hours of
+    egocentric stereo video with synchronized whole-body motion, jointly predicting human
+    motion and retargeted robot actions; reaches 93.75% mean success across eight real
+    tasks, ahead of GR00T N1.7 and pi0.5 (first-party).
+  links:
+    paper: https://arxiv.org/abs/2611.26420
+    project: https://engineai-robotics.github.io/Awaken-HI
+  access: closed
+  tags: [humanoid, vla, cross-embodiment, video]
+  added: 2026-11-21

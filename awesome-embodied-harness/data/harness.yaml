@@ -4361,3 +4361,68 @@
   access: open
   tags: [self-improving, uav, vla, failure-recovery]
   added: 2026-11-20
+
+- id: reasoning-on-call
+  name: Reasoning on Call
+  title: >-
+    Reasoning on Call: Efficient Agentic Robot Control for Long-Horizon Robot Manipulation
+  aliases: [RoC]
+  date: 2026-11
+  summary: >-
+    Coordinates a low-level policy with a high-level reasoning agent through an online
+    task-state monitor that estimates subtask progress and triggers agent review only when
+    execution or the plan needs repair; on RMBench, +24.0 points success with 65.3% fewer
+    tokens than the strongest agent baseline (first-party).
+  links:
+    paper: https://arxiv.org/abs/2611.26341
+  access: closed
+  tags: [agentic-loop, dual-system, failure-recovery, long-horizon]
+  added: 2026-11-21
+
+- id: unicraft
+  name: UniCraft
+  title: >-
+    Alignment Drives Reuse: Learning Generalizable Robot-Use Agents from Heterogeneous
+    Experience
+  date: 2026-11
+  summary: >-
+    Aligns scene geometry conventions, sensing and control interfaces and task formats
+    across benchmarks and robots so interaction feedback from 3 benchmarks and 6 embodiments
+    refines one shared skill set and orchestration policy with no demonstrations or weight
+    updates; frozen skills transfer to 4 new embodiments.
+  links:
+    paper: https://arxiv.org/abs/2611.26376
+  access: closed
+  tags: [skill-library, cross-embodiment, self-improving, agentic-loop]
+  added: 2026-11-21
+
+- id: coachsi
+  name: CoachSI
+  title: 'CoachSI: Self-Improvement of Robot Policies with a Language Coach'
+  date: 2026-11
+  summary: >-
+    Self-improvement in which a frozen VLM watches the robot and names the next step in the
+    policy's own atomic instructions, never outputting actions; hindsight-relabeled coached
+    rollouts fine-tune the policy, raising unassisted long-horizon success in unseen scenes
+    from 47.4% to 59.3% (first-party).
+  links:
+    paper: https://arxiv.org/abs/2611.25529
+    project: https://tlxhlll.github.io/CoachSI/
+  access: closed
+  tags: [self-improving, long-horizon, vla]
+  added: 2026-11-21
+
+- id: jarvis-circuit-boards
+  name: JARVIS (circuit boards)
+  title: 'JARVIS: An Agent That Designs, Builds, and Tests Circuit Boards on Its Own'
+  date: 2026-11
+  summary: >-
+    Embodied agent that closes the hardware design loop: it scans its workspace into an
+    executable digital twin to rehearse robot motions and fabrication, drives a robot arm,
+    PCB printer and pick-and-place machine, tests the board and revises the design; one
+    first run took 2 h 39 min with no human help (first-party).
+  links:
+    paper: https://arxiv.org/abs/2611.26503
+  access: closed
+  tags: [agentic-loop, tool-use, real-world, long-horizon]
+  added: 2026-11-21

@@ -3472,3 +3472,56 @@
   access: closed
   tags: [benchmark, ros, success-detection]
   added: 2026-11-20
+
+- id: simaudit
+  name: SimAudit
+  title: >-
+    Phantom Success, Silent Failure: Auditing the Success Checkers of Simulated Manipulation
+    Benchmarks
+  date: 2026-11
+  summary: >-
+    LLM pipeline auditing the hand-written success checkers of simulated benchmarks against
+    task instructions, recreating disagreement scenarios and verifying them visually; finds
+    61 distinct defects across 49 tasks in RoboTwin 2.0, RoboCasa365 and RoboDojo, 40
+    phantom successes and 21 silent failures (first-party).
+  links:
+    paper: https://arxiv.org/abs/2611.25179
+  access: closed
+  tags: [benchmark, success-detection]
+  added: 2026-11-21
+
+- id: phydex
+  name: PhyDEX
+  title: >-
+    PhyDEX: A Benchmark for Physical Reasoning in Vision-Language-Action Models via Dynamic
+    Extrinsic Dexterity
+  date: 2026-11
+  summary: >-
+    Throwing benchmark of 35K trajectories across nine tasks and 100 scenes in which a robot
+    must infer mass, center of mass and friction to land objects beyond its workspace; GR00T
+    N1.7, DynamicVLA and ForceVLA all succeed under 3%, and ground-truth physical properties
+    roughly double success (first-party).
+  links:
+    paper: https://arxiv.org/abs/2611.26565
+  access: closed
+  tags: [benchmark, vla, dataset]
+  added: 2026-11-21
+
+- id: mind2act-world
+  name: Mind2Act World
+  title: >-
+    Mind2Act World: A Diagnostic Benchmark for Embodied Mind, Physical Action, and
+    Mind-Action Composition in Robotic Manipulation
+  date: 2026-11
+  summary: >-
+    Diagnostic benchmark of 30 manipulation tasks in 180 configurations split into Mind
+    (history-based decisions), Act (precise, timely execution) and Mind2Act (both in closed
+    loop), with a diagnosis harness; the strongest agent scores 52.7% on Mind and 39.0% on
+    Act but 12.0% on Mind2Act (first-party).
+  links:
+    paper: https://arxiv.org/abs/2611.26444
+    code: https://github.com/Mind2Act/Mind2Act_World
+    project: https://mind2act-world.com/
+  access: open
+  tags: [benchmark, memory, manipulation, agentic-loop]
+  added: 2026-11-21

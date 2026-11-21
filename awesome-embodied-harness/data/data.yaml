@@ -1804,3 +1804,21 @@
   tags: [data-generation, success-detection, world-model]
   note: Promoted from the queue.
   added: 2026-11-20
+
+- id: agentictask
+  name: AgenticTask
+  title: >-
+    Agentic Scaling of Embodied Tasks in Simulation for Synthetic Data Collection and Policy
+    Evaluation
+  date: 2026-11
+  summary: >-
+    Agent framework that expands simulated task collections: a generation agent builds
+    validated task variations from interaction requirements and object bindings, and an
+    execution agent selects skills and checks completion; on RoboCasa it saved 16,450 task
+    instances at about 167 per hour (first-party).
+  links:
+    paper: https://arxiv.org/abs/2611.26046
+  access: closed
+  tags: [data-generation, benchmark, agentic-loop]
+  note: The dataset and project pages named in the paper did not resolve on 2026-11-21.
+  added: 2026-11-21

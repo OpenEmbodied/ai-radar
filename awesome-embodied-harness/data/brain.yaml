@@ -1076,3 +1076,33 @@
   access: closed
   tags: [rl, agentic-loop, sim2real, manipulation]
   added: 2026-11-17
+
+- id: embodyagent
+  name: EmbodyAgent
+  title: 'EmbodyAgent: Post-Training Embodied VLM Agents via Distillation, SFT, and RL'
+  date: 2026-11
+  summary: >-
+    Post-training stack turning an open 9B VLM into a code-writing robot-use agent through
+    black-box teacher data synthesis, SFT and online RL with a runtime-error-penalized
+    reward; held-out LIBERO-Spatial success rises from 0/100 to 14/100 after SFT and 84/100
+    after RL (first-party).
+  links:
+    paper: https://arxiv.org/abs/2611.26196
+  access: closed
+  tags: [code-as-policy, rl, agentic-loop, manipulation]
+  added: 2026-11-21
+
+- id: ace-brain-0-7
+  name: ACE-Brain-0.7
+  title: 'ACE-Brain-0.7: Learning Execution-Grounded Reasoning for Embodied Agents'
+  date: 2026-11
+  summary: >-
+    9B embodied VLM fine-tuned from Qwen3.5-9B on 3.7M execution-grounded question-answer
+    pairs from egocentric video, robot episodes and simulation, combining spatial grounding,
+    task understanding and progress estimation; averages 76.5 on six task-reasoning
+    benchmarks (first-party).
+  links:
+    paper: https://arxiv.org/abs/2611.26519
+  access: closed
+  tags: [spatial-reasoning, success-detection, planning]
+  added: 2026-11-21

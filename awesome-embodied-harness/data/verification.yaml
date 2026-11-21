@@ -1394,3 +1394,20 @@
   access: closed
   tags: [reward-model, success-detection, long-horizon]
   added: 2026-11-20
+
+- id: agentrobocritic
+  name: AgentRoboCritic
+  title: >-
+    AgentRoboCritic: Understanding the Capability of Frontier Agents on Direct Robot Control
+  date: 2026-11
+  summary: >-
+    Action-level study of frontier agents on direct robot control across 12 manipulation
+    benchmarks: the agent states a local intent with each action and a critic judges outcome
+    and failure mode; releases 12,844 annotated actions and a 30B critic whose failure-mode
+    accuracy rises from 32.58% to 74.24% (first-party).
+  links:
+    paper: https://arxiv.org/abs/2611.26613
+    project: https://adu2021.github.io/blog/AgentRoboCritic/
+  access: partial
+  tags: [success-detection, agentic-loop, benchmark, manipulation]
+  added: 2026-11-21

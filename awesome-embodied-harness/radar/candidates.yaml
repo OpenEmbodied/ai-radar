@@ -6,8 +6,40 @@
   url: https://roboticsandautomationnews.com/2026/11/05/agibot-unveils-go-3-preview-and-takes-top-spot-on-three-embodied-ai-benchmarks/106711/
   title: GO-3 Preview embodied foundation model (WRAM architecture)
   first_seen: 2026-11-13
-  last_checked: 2026-11-20
+  last_checked: 2026-11-21
   suggested_category: policy
   reason: >-
     News report only (2026-11-05): claims first place on RoboDojo, RoboTwin and RoboColiseum and
     full open-sourcing by the end of 2026. No official AgiBot page, paper or repository found yet.
+
+- name: HumanCOIN
+  url: https://arxiv.org/abs/2611.26434
+  title: 'HumanCOIN: A 12,500-Hour Dataset for Human Intent in Egocentric Manipulation'
+  first_seen: 2026-11-21
+  last_checked: 2026-11-21
+  suggested_category: data
+  reason: Verified; over the daily cap on 2026-11-21.
+
+- name: A2-VLA
+  url: https://arxiv.org/abs/2611.25656
+  title: 'A$^2$-VLA: Adapting Vision-Language-Action Policies to New Tools through Agentic Affordance Discovery'
+  first_seen: 2026-11-21
+  last_checked: 2026-11-21
+  suggested_category: policy
+  reason: Verified; over the daily cap on 2026-11-21.
+
+- name: PGX
+  url: https://arxiv.org/abs/2611.26596
+  title: 'PGX: Physically Grounded Execution for Long-Horizon Humanoid Loco-Manipulation'
+  first_seen: 2026-11-21
+  last_checked: 2026-11-21
+  suggested_category: harness
+  reason: Verified; over the daily cap on 2026-11-21.
+
+- name: LoongForge-Embodied
+  url: https://arxiv.org/abs/2611.25460
+  title: 'LoongForge-Embodied: A Unified Framework for Training Heterogeneous Embodied Models'
+  first_seen: 2026-11-21
+  last_checked: 2026-11-21
+  suggested_category: framework
+  reason: Verified; over the daily cap on 2026-11-21.
