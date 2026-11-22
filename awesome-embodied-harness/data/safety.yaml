@@ -1319,3 +1319,20 @@
   tags: [vla, safety, benchmark]
   note: CoRL 2026 TAG workshop.
   added: 2026-11-20
+
+- id: safi
+  name: SAFI
+  title: Teaching Vision-Language-Action Models to Stop Safely
+  date: 2026-11
+  summary: >-
+    Shows VLAs that refuse a prohibited task from the start can still finish it when taking
+    over mid-execution, or drop held objects; State-Aware Fallback Imitation teaches a
+    hold-in-place response at intermediate states, cutting prohibited success after takeover
+    to 1.3% on LIBERO with no physical incidents (first-party).
+  links:
+    paper: https://arxiv.org/abs/2611.26239
+    code: https://github.com/franciscoliu/SAFI
+    project: https://franciscoliu.github.io/SAFI/
+  access: open
+  tags: [safety, vla, manipulation]
+  added: 2026-11-22

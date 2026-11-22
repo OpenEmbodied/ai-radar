@@ -2055,3 +2055,21 @@
   access: closed
   tags: [humanoid, vla, cross-embodiment, video]
   added: 2026-11-21
+
+- id: a2-vla
+  name: A2-VLA
+  title: >-
+    A$^2$-VLA: Adapting Vision-Language-Action Policies to New Tools through Agentic
+    Affordance Discovery
+  date: 2026-11
+  summary: >-
+    Tool adaptation in which an embodied agent treats affordances as hypotheses, testing
+    them in scenes reconstructed in simulation and accumulating validated
+    affordance-extraction skills that condition a pi0.5 backbone; +30.7 points over pi0.5 on
+    three real tool-use tasks with unseen tools (first-party).
+  links:
+    paper: https://arxiv.org/abs/2611.25656
+  access: closed
+  tags: [tool-use, vla, skill-library, agentic-loop]
+  note: Promoted from the queue.
+  added: 2026-11-22

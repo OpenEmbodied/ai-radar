@@ -515,3 +515,20 @@
   tags: [vla, on-device]
   note: Promoted from the queue.
   added: 2026-11-20
+
+- id: loongforge-embodied
+  name: LoongForge-Embodied
+  title: >-
+    LoongForge-Embodied: A Unified Framework for Training Heterogeneous Embodied Models
+  date: 2026-11
+  summary: >-
+    PyTorch framework unifying training of heterogeneous VLA and world-action models behind
+    a shared abstraction layer with FP8 communication, a data pipeline that synthesizes
+    robot data from egocentric video, and concurrent simulator evaluation; 1.47x to 4.38x
+    training throughput over open baselines (first-party).
+  links:
+    paper: https://arxiv.org/abs/2611.25460
+  access: closed
+  tags: [vla, world-model]
+  note: Promoted from the queue.
+  added: 2026-11-22

@@ -1822,3 +1822,20 @@
   tags: [data-generation, benchmark, agentic-loop]
   note: The dataset and project pages named in the paper did not resolve on 2026-11-21.
   added: 2026-11-21
+
+- id: humancoin
+  name: HumanCOIN
+  title: 'HumanCOIN: A 12,500-Hour Dataset for Human Intent in Egocentric Manipulation'
+  date: 2026-11
+  summary: >-
+    12,500-hour first-person manipulation dataset built around human intent in three tiers:
+    gaze inferred from headband video (10,000 h), surface EMG of muscle load (2,000 h) and
+    scalp EEG (500 h), with multi-view RGB-D, head and wrist pose and step-level annotations
+    across 38 scene classes.
+  links:
+    paper: https://arxiv.org/abs/2611.26434
+    project: https://flagopen.github.io/HumanCOIN
+  access: closed
+  tags: [dataset, video, teleop]
+  note: Promoted from the queue.
+  added: 2026-11-22

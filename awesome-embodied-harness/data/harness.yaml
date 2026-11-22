@@ -4426,3 +4426,20 @@
   access: closed
   tags: [agentic-loop, tool-use, real-world, long-horizon]
   added: 2026-11-21
+
+- id: pgx
+  name: PGX
+  title: 'PGX: Physically Grounded Execution for Long-Horizon Humanoid Loco-Manipulation'
+  date: 2026-11
+  summary: >-
+    Splits long-horizon humanoid loco-manipulation into a predicate-based state machine that
+    gates phases and triggers recovery, VLA skills inside manipulation phases, and
+    world-coordinate locking for spatial consistency, evaluated on three simulated tasks and
+    a real Unitree G1.
+  links:
+    paper: https://arxiv.org/abs/2611.26596
+    project: https://kl-research.github.io/pgx
+  access: closed
+  tags: [humanoid, failure-recovery, long-horizon, vla]
+  note: Promoted from the queue.
+  added: 2026-11-22
