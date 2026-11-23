@@ -2843,7 +2843,7 @@
 
 - id: embodiedlab
   name: EmbodiedLab
-  title: 'EmbodiedLab: Benchmarking Embodied Agents That Act to Know'
+  title: 'EmbodiedLab: Beyond Manipulation, Benchmarking Embodied Agents That Act to Know'
   date: 2026-10
   summary: >-
     Benchmark where a robot must act to know: 30 quantitative science experiments in five
@@ -2856,6 +2856,7 @@
   access: open
   tags: [benchmark, agentic-loop, planning]
   added: 2026-10-28
+  updated: 2026-11-23
 
 - id: osma-bench
   name: OSMA-Bench

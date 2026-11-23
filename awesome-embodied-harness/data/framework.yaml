@@ -162,8 +162,10 @@
   tags: [ros, tool-use, humanoid, legged]
   note: >-
     Linked technical paper (Dec 2024) describes the natural-language data-bus design;
-    default configs call OpenMind-hosted endpoints (API key).
+    default configs call OpenMind-hosted endpoints (API key). GitHub shows the repository as
+    archived (read-only) since 2026-11-14.
   added: 2026-09-29
+  updated: 2026-11-23
 
 - id: dimos
   name: dimOS
@@ -235,7 +237,10 @@
   tags: [ros, tool-use, agentic-loop]
   note: >-
     Date is the first release (v1.0.0 on GitHub/PyPI, 2024-08); paper posted 2024-10.
+    v1.0.11 (18 Nov 2026) is a security release fixing command injection in roslaunch
+    arguments and path traversal in read_log.
   added: 2026-09-29
+  updated: 2026-11-23
 
 - id: rai
   name: RAI
@@ -492,11 +497,12 @@
     workloads (first-party).
   links:
     paper: https://arxiv.org/abs/2611.14969
-  access: closed
+    code: https://github.com/X-Square-Robot/xinfer
+  access: open
   tags: [vla, real-world]
-  note: >-
-    The repository named in the paper (X-Square-Robot/xinfer) did not resolve on 2026-11-14.
+  note: Code released by 2026-11-23 (RTC chunking, single-robot and fleet serving).
   added: 2026-11-14
+  updated: 2026-11-23
 
 - id: sr-vla
   name: SR-VLA

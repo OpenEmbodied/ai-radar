@@ -274,7 +274,7 @@ Counts by category and year of first release, generated from `data/`.
 |---|---|---|---|---|---|---|---|---|---|
 | [Surveys & Position Papers](categories/survey.md) | meta | 103 | 1 | 1 | 8 | 10 | 30 | 53 | 27 |
 | [Embodied Harnesses](categories/harness.md) | L4 | 257 | 0 | 10 | 30 | 23 | 14 | 180 | 91 |
-| [Open-Source Frameworks & Runtimes](categories/framework.md) | L0-L4 | 32 | 0 | 1 | 5 | 11 | 5 | 10 | 26 |
+| [Open-Source Frameworks & Runtimes](categories/framework.md) | L0-L4 | 32 | 0 | 1 | 5 | 11 | 5 | 10 | 27 |
 | [Action Interfaces, Skills & Tool Protocols](categories/interface.md) | L2 | 48 | 0 | 0 | 5 | 10 | 11 | 22 | 21 |
 | [World State, Memory & Spatial Context](categories/memory.md) | L3 | 85 | 0 | 4 | 6 | 15 | 10 | 50 | 35 |
 | [Embodied Reasoning Models & Planners](categories/brain.md) | L4 | 62 | 0 | 0 | 5 | 4 | 18 | 35 | 32 |
@@ -286,7 +286,7 @@ Counts by category and year of first release, generated from `data/`.
 | [Simulators & Environments](categories/sim.md) | L6 | 62 | 12 | 1 | 6 | 5 | 10 | 28 | 45 |
 | [Benchmarks & Evaluation](categories/benchmark.md) | L6 | 198 | 5 | 1 | 4 | 19 | 31 | 138 | 103 |
 | [Data, Teleoperation & Training Infrastructure](categories/data.md) | L6 | 107 | 5 | 0 | 9 | 18 | 35 | 40 | 69 |
-| **Total** |  | **1369** | 23 | 20 | 96 | 153 | 274 | 803 | 630 |
+| **Total** |  | **1369** | 23 | 20 | 96 | 153 | 274 | 803 | 631 |
 <!-- END GENERATED: stats -->
 
 ---

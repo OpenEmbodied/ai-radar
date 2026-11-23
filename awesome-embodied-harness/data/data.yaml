@@ -1419,13 +1419,13 @@
   links:
     paper: https://arxiv.org/abs/2307.04577
     code: https://github.com/dexsuite/dex-retargeting
-    project: https://yzqin.github.io/anyteleop/
   access: partial
   tags: [teleop, dexterous, cross-embodiment]
   note: >-
-    Project page links component code (retargeting, web visualizer) rather than the full
-    system.
+    The project page (and the author's github.io site) returned 404 on 2026-11-23 and was
+    removed; the retargeting component remains available as dex-retargeting.
   added: 2026-09-29
+  updated: 2026-11-23
 
 - id: aloha
   name: ALOHA
