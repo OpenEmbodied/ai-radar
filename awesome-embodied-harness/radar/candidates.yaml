@@ -6,8 +6,32 @@
   url: https://roboticsandautomationnews.com/2026/11/05/agibot-unveils-go-3-preview-and-takes-top-spot-on-three-embodied-ai-benchmarks/106711/
   title: GO-3 Preview embodied foundation model (WRAM architecture)
   first_seen: 2026-11-13
-  last_checked: 2026-11-22
+  last_checked: 2026-11-24
   suggested_category: policy
   reason: >-
     News report only (2026-11-05): claims first place on RoboDojo, RoboTwin and RoboColiseum and
     full open-sourcing by the end of 2026. No official AgiBot page, paper or repository found yet.
+
+- name: RoboPRO
+  url: https://arxiv.org/abs/2611.26971
+  title: 'RoboPRO: A Perturbation-Resilient and Obstacle-Aware Benchmark for Robotic Manipulation'
+  first_seen: 2026-11-24
+  last_checked: 2026-11-24
+  suggested_category: benchmark
+  reason: Verified; over the daily cap on 2026-11-24.
+
+- name: Capability Contracts
+  url: https://arxiv.org/abs/2611.27939
+  title: 'What Must a Model Tell a Planner? Outcome Interfaces for Risk-Aware Planning After Robot Damage'
+  first_seen: 2026-11-24
+  last_checked: 2026-11-24
+  suggested_category: world-model
+  reason: Verified; over the daily cap on 2026-11-24.
+
+- name: Humanoid Switching Safety Filter
+  url: https://arxiv.org/abs/2611.27845
+  title: 'Humanoid robots for safety-critical electrical switching: A perception-informed runtime constraint filter'
+  first_seen: 2026-11-24
+  last_checked: 2026-11-24
+  suggested_category: safety
+  reason: Verified; over the daily cap on 2026-11-24.

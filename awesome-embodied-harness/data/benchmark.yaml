@@ -3526,3 +3526,69 @@
   access: open
   tags: [benchmark, memory, manipulation, agentic-loop]
   added: 2026-11-21
+
+- id: rosworld
+  name: ROSWorld
+  title: 'ROSWORLD: When Digital Task Competence Meets Physical Execution'
+  date: 2026-11
+  summary: >-
+    Couples a physically simulated robot workstation to a live OSWorld desktop so a robot
+    must type and click through peripherals from camera views; frontier models that solve
+    31-39 of 40 desktop tasks complete at most 23 with a probe and 28 with dexterous hands
+    (first-party).
+  links:
+    paper: https://arxiv.org/abs/2611.27467
+  access: closed
+  tags: [benchmark, dexterous, tool-use]
+  added: 2026-11-24
+
+- id: manipscope
+  name: ManipScope
+  title: >-
+    ManipScope: A Diagnostic Benchmark for Instruction Following and Generalization in
+    Robotic Manipulation
+  date: 2026-11
+  summary: >-
+    Evaluation-only RoboTwin 2.0 benchmark of 48 held-out scenes with chained failure
+    diagnostics; when the target is reassigned on identical states, ten policy checkpoints
+    follow every instruction on 3.9% of states, below a 16% instruction-blind chooser, while
+    a GPT-6 agent reaches 88% (first-party).
+  links:
+    paper: https://arxiv.org/abs/2611.27305
+  access: closed
+  tags: [benchmark, vla, manipulation]
+  added: 2026-11-24
+
+- id: robodyna
+  name: RoboDyna
+  title: >-
+    RoboDyna: A Benchmark for Evaluating Robotic Manipulation under Physically Grounded
+    Dynamics
+  date: 2026-11
+  summary: >-
+    Dynamic-manipulation benchmark of 20 conceptual and 10 household tasks with 3,500
+    demonstrations and paired synchronous and asynchronous evaluation; all evaluated VLAs
+    and a world-action model succeed below 20%, and inference latency flips 5-12% of episode
+    outcomes (first-party).
+  links:
+    paper: https://arxiv.org/abs/2611.26969
+    project: https://robodyna.github.io/robodyna/
+  access: closed
+  tags: [benchmark, vla, world-model]
+  added: 2026-11-24
+
+- id: mem-x
+  name: Mem-X
+  title: >-
+    Mem-X: A Memory-Dependent Cross-Episode Benchmark for Vision-and-Language Navigation
+  date: 2026-11
+  summary: >-
+    Cross-episode VLN benchmark of 2,071 episodes in 710 sessions where later instructions
+    refer to objects and routes from earlier episodes, testing recall, in-memory
+    localization and off-memory relocalization, with the MemBridge memory baseline.
+  links:
+    paper: https://arxiv.org/abs/2611.27166
+    code: https://github.com/NJU-R-L-Group-Embodied-Lab/Mem-X
+  access: open
+  tags: [benchmark, memory, navigation]
+  added: 2026-11-24

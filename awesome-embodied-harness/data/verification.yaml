@@ -1411,3 +1411,20 @@
   access: partial
   tags: [success-detection, agentic-loop, benchmark, manipulation]
   added: 2026-11-21
+
+- id: comp-uq
+  name: CoMP
+  title: >-
+    Coherent Moment Propagation: Epistemic Uncertainty for Pre-trained Robot Policies
+  date: 2026-11
+  summary: >-
+    Epistemic uncertainty for pretrained flow-matching policies by propagating mean,
+    variance and state-weight cross-covariance through the ODE solver, fixing the variance
+    collapse of BayesDiff; applied to failure detection and demonstration selection on three
+    manipulation benchmarks.
+  links:
+    paper: https://arxiv.org/abs/2611.26855
+    project: https://comp-uq.github.io/comp-uq/
+  access: closed
+  tags: [uncertainty, success-detection]
+  added: 2026-11-24

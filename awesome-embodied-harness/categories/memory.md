@@ -3,7 +3,7 @@
 # World State, Memory & Spatial Context
 
 > Scene graphs, semantic maps, spatial and episodic memory; the harness's context window onto the world.  
-> Layer: L3 · 85 entries · [overview](../README.md#memory) · [survey](../SURVEY.md)
+> Layer: L3 · 86 entries · [overview](../README.md#memory) · [survey](../SURVEY.md)
 
 **Legend:** 🟢 open · 🟡 partial · 🔵 api · ⚪ closed. Hover a name for the full paper title. Newest first within each year.
 
@@ -11,6 +11,7 @@
 
 - ⚪ [**SimplEvo**](https://arxiv.org/abs/2611.11509 "Review the Episodes, Refine the Lessons: Simple Memory Evolution for Embodied Agents") · 2026-11 — Tests how far an MLLM improves under direct control with only self-written text memories, a task memory from one demonstration and a working memory refined after each training episode; lifts GPT-6 Astra on EBench from 46.7% to 81.7% and tops RoboDojo (first-party).
 - ⚪ [**ReuseMem**](https://arxiv.org/abs/2611.21115 "ReuseMem: One Memory, Multiple Goals in Robot Manipulation") · 2026-11 — Records goal-independent visual memory once and retrieves complementary evidence for each later manipulation request, with retrieval supervised by how well evidence supports expert-action prediction; improves joint goal completion by 24.5 points over uniform memory on four simulation tasks (first-party).
+- ⚪ [**MomentMem**](https://arxiv.org/abs/2611.26745 "MomentMem: Memorizing Key Moments for Robot Manipulation") · 2026-11 — Hierarchical visual moment memory in which a VLM memorizer selects keyframes and an executor acts on them, with the VMBench suite of memory-dependent manipulation tasks; 49.9% average success on VMBench, 31.7 points above the strongest baseline (first-party).
 - 🟢 [**Is Your Robots Memory Just a Clock?**](https://arxiv.org/abs/2611.14488 "Is Your Robot's Memory Just a Clock? Temporal Shortcuts in Memory-Augmented VLA Policies") · 2026-11 — Shows memory VLAs that sample frames by time treat a brief pause or wrist fidget as work done (phantom progress), cutting RoboMME counting success from 47 to 16 of 50, and traces the failure to a temporal shortcut learned from steadily paced demonstrations. [code](https://github.com/bennidict23/memory-clock)
 - ⚪ [**HiMEM**](https://arxiv.org/abs/2611.09355 "HiMEM: Hippocampus-Inspired Memory Consolidation, Pruning, and Composition for Vision-Language-Action Models in 3D Scenes") · 2026-11 — VLA memory that consolidates episodic experiences into compact semantic memories, prunes redundant episodes and composes multiple memories for new scenarios; raises pi0 from 91.88% to 98.20% on LIBERO (first-party).
 - ⚪ [**HeMeR**](https://arxiv.org/abs/2611.16487 "HeMeR: Heterogeneous Memory Reconciliation for Embodied Agents via Structured KV Reuse") · 2026-11 — Inference framework that tracks declarative, procedural and working memory across an embodied agent's decisions and recomputes only the KV-cache states whose memory content changed; 83.20% real-world task success with per-step time cut from 2.94 to 1.87 s versus MemRL (first-party). _Note: NeurIPS 2026 oral._

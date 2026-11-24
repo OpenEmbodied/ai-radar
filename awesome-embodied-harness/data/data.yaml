@@ -1839,3 +1839,18 @@
   tags: [dataset, video, teleop]
   note: Promoted from the queue.
   added: 2026-11-22
+
+- id: robocap-10k
+  name: RoboCap-10k
+  title: 'RoboCap-10k: A Metrically Accurate Egocentric Dataset for Robot Learning'
+  date: 2026-11
+  summary: >-
+    10,000 hours of unscripted manipulation from paid work shifts in 11 countries, all
+    captured on one six-camera, dual-IMU hat with online calibration, gravity-aligned 6-DoF
+    head trajectories, centimeter-precise hand poses and task and sub-task captions.
+  links:
+    paper: https://arxiv.org/abs/2611.26916
+    project: https://robocap10k.com
+  access: closed
+  tags: [dataset, video, 3d]
+  added: 2026-11-24

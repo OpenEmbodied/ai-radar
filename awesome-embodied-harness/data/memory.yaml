@@ -1475,3 +1475,18 @@
   tags: [memory, navigation, self-improving]
   note: Promoted from the queue.
   added: 2026-11-20
+
+- id: momentmem
+  name: MomentMem
+  title: 'MomentMem: Memorizing Key Moments for Robot Manipulation'
+  date: 2026-11
+  summary: >-
+    Hierarchical visual moment memory in which a VLM memorizer selects keyframes and an
+    executor acts on them, with the VMBench suite of memory-dependent manipulation tasks;
+    49.9% average success on VMBench, 31.7 points above the strongest baseline
+    (first-party).
+  links:
+    paper: https://arxiv.org/abs/2611.26745
+  access: closed
+  tags: [memory, manipulation, long-horizon, benchmark]
+  added: 2026-11-24

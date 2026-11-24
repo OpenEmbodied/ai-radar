@@ -1110,3 +1110,18 @@
   access: closed
   tags: [benchmark, mobile-manipulation, tool-use, protocol]
   added: 2026-11-19
+
+- id: gamma-scape
+  name: γ-Scape
+  title: '$γ$-Scape: An Agent-Centric World for Mobile Embodied Intelligence'
+  date: 2026-11
+  summary: >-
+    Agent-centric simulation and benchmark platform for mobile manipulation in which agents
+    compose motion tools and learned skills in a persistent world, with BenchForge task
+    grounding, an agentic demonstration-collection harness and trace-informed program
+    revision.
+  links:
+    paper: https://arxiv.org/abs/2611.27306
+  access: closed
+  tags: [mobile-manipulation, benchmark, data-generation, self-improving]
+  added: 2026-11-24

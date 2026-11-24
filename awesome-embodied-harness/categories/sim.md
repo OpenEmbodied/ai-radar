@@ -3,12 +3,13 @@
 # Simulators & Environments
 
 > Physics simulators, rendering stacks and environment platforms for building and testing harnesses.  
-> Layer: L6 · 62 entries · [overview](../README.md#sim) · [survey](../SURVEY.md)
+> Layer: L6 · 63 entries · [overview](../README.md#sim) · [survey](../SURVEY.md)
 
 **Legend:** 🟢 open · 🟡 partial · 🔵 api · ⚪ closed. Hover a name for the full paper title. Newest first within each year.
 
 **2026**
 
+- ⚪ [**γ-Scape**](https://arxiv.org/abs/2611.27306 "$γ$-Scape: An Agent-Centric World for Mobile Embodied Intelligence") · 2026-11 — Agent-centric simulation and benchmark platform for mobile manipulation in which agents compose motion tools and learned skills in a persistent world, with BenchForge task grounding, an agentic demonstration-collection harness and trace-informed program revision.
 - ⚪ [**PAIR**](https://arxiv.org/abs/2611.23070 "PAIR: Bringing Household Robots into the Smart Home") · 2026-11 — Matter-protocol smart-home simulation with 84 device assets whose control panels and APIs share state, plus a 40-task benchmark with 340 demonstrations; fine-tuned VLAs complete none of 120 episodes, and even with oracle plans and API access most failures stall at navigation, grasping or doors (first-party).
 - ⚪ [**HolidayFactory 1.0**](https://arxiv.org/abs/2611.11789 "HolidayFactory 1.0: Simulating, Generating, and Evaluating Industrial Robot Tasks") · 2026-11 — Framework for industrial robot work where scene state persists across repeated jobs: extended hydroelastic contact simulation on Newton, generation of workplaces and scenario variants, and job-level metrics and rubrics. _Note: Promoted from the queue._
 - 🟢 [**Alloy**](https://arxiv.org/abs/2611.16312 "Alloy: A Multi-Material Physics Engine for Robot Learning") · 2026-11 — Open-source physics engine on Newton, MuJoCo Warp and Warp in which rigid robots, cloth, cables, liquids, granular and soft bodies share one GPU-parallel scene; built to be driven by coding agents, with in-package docs, errors that name their fix, and the engine exposed as MCP tools. [code](https://github.com/argonrobotics-ai/alloy)

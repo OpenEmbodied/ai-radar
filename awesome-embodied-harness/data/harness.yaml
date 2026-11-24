@@ -4443,3 +4443,65 @@
   tags: [humanoid, failure-recovery, long-horizon, vla]
   note: Promoted from the queue.
   added: 2026-11-22
+
+- id: embodied-harness-rsi
+  name: Embodied-Harness
+  title: 'Embodied-Harness: Towards Recursive Self-Improvement for Robotic Manipulation'
+  date: 2026-11
+  summary: >-
+    Dual-agent harness in which an Actor controls the robot and a Reflector turns execution
+    evidence into reusable operational guidance, with hierarchical memory and recursive
+    harness self-improvement and no weight updates; 82.4% on RoboTwin 2.0, 76.7% on RoboSPA
+    and 94.4% on RMBench (first-party).
+  links:
+    paper: https://arxiv.org/abs/2611.27689
+  access: closed
+  tags: [self-improving, memory, agentic-loop, manipulation]
+  added: 2026-11-24
+
+- id: navrsi
+  name: NavRSI
+  title: 'NavRSI: Recursive Harness Self-Improvement for Vision-and-Language Navigation'
+  date: 2026-11
+  summary: >-
+    Recursive self-improvement of a VLN harness around frozen LLMs: a designer agent
+    rewrites tools, memory and roles from trajectories and privileged simulator diagnostics
+    the navigator never sees, keeping only revisions that help; 85.64% on R2R-CE val-unseen
+    with GPT-6-Astra from a single RGB camera (first-party).
+  links:
+    paper: https://arxiv.org/abs/2611.27499
+  access: closed
+  tags: [self-improving, navigation, agentic-loop]
+  added: 2026-11-24
+
+- id: evoter
+  name: EvoTER
+  title: 'EvoTER: Evolving Embodied Agents via Tool-Use Experience and Reflection'
+  date: 2026-11
+  summary: >-
+    Explorer, Diagnoser and Validator roles evolve an embodied agent's tool-use skills
+    (selection, parameters, postcondition checks, recovery) without weight updates, keeping
+    revisions only if they raise complete-task success in fresh sessions; simulation success
+    rises from 53.60% to 80.40% (first-party).
+  links:
+    paper: https://arxiv.org/abs/2611.27797
+    project: https://evoter-project.github.io/
+  access: closed
+  tags: [self-improving, skill-library, tool-use, failure-recovery]
+  added: 2026-11-24
+
+- id: tripwire-trip
+  name: Tripwire (TRIP)
+  title: 'Tripwire: Robot Agents that Program Their Own Interrupts under Human Disturbance'
+  aliases: [TRIP, RoboHD]
+  date: 2026-11
+  summary: >-
+    Event-driven harness in which the agent writes a tripwire with each policy call, a small
+    stateful program that runs beside the VLA or WAM, can query a compact VLM, and hands
+    control back when it fires; on RoboHD it raises safety from 61.3% to 81.3% without
+    losing task success (first-party).
+  links:
+    paper: https://arxiv.org/abs/2611.27182
+  access: closed
+  tags: [agentic-loop, safety, hitl, code-as-policy]
+  added: 2026-11-24
