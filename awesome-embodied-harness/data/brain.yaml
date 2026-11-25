@@ -1106,3 +1106,19 @@
   access: closed
   tags: [spatial-reasoning, success-detection, planning]
   added: 2026-11-21
+
+- id: innata-0
+  name: Innata-0
+  title: 'Innata-0: A Native Embodied World System with Model-Agent Co-Design'
+  date: 2026-11
+  summary: >-
+    BAAI's embodied world system that co-designs a tri-tower mixture-of-transformers
+    world-action model for understanding, prediction and action with an agent that handles
+    memory, verification and recovery, aligning model training with agent execution through
+    validated experience.
+  links:
+    paper: https://arxiv.org/abs/2611.30254
+    project: https://baai-eai.github.io/innata-0/
+  access: closed
+  tags: [world-model, agentic-loop, dual-system, manipulation]
+  added: 2026-11-25

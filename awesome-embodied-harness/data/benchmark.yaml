@@ -3592,3 +3592,53 @@
   access: open
   tags: [benchmark, memory, navigation]
   added: 2026-11-24
+
+- id: ruibench
+  name: RUIBench
+  title: 'RUIBench: What Makes a Good Robot-Use Interface?'
+  date: 2026-11
+  summary: >-
+    Benchmark of 30 manipulation tasks plus RUIKit, which crosses six action abstractions
+    with two interaction forms into 13 robot-use interfaces; changing only the interface
+    moves a frontier agent from 45% to 81% success, and agents often declare success despite
+    visible failures (first-party).
+  links:
+    paper: https://arxiv.org/abs/2611.31115
+    code: https://github.com/showlab/RUIBench
+    project: https://showlab.github.io/RUIBench/
+  access: open
+  tags: [benchmark, tool-use, agentic-loop, success-detection]
+  added: 2026-11-25
+
+- id: worldleague
+  name: WorldLeague
+  title: 'WorldLeague: Benchmarking Physical Agency'
+  date: 2026-11
+  summary: >-
+    Compares VLMs, VLAs and WAMs on 60 simulated robot tasks for seeking evidence,
+    rearranging and adapting, scored by progress toward each physical goal; Claude Fable 5.2
+    leads with 13 of 60 goals, and VLMs answering every final question right still score
+    zero progress in 71.8% of those episodes (first-party).
+  links:
+    paper: https://arxiv.org/abs/2611.30989
+    code: https://github.com/xyangzhou/WorldLeague
+    project: https://xyangzhou.github.io/WorldLeague/
+  access: open
+  tags: [benchmark, leaderboard, agentic-loop]
+  added: 2026-11-25
+
+- id: robolivemem
+  name: RoboLiveMem
+  title: 'RoboLiveMem: Is Robot Memory Solved When the World Does Not Wait?'
+  date: 2026-11
+  summary: >-
+    Runs 29 robot-memory task families twice, with the world paused and running while the
+    model thinks; across 16 models and 34,176 episodes, Claude and GPT models succeed in 97%
+    of paused episodes but 50% with the world running, mostly because they act on stale
+    frames (first-party).
+  links:
+    paper: https://arxiv.org/abs/2611.30047
+    project: https://robolivemem.github.io/
+  access: closed
+  tags: [benchmark, memory, agentic-loop]
+  added: 2026-11-25

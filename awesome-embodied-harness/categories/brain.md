@@ -3,13 +3,14 @@
 # Embodied Reasoning Models & Planners
 
 > "System 2" models trained or adapted for embodied reasoning, spatial grounding, pointing and task planning.  
-> Layer: L4 · 62 entries · [overview](../README.md#brain) · [survey](../SURVEY.md)
+> Layer: L4 · 63 entries · [overview](../README.md#brain) · [survey](../SURVEY.md)
 
 **Legend:** 🟢 open · 🟡 partial · 🔵 api · ⚪ closed. Hover a name for the full paper title. Newest first within each year.
 
 **2026**
 
 - ⚪ [**PEAR (robot-use RL)**](https://arxiv.org/abs/2611.18562 "Training Reasoning Models in Simulation to Natively Use Real Robots") · 2026-11 — Trains an open-weight 27B reasoning model to drive robots natively, emitting end-effector poses after a chain of thought with no harness, via robot-use RL in simulation without demonstrations; LIBERO rises from 1.6% to 74.4% and it succeeds in 60% of real dual-arm trials (first-party).
+- ⚪ [**Innata-0**](https://arxiv.org/abs/2611.30254 "Innata-0: A Native Embodied World System with Model-Agent Co-Design") · 2026-11 — BAAI's embodied world system that co-designs a tri-tower mixture-of-transformers world-action model for understanding, prediction and action with an agent that handles memory, verification and recovery, aligning model training with agent execution through validated experience. [project](https://baai-eai.github.io/innata-0/)
 - ⚪ [**EviSeek**](https://arxiv.org/abs/2611.06434 "EviSeek: An Evidence-Centric Agentic Framework for Embodied Active Information Seeking") · 2026-11 — Training-free agent for active embodied question answering that turns each question into explicit evidence demands, links viewpoint changes and interactions to the evidence they should reveal and keeps only relevant evidence; +7.1 points with Qwen3-VL-32B on ESI-Bench (first-party).
 - ⚪ [**EmbodyAgent**](https://arxiv.org/abs/2611.26196 "EmbodyAgent: Post-Training Embodied VLM Agents via Distillation, SFT, and RL") · 2026-11 — Post-training stack turning an open 9B VLM into a code-writing robot-use agent through black-box teacher data synthesis, SFT and online RL with a runtime-error-penalized reward; held-out LIBERO-Spatial success rises from 0/100 to 14/100 after SFT and 84/100 after RL (first-party).
 - ⚪ [**ACE-Brain-0.7**](https://arxiv.org/abs/2611.26519 "ACE-Brain-0.7: Learning Execution-Grounded Reasoning for Embodied Agents") · 2026-11 — 9B embodied VLM fine-tuned from Qwen3.5-9B on 3.7M execution-grounded question-answer pairs from egocentric video, robot episodes and simulation, combining spatial grounding, task understanding and progress estimation; averages 76.5 on six task-reasoning benchmarks (first-party).

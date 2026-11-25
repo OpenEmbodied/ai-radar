@@ -1125,3 +1125,23 @@
   access: closed
   tags: [mobile-manipulation, benchmark, data-generation, self-improving]
   added: 2026-11-24
+
+- id: robouniverse-10k
+  name: RoboUniverse-10K
+  title: >-
+    RoboUniverse-10K: Toward the Scaling Era of Agentic Robotics via Real-to-Sim
+    Environments
+  date: 2026-11
+  summary: >-
+    10,807 resettable, verifiable physics environments built from real-world videos by an
+    automated real-to-sim pipeline, each in a Harbor-compatible harness that hides grading
+    logic, plus RoboUniverse-35B-A3B, which lifts zero-shot success on RoboUniverse-Verified
+    from 0.8% to 21.2% (first-party).
+  links:
+    paper: https://arxiv.org/abs/2611.31002
+    code: https://github.com/Einsia/RoboUniverse-10K
+    project: https://lab.einsia.ai/robo-universe/
+    weights: https://huggingface.co/Einsia/RoboUniverse-35B-A3B
+  access: open
+  tags: [benchmark, code-as-policy, data-generation, rl]
+  added: 2026-11-25

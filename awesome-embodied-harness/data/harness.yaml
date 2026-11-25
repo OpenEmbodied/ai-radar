@@ -4505,3 +4505,105 @@
   access: closed
   tags: [agentic-loop, safety, hitl, code-as-policy]
   added: 2026-11-24
+
+- id: embo-harness
+  name: Embo-Harness
+  title: 'Embo-Harness: Towards Understanding Frontier-Model-as-Policy Harness'
+  date: 2026-11
+  summary: >-
+    Systematic study of frontier-model-as-policy harnesses across prompting, planning,
+    action execution and tool use, distilled into six findings and a recipe that favors the
+    model's native visual reasoning over handcrafted skills; 83.3% on RoboLab-120 and 15 of
+    20 real zero-shot trials (first-party).
+  links:
+    paper: https://arxiv.org/abs/2611.31201
+    code: https://github.com/DravenALG/Embo-Harness
+    project: https://dravenalg.github.io/projects/Embo-Harness/
+  access: open
+  tags: [agentic-loop, tool-use, manipulation, real-world]
+  added: 2026-11-25
+
+- id: reweave
+  name: ReWeave
+  title: >-
+    ReWeave: Emergent Physical Task Topologies for Embodied Harness Optimization and
+    Cross-Task Meta-Distillation
+  date: 2026-11
+  summary: >-
+    Jointly optimizes an embodied agent harness and an emergent physical task topology from
+    interaction with frozen policies and perception, then meta-distills a shared harness
+    across tasks; held-out RoboDojo success rises from 25.50% to 58.25% and LIBERO-PRO from
+    89.00% to 98.75% (first-party).
+  links:
+    paper: https://arxiv.org/abs/2611.31053
+    code: https://github.com/xuyicheng-zju/ReWeave
+    project: https://xuyicheng-zju.github.io/ReWeave/
+  access: open
+  tags: [self-improving, agentic-loop, long-horizon]
+  added: 2026-11-25
+
+- id: roboharness-zero
+  name: RoboHarness-Zero
+  title: 'Body and Soul: Decoupling Robotic Brain and Policy with RoboHarness-Zero'
+  date: 2026-11
+  summary: >-
+    Prep-free harness: a VLM plans and monitors zero-shot while a frozen VLA does continuous
+    control, rephrasing instructions or briefly running primitive code only when progress
+    stalls; lifts Xiaomi-Robotics-1 from 57.5% to 70.5% while keeping 90.4% of its
+    standalone successes (first-party).
+  links:
+    paper: https://arxiv.org/abs/2611.30550
+  access: closed
+  tags: [dual-system, agentic-loop, vla, failure-recovery]
+  added: 2026-11-25
+
+- id: agent-on-guard
+  name: Agent on Guard
+  title: >-
+    Agent on Guard: Self-Improving Runtime Intervention for Robust Robotic Manipulation
+  aliases: [AoG]
+  date: 2026-11
+  summary: >-
+    Hierarchical framework in which an evolving planner decides when a programming agent
+    should intervene on a frozen base policy and turns its recoveries into reusable
+    collaboration skills; 50.57% success on RoboDojo-Sim, with 80.4% lower latency and 85.1%
+    fewer tokens than a GPT-6 Astra agent (first-party).
+  links:
+    paper: https://arxiv.org/abs/2611.30101
+  access: closed
+  tags: [self-improving, failure-recovery, code-as-policy, dual-system]
+  added: 2026-11-25
+
+- id: robothink
+  name: RoboThink
+  title: 'RoboThink: Let the Agent Think, Let the Policy Act'
+  date: 2026-11
+  summary: >-
+    Trains a policy to act on a watching reasoning agent's guidance mid-task, through an
+    instruction channel and a motion-correction channel, so the agent fixes drifts that
+    plain instructions cannot; on 50 RoboTwin 2.0 tasks under constant drift success rises
+    from 0.12 to 0.74, and the agent is swappable (first-party).
+  links:
+    paper: https://arxiv.org/abs/2611.30111
+    project: https://robo-think.github.io/
+  access: closed
+  tags: [dual-system, vla, failure-recovery]
+  note: >-
+    The repository linked from the project page (robo-think/RoboThink) did not resolve on
+    2026-11-25.
+  added: 2026-11-25
+
+- id: contact-harness
+  name: Contact Harness
+  title: 'Contact Harness: Enabling VLM Agents to Perform Contact-Rich Manipulation'
+  date: 2026-11
+  summary: >-
+    Harness that guides a VLM agent with reusable, optimized skills to interpret force and
+    tactile feedback by task phase, plus compliant force-regulated execution, with no
+    fine-tuning or demonstrations; GPT-6 Astra fully inserts 15 connector types 90.7% of the
+    time on real robots (first-party).
+  links:
+    paper: https://arxiv.org/abs/2611.29377
+  access: closed
+  tags: [tool-use, agentic-loop, manipulation, real-world]
+  added: 2026-11-25

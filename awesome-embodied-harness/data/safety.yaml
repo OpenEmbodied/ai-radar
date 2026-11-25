@@ -1336,3 +1336,19 @@
   access: open
   tags: [safety, vla, manipulation]
   added: 2026-11-22
+
+- id: saydo
+  name: SayDo
+  title: >-
+    SayDo: Benchmarking the Safety of Frontier Models from Chat to Closed-Loop Robot Control
+  date: 2026-11
+  summary: >-
+    Eleven tasks pairing benign instructions with latent hazards, run in six settings from
+    chat to closed-loop simulated arm control; across six VLMs and 11,480 episodes
+    hazardous-action rates rise from 14% in chat to 47% in the simulator, so text safety
+    evaluations do not predict robot behavior (first-party).
+  links:
+    paper: https://arxiv.org/abs/2611.30957
+  access: closed
+  tags: [safety, benchmark, agentic-loop]
+  added: 2026-11-25
