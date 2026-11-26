@@ -1464,3 +1464,18 @@
   access: closed
   tags: [world-model, cross-embodiment, video]
   added: 2026-11-20
+
+- id: g0-7
+  name: G0.7
+  title: 'G0.7: Scaling Up a Fast World Action Model with Long Context'
+  date: 2026-11
+  summary: >-
+    Generalist world-action model built on Fast-WAM with up to five minutes of context and
+    pretraining on robot teleoperation and human egocentric video; decodes actions directly
+    in 60 ms per 16-step chunk, 7.6x faster than imagine-then-act, with 86.9% mean task
+    progress on seven real tasks (first-party).
+  links:
+    paper: https://arxiv.org/abs/2611.31822
+  access: closed
+  tags: [world-model, long-horizon, real-world]
+  added: 2026-11-26

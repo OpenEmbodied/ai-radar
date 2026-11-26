@@ -6,7 +6,7 @@
   url: https://roboticsandautomationnews.com/2026/11/05/agibot-unveils-go-3-preview-and-takes-top-spot-on-three-embodied-ai-benchmarks/106711/
   title: GO-3 Preview embodied foundation model (WRAM architecture)
   first_seen: 2026-11-13
-  last_checked: 2026-11-25
+  last_checked: 2026-11-26
   suggested_category: policy
   reason: >-
     News report only (2026-11-05): claims first place on RoboDojo, RoboTwin and RoboColiseum and
@@ -16,7 +16,7 @@
   url: https://arxiv.org/abs/2611.26971
   title: 'RoboPRO: A Perturbation-Resilient and Obstacle-Aware Benchmark for Robotic Manipulation'
   first_seen: 2026-11-24
-  last_checked: 2026-11-25
+  last_checked: 2026-11-26
   suggested_category: benchmark
   reason: Verified; over the daily cap on 2026-11-24.
 
@@ -24,7 +24,7 @@
   url: https://arxiv.org/abs/2611.27939
   title: 'What Must a Model Tell a Planner? Outcome Interfaces for Risk-Aware Planning After Robot Damage'
   first_seen: 2026-11-24
-  last_checked: 2026-11-25
+  last_checked: 2026-11-26
   suggested_category: world-model
   reason: Verified; over the daily cap on 2026-11-24.
 
@@ -32,23 +32,15 @@
   url: https://arxiv.org/abs/2611.27845
   title: 'Humanoid robots for safety-critical electrical switching: A perception-informed runtime constraint filter'
   first_seen: 2026-11-24
-  last_checked: 2026-11-25
+  last_checked: 2026-11-26
   suggested_category: safety
   reason: Verified; over the daily cap on 2026-11-24.
-
-- name: EmboEagle
-  url: https://arxiv.org/abs/2611.31173
-  title: 'EmboEagle: An Efficient Agentic Embodied Framework for Long-horizon Robotic Manipulation'
-  first_seen: 2026-11-25
-  last_checked: 2026-11-25
-  suggested_category: harness
-  reason: Verified; over the daily cap on 2026-11-25.
 
 - name: Robo-MOPD
   url: https://arxiv.org/abs/2611.30997
   title: 'Generalizing Agentic Robotics via Multi-Teacher On-Policy Distillation'
   first_seen: 2026-11-25
-  last_checked: 2026-11-25
+  last_checked: 2026-11-26
   suggested_category: brain
   reason: Verified; over the daily cap on 2026-11-25.
 
@@ -56,7 +48,7 @@
   url: https://arxiv.org/abs/2611.30188
   title: 'Calibrating World Action Models: From Adaptive System 2 Takeover to Self-Evolution'
   first_seen: 2026-11-25
-  last_checked: 2026-11-25
+  last_checked: 2026-11-26
   suggested_category: harness
   reason: Verified; over the daily cap on 2026-11-25.
 
@@ -64,7 +56,7 @@
   url: https://arxiv.org/abs/2611.31098
   title: 'Real2Worlds2Real: Scaling Self-Improving Agentic Real2Sim2Real for Robot Manipulation'
   first_seen: 2026-11-25
-  last_checked: 2026-11-25
+  last_checked: 2026-11-26
   suggested_category: data
   reason: Verified; over the daily cap on 2026-11-25.
 
@@ -72,7 +64,7 @@
   url: https://arxiv.org/abs/2611.30083
   title: 'MotionServe: Efficient Multi-Robot Serving by Exploiting Robot Execution Slack'
   first_seen: 2026-11-25
-  last_checked: 2026-11-25
+  last_checked: 2026-11-26
   suggested_category: framework
   reason: Verified; over the daily cap on 2026-11-25.
 
@@ -80,6 +72,30 @@
   url: https://arxiv.org/abs/2611.29558
   title: 'Action Windows Are Inherently Temporal: A Benchmark for Time-Sensitive Robotic Manipulation'
   first_seen: 2026-11-25
-  last_checked: 2026-11-25
+  last_checked: 2026-11-26
   suggested_category: benchmark
   reason: Verified; over the daily cap on 2026-11-25.
+
+- name: MRBench
+  url: https://arxiv.org/abs/2611.32803
+  title: 'MRBench: Benchmarking Physical Necessity Reasoning in Heterogeneous Multi-Robot Manipulation'
+  first_seen: 2026-11-26
+  last_checked: 2026-11-26
+  suggested_category: multi-agent
+  reason: Verified; over the daily cap on 2026-11-26.
+
+- name: CALVIN-MAX
+  url: https://arxiv.org/abs/2611.31868
+  title: 'CALVIN-MAX: When Does a Mid-Execution Change Hurt a Robot Policy?'
+  first_seen: 2026-11-26
+  last_checked: 2026-11-26
+  suggested_category: benchmark
+  reason: Verified; over the daily cap on 2026-11-26.
+
+- name: Atomic Policy
+  url: https://arxiv.org/abs/2611.32813
+  title: 'Atomic Policy: Composing Atomic Manipulation Skills with Agentic Reasoning'
+  first_seen: 2026-11-26
+  last_checked: 2026-11-26
+  suggested_category: harness
+  reason: Verified; over the daily cap on 2026-11-26.

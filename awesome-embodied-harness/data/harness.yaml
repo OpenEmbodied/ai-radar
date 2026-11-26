@@ -4607,3 +4607,68 @@
   access: closed
   tags: [tool-use, agentic-loop, manipulation, real-world]
   added: 2026-11-25
+
+- id: boundary-aware-policy
+  name: Boundary-Aware Policy Learning
+  title: Boundary-Aware Policy Learning for Agent-Orchestrated Robot Manipulation
+  date: 2026-11
+  summary: >-
+    Shapes and then expands the handoff boundary, the start states from which a visuomotor
+    policy is reliable, so an orchestrating agent knows when to hand over; reaches 98.4% in
+    randomized RoboTwin 2.0 scenes, over 26 points above the strongest baseline, with 41.3%
+    lower API cost (first-party).
+  links:
+    paper: https://arxiv.org/abs/2611.32238
+  access: closed
+  tags: [dual-system, agentic-loop, manipulation, self-improving]
+  added: 2026-11-26
+
+- id: reset-one-demo
+  name: RESET
+  title: >-
+    RESET: One Demonstration, One Verified World, Self-Improved Skills Across Embodiments
+  date: 2026-11
+  summary: >-
+    Rebuilds a contact-rich simulated world and a frozen success criterion from one real
+    demonstration, verifies it by replay, lets a coding agent self-improve white-box skill
+    code, and transfers it to new robots; 97% in simulation on unseen layouts and 80% of 280
+    real trials on 4 robots (first-party).
+  links:
+    paper: https://arxiv.org/abs/2611.31894
+  access: closed
+  tags: [code-as-policy, self-improving, sim2real, cross-embodiment]
+  added: 2026-11-26
+
+- id: skill-envelopes
+  name: VLAs Execute, Code Recovers
+  title: >-
+    VLAs Execute, Code Recovers: 3D Skill Envelopes Bridge the Compositional Gap in Agentic
+    Manipulation
+  aliases: [Skill Envelope]
+  date: 2026-11
+  summary: >-
+    Measures the 3D volume each frozen VLA skill sweeps when it succeeds and exposes it as
+    CHECK and FREE tools, so agent code clears residue before the next skill; with frozen
+    pi0.5 on LIBERO-Goal, 3-4 step drawer chains rise from 29.7% to 93.8% (first-party).
+  links:
+    paper: https://arxiv.org/abs/2611.32245
+  access: closed
+  tags: [code-as-policy, vla, failure-recovery, 3d]
+  added: 2026-11-26
+
+- id: emboeagle
+  name: EmboEagle
+  title: >-
+    EmboEagle: An Efficient Agentic Embodied Framework for Long-horizon Robotic Manipulation
+  date: 2026-11
+  summary: >-
+    Closed-loop agentic framework combining subtask-conditioned world-action-model control,
+    latent-space adaptive supervision and memory-guided geometric recovery with post-repair
+    verification; 91.3% on RMBench and 90.6% on LIBERO-Mem, with 74.2% fewer VLM calls than
+    chunkwise monitoring (first-party).
+  links:
+    paper: https://arxiv.org/abs/2611.31173
+  access: closed
+  tags: [agentic-loop, world-model, memory, failure-recovery]
+  note: Promoted from the queue.
+  added: 2026-11-26

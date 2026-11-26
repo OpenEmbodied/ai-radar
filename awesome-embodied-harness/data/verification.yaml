@@ -1428,3 +1428,18 @@
   access: closed
   tags: [uncertainty, success-detection]
   added: 2026-11-24
+
+- id: weight-space-programming-rfm
+  name: Sparks of Weight-Space Programming
+  title: Sparks of Weight-Space Programming for Robot Foundation Models
+  date: 2026-11
+  summary: >-
+    A language-model agent reads a VLA's activations to recognize recurring stuck states and
+    writes small parameter edits that trigger a corrective behavior, with no data or
+    training; edits to about 0.0002% of pi0.5's parameters improve success on recurring
+    failures in simulation (first-party).
+  links:
+    paper: https://arxiv.org/abs/2611.31715
+  access: closed
+  tags: [failure-recovery, vla]
+  added: 2026-11-26

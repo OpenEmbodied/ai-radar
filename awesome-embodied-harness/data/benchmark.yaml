@@ -3642,3 +3642,39 @@
   access: closed
   tags: [benchmark, memory, agentic-loop]
   added: 2026-11-25
+
+- id: iclworld
+  name: ICLWorld
+  title: >-
+    ICLWorld: Benchmarking In-Context Learning of Agents from Digital to Physical Worlds
+  date: 2026-11
+  summary: >-
+    Online benchmark of 160 tasks with counter-intuitive rules taught by text or video
+    across 30 computer-use and robot-use environments under one UI harness; Claude Opus 5.5
+    and GPT-6 Astra succeed on 82% and 76% of computer-use runs but only 27% and 26% of
+    robot-use runs (first-party).
+  links:
+    paper: https://arxiv.org/abs/2611.32649
+    code: https://github.com/ICLWorld/ICLWorld
+    project: https://iclworld.github.io
+    data: https://huggingface.co/datasets/Aoraku/ICLWorld
+  access: open
+  tags: [benchmark, agentic-loop, memory]
+  added: 2026-11-26
+
+- id: robodojo-mirror
+  name: RoboDojo-Mirror
+  title: 'Embodied AI Fails the Mirror Test: How a Simple Mirror Breaks Robot Policies'
+  date: 2026-11
+  summary: >-
+    RoboDojo variant adding single, dual and tabletop mirrors with the same tasks and
+    checkpoints; every mirror condition lowers success for VLAs, WAMs and agentic policies,
+    by 10.8 to 56.7 points on average, and most failures happen without touching the mirror,
+    pointing to phantom targeting (first-party).
+  links:
+    paper: https://arxiv.org/abs/2611.33010
+    code: https://github.com/iPPLab/robodojo-mirror
+    project: https://ipplab.github.io/robodojo-mirror
+  access: open
+  tags: [benchmark, vla, safety]
+  added: 2026-11-26

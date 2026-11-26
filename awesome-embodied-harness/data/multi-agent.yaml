@@ -1040,3 +1040,20 @@
   access: open
   tags: [multi-robot, humanoid, long-horizon, benchmark]
   added: 2026-11-19
+
+- id: deconav-act
+  name: DeCoNav-Act
+  title: >-
+    DeCoNav-Act: Benchmarking Collective Physical Capability in Multi-Robot Mobile
+    Manipulation
+  date: 2026-11
+  summary: >-
+    Benchmark of 350 homogeneous and 150 heterogeneous multi-robot mobile manipulation tasks
+    testing whether each robot leaves the world usable for its teammate; even with
+    GPT-6.1-sol the CoMoMa agent establishes the handoff condition in 26.5% of trials and
+    succeeds in 4.1% (first-party).
+  links:
+    paper: https://arxiv.org/abs/2611.32683
+  access: closed
+  tags: [multi-robot, benchmark, mobile-manipulation]
+  added: 2026-11-26

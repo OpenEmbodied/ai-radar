@@ -1122,3 +1122,19 @@
   access: closed
   tags: [world-model, agentic-loop, dual-system, manipulation]
   added: 2026-11-25
+
+- id: roboharness-rl
+  name: RoboHarness-RL
+  title: 'RoboHarness-RL: Agentic Reinforcement Learning for VLM-Based Robot Manipulation'
+  date: 2026-11
+  summary: >-
+    Agentic RL for compact open VLMs that manipulate robots through tool calls: SFT on
+    teacher demonstrations then multi-turn RL with outcome rewards; Qwen3.5-9B rises from
+    31.2% to 44.0% on RoboTwin 2.0 and 57.8% to 73.3% on LIBERO-Pro, with up to 4x fewer
+    repeated calls (first-party).
+  links:
+    paper: https://arxiv.org/abs/2611.32016
+    project: https://aim-uofa.github.io/RoboHarness-RL/
+  access: closed
+  tags: [rl, tool-use, agentic-loop, manipulation]
+  added: 2026-11-26

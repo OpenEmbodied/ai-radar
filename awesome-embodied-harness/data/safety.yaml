@@ -1352,3 +1352,20 @@
   access: closed
   tags: [safety, benchmark, agentic-loop]
   added: 2026-11-25
+
+- id: embodisafety
+  name: EmbodiSafety
+  title: 'EmbodiSafety: Benchmarking Risk Understanding and Response in Embodied AI'
+  date: 2026-11
+  summary: >-
+    Benchmark of 1,092 snapshot and 540 trajectory tasks over 844 scenes scoring six
+    response modes, from execution and refusal to clarification, on mode choice, risk
+    identification and handling; the best reference model, Claude Opus 5.5, reaches 56.1%
+    and 61.5% complete decision accuracy (first-party).
+  links:
+    paper: https://arxiv.org/abs/2611.33054
+    project: https://embodisafety.github.io/
+  access: closed
+  tags: [safety, benchmark, dataset]
+  note: Also curates 40k safety-alignment examples.
+  added: 2026-11-26

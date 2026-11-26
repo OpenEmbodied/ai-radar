@@ -2073,3 +2073,19 @@
   tags: [tool-use, vla, skill-library, agentic-loop]
   note: Promoted from the queue.
   added: 2026-11-22
+
+- id: omniact
+  name: OmniAct
+  title: 'OmniAct: One Policy, One Million Embodiments'
+  date: 2026-11
+  summary: >-
+    Cross-embodiment policy conditioned on each robot's kinematic graph in the scene,
+    trained in simulation over one million procedurally generated robot embodiments; on task
+    families where GPT-6 Astra was tested it reaches 64.7% versus 41.1%, and nearly doubles
+    the next method on an unseen real robot (first-party).
+  links:
+    paper: https://arxiv.org/abs/2611.33158
+    project: https://omniact.github.io/
+  access: closed
+  tags: [cross-embodiment, manipulation, sim2real]
+  added: 2026-11-26
