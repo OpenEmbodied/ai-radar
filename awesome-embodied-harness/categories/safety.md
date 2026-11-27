@@ -3,7 +3,7 @@
 # Safety, Guardrails & Security
 
 > Guardrails, permissions, constitutions, red-teaming and security of model-driven robots.  
-> Layer: L5 · 81 entries · [overview](../README.md#safety) · [survey](../SURVEY.md)
+> Layer: L5 · 82 entries · [overview](../README.md#safety) · [survey](../SURVEY.md)
 
 **Legend:** 🟢 open · 🟡 partial · 🔵 api · ⚪ closed. Hover a name for the full paper title. Newest first within each year.
 
@@ -11,6 +11,7 @@
 
 - ⚪ [**Who Taught the Robot That?**](https://arxiv.org/abs/2611.10280 "Who Taught the Robot That? Removing One User's Corrections from a Robot Policy That Learns Online") · 2026-11 — Shows that whether a robot learning online from several users can forget one user's corrections depends on how people corrected it, and that retraining on an ordered log of remaining sessions recovers the never-corrected robot for takeover-style corrections. _Note: HumanRLI workshop, CoRL 2026._
 - ⚪ [**When Delay Meets Drift**](https://arxiv.org/abs/2611.02101 "When Delay Meets Drift: Physical Safety of Robot Foundation Models Is a Cross-Layer Problem") · 2026-11 — Treats physical safety as cross-layer variation across environment, model, compute and execution; in 4,000 paired pi0.5 LIBERO episodes a 400 ms delay adds 3.5 points of violations at the training viewpoint but 37 points under a 60-degree camera shift (first-party).
+- ⚪ [**WAtcher**](https://arxiv.org/abs/2611.34124 "WAtcher: Watching Ahead for Safe Robotic Manipulation with Efficient World-Action Models") · 2026-11 — Safety-aware world-action framework that previews each candidate action chunk in two denoising steps and screens it with a lightweight Safe-Guard module; cuts hazardous closed-loop trials from 27.0% to 10.8% without lowering task success, and scores 94.2% on a held-out safety benchmark (first-party). [project](https://zyshan0929.github.io/WAtcher)
 - ⚪ [**VLA Landmark Synonyms**](https://arxiv.org/abs/2611.24076 "Meaning Reaches Object Choice but Not Completion: Where Is a VLA Vulnerable to Landmark Synonyms?") · 2026-11 — Probes the released GR00T N1.7 on LIBERO-Spatial: unseen synonyms of a landmark word still steer it to the right bowl but complete 67.6% of episodes versus 100%, and token-pasting interventions locate where meaning is lost around the VLM-to-action connector. _Note: CoRL 2026 TAG workshop._
 - ⚪ [**SN-TRV**](https://arxiv.org/abs/2611.18702 "Robustness as a Transferable Skill: Cross-Task Adversarial Defense for Vision-Language-Action Policies") · 2026-11 — Transfers adversarial robustness learned on source manipulation tasks to independently specialized VLA policies by applying a norm-calibrated mean of source defense updates to the target visual encoder; raises physical PiPER success under printed adversarial patches from 20.3% to 45.8% (first-party).
 - ⚪ [**SayDo**](https://arxiv.org/abs/2611.30957 "SayDo: Benchmarking the Safety of Frontier Models from Chat to Closed-Loop Robot Control") · 2026-11 — Eleven tasks pairing benign instructions with latent hazards, run in six settings from chat to closed-loop simulated arm control; across six VLMs and 11,480 episodes hazardous-action rates rise from 14% in chat to 47% in the simulator, so text safety evaluations do not predict robot behavior (first-party).

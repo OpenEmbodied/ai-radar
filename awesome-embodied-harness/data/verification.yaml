@@ -1443,3 +1443,21 @@
   access: closed
   tags: [failure-recovery, vla]
   added: 2026-11-26
+
+- id: sealedloop
+  name: SealedLoop
+  title: >-
+    Keep or Roll Back? Out-of-Loop Judges for Self-Improving VLA and End-to-End Embodied
+    Policies
+  date: 2026-11
+  summary: >-
+    Adds a sealed judge outside the self-improvement loop, keeping a new policy only when a
+    sequential test confirms the gain, and separates judge error from transfer gap; in
+    LIBERO manipulation an in-loop success classifier accepted 65 of 196 failures in one
+    generation (first-party).
+  links:
+    paper: https://arxiv.org/abs/2611.33794
+    project: https://zilin-huang.github.io/SealedLoop/
+  access: closed
+  tags: [success-detection, self-improving, driving]
+  added: 2026-11-27

@@ -4672,3 +4672,105 @@
   tags: [agentic-loop, world-model, memory, failure-recovery]
   note: Promoted from the queue.
   added: 2026-11-26
+
+- id: x-harness-study
+  name: Toward Agentic Robotics (X-Harness)
+  title: >-
+    Toward Agentic Robotics: A Large-Scale Study of Harness Design for Robot-Use Agents
+  aliases: [X-Harness]
+  date: 2026-11
+  summary: >-
+    Harness-design study of over 470,000 rollouts across eight simulation benchmarks, six
+    VLMs and 15 VLA/WAM checkpoints, showing harnesses must fit both the VLM and the policy;
+    the X-Harness reference recipe composes the findings without weight updates, lifting
+    base policies by up to 42.8 points (first-party).
+  links:
+    paper: https://arxiv.org/abs/2611.34778
+  access: closed
+  tags: [agentic-loop, dual-system, benchmark, vla]
+  added: 2026-11-27
+
+- id: solve-keyposes
+  name: SOLVE
+  title: >-
+    SOLVE: Sparse, Ordered Keyposes Make LLM Agents Versatile and Efficient Robot
+    Manipulator
+  date: 2026-11
+  summary: >-
+    Training-free agent policy in which a multimodal LLM writes a sparse ordered sequence of
+    6-DoF keyposes per call and a motion planner interpolates, with rules distilled from its
+    own rollouts; 74.5% on RoboDojo and 84.5% on RoboLab at about $1.7 per episode, and 75
+    of 85 real zero-shot episodes (first-party).
+  links:
+    paper: https://arxiv.org/abs/2611.34750
+    project: https://serenos.github.io/solve-website
+  access: closed
+  tags: [agentic-loop, manipulation, self-improving, real-world]
+  added: 2026-11-27
+
+- id: roboevo2
+  name: RoboEvo²
+  title: 'RoboEvo$^2$: Recursive Robot Self-Improvement via Harness-Policy Co-Evolution'
+  date: 2026-11
+  summary: >-
+    Recursive harness-policy co-evolution: policy failures steer a coding agent to search
+    code, in-context and policy routes that become reusable skills, and verified
+    trajectories train the policy with counterfactual preference distillation; LIBERO-PRO
+    standalone success rises from 11.0% to 84.1% (first-party).
+  links:
+    paper: https://arxiv.org/abs/2611.34675
+    code: https://github.com/kaiknower/RoboEvo2
+    project: https://kaiknower.github.io/RoboEvo2/
+  access: partial
+  tags: [self-improving, code-as-policy, vla, cross-embodiment]
+  note: >-
+    The paper says models and code will be publicly released; the repository exists as of
+    2026-11-27.
+  added: 2026-11-27
+
+- id: seek-execution-knowledge
+  name: SEEK
+  title: 'SEEK: Self-Evolution through Execution Knowledge for Agentic Robot Manipulation'
+  date: 2026-11
+  summary: >-
+    Retains execution knowledge across attempts as procedures the robot runs without a model
+    request, revising them only where they fail; over ten attempts on 42 RoboDojo tasks
+    success rises from 19.7% to 48.0%, and with GPT-6.2 Astra it reaches 80.1 versus 49.6
+    for direct control with 77.6% fewer requests (first-party).
+  links:
+    paper: https://arxiv.org/abs/2611.33915
+    code: https://github.com/ZeyangGuan/SEEK-Agentic-Robot-Manipulation
+    project: https://zeyangguan.github.io/SEEK-Agentic-Robot-Manipulation/
+  access: open
+  tags: [self-improving, memory, skill-library, agentic-loop]
+  added: 2026-11-27
+
+- id: skeptic-diagnosis
+  name: Skeptic
+  title: 'Skeptic: Grounding Failure Diagnosis for Robot Skill Discovery'
+  date: 2026-11
+  summary: >-
+    Stops skill-discovery agents from declaring tasks physically impossible by grounding
+    failure diagnosis in images and proprioception and adding verified promotion to the
+    skill library; false impossibility judgments fall from 19.5 to 8.5 per campaign and
+    LIBERO-Pro held-out success rises 14.9 points (first-party).
+  links:
+    paper: https://arxiv.org/abs/2611.33560
+  access: closed
+  tags: [failure-recovery, skill-library, code-as-policy]
+  added: 2026-11-27
+
+- id: regharness
+  name: RegHarness
+  title: 'RegHarness: Regulating What Code-as-Policy Agents Keep from Steps to Skills'
+  date: 2026-11
+  summary: >-
+    Two-level harness for code-as-policy agents that commits each step only after verifier
+    and auditor approval within a trial and has a coding agent revise skills, primitives and
+    rules between runs; 87.8% (158/180) on paired LIBERO-PRO trials with a single low-cost
+    model (first-party).
+  links:
+    paper: https://arxiv.org/abs/2611.33739
+  access: closed
+  tags: [code-as-policy, skill-library, success-detection]
+  added: 2026-11-27

@@ -1369,3 +1369,20 @@
   tags: [safety, benchmark, dataset]
   note: Also curates 40k safety-alignment examples.
   added: 2026-11-26
+
+- id: watcher
+  name: WAtcher
+  title: >-
+    WAtcher: Watching Ahead for Safe Robotic Manipulation with Efficient World-Action Models
+  date: 2026-11
+  summary: >-
+    Safety-aware world-action framework that previews each candidate action chunk in two
+    denoising steps and screens it with a lightweight Safe-Guard module; cuts hazardous
+    closed-loop trials from 27.0% to 10.8% without lowering task success, and scores 94.2%
+    on a held-out safety benchmark (first-party).
+  links:
+    paper: https://arxiv.org/abs/2611.34124
+    project: https://zyshan0929.github.io/WAtcher
+  access: closed
+  tags: [safety, world-model, manipulation]
+  added: 2026-11-27

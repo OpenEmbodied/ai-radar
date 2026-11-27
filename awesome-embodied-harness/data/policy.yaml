@@ -2089,3 +2089,18 @@
   access: closed
   tags: [cross-embodiment, manipulation, sim2real]
   added: 2026-11-26
+
+- id: cairn-steering
+  name: Cairn
+  title: 'Cairn: Object-Centric 3D Trajectory Priors for Steering Frozen VLAs'
+  date: 2026-11
+  summary: >-
+    Steers a frozen VLA at test time along learned 3D trajectories of the held object,
+    sampled from scene point clouds and fed back into the VLA's denoising, with no weight
+    changes; across 1,941 held-out LIBERO scenes with displaced objects and obstacles,
+    frozen pi0.5 rises from 24.5% to 95.1% (first-party).
+  links:
+    paper: https://arxiv.org/abs/2611.34914
+  access: closed
+  tags: [vla, 3d, manipulation]
+  added: 2026-11-27

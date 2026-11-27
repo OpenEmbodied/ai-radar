@@ -3678,3 +3678,55 @@
   access: open
   tags: [benchmark, vla, safety]
   added: 2026-11-26
+
+- id: roboarc
+  name: RoboARC
+  title: 'RoboARC: Physical Puzzles for Robotic Manipulation under Spatial Constraints'
+  date: 2026-11
+  summary: >-
+    90 MuJoCo manipulation puzzles in six spatial-constraint types with physics graders and
+    verified solutions, in privileged and real-sensor single-attempt regimes; the best
+    coding agent, GPT-6 Astra in Codex, solves 86% with privileged state but 43% from
+    sensors, and four VLAs solve none (first-party).
+  links:
+    paper: https://arxiv.org/abs/2611.33390
+    project: https://roboarc.embodied-first-exam.ai
+  access: closed
+  tags: [benchmark, code-as-policy, spatial-reasoning]
+  added: 2026-11-27
+
+- id: dtu-bench
+  name: DTU-Bench
+  title: >-
+    Dynamic Task Update Benchmark (DTU-Bench): Evaluating Runtime Task Adaptation in Robotic
+    Manipulation
+  date: 2026-11
+  summary: >-
+    LIBERO benchmark of 40 task revisions across seven update types and three execution
+    stages; 13 VLA configurations average 95.8% on the original tasks but only 1.6% when the
+    instruction changes the target object mid-execution, often finishing the original task
+    first (first-party).
+  links:
+    paper: https://arxiv.org/abs/2611.34538
+    project: https://dtu-bench.github.io/
+  access: closed
+  tags: [benchmark, vla, hitl]
+  added: 2026-11-27
+
+- id: failpoint-x
+  name: FailPoint-X
+  title: >-
+    FailPoint-X: A Policy-Matched, Failure-Anchored Benchmark for Offline VLA Post-Training
+    from Human Takeovers
+  date: 2026-11
+  summary: >-
+    Benchmark for offline VLA post-training from human takeovers, with annotated failure
+    intervals, restorable failure states and a shared evaluator from one pi0.5 checkpoint;
+    cloning takeovers improves recovery by 29.4 points but costs 30.0 points from nominal
+    starts (first-party).
+  links:
+    paper: https://arxiv.org/abs/2611.33769
+    project: https://lzrbit.github.io/FailPoint_X/
+  access: closed
+  tags: [benchmark, hitl, failure-recovery, vla]
+  added: 2026-11-27
