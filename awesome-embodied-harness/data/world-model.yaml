@@ -1479,3 +1479,21 @@
   access: closed
   tags: [world-model, long-horizon, real-world]
   added: 2026-11-26
+
+- id: capability-contracts
+  name: Capability Contracts
+  title: >-
+    What Must a Model Tell a Planner? Outcome Interfaces for Risk-Aware Planning After Robot
+    Damage
+  date: 2026-11
+  summary: >-
+    Compares decision policies with outcome models as interfaces for damaged Go2 and H1
+    robots choosing routes; a capability contract predicting per-terrain success and time
+    cuts declined missions from about 32% to 7-8% on Go2 at a calibrated 5% risk limit
+    (first-party).
+  links:
+    paper: https://arxiv.org/abs/2611.27939
+  access: closed
+  tags: [world-model, uncertainty, legged, humanoid]
+  note: Promoted from the queue.
+  added: 2026-11-28

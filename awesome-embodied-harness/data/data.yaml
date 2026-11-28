@@ -1854,3 +1854,20 @@
   access: closed
   tags: [dataset, video, 3d]
   added: 2026-11-24
+
+- id: real2worlds2real
+  name: Real2Worlds2Real
+  title: >-
+    Real2Worlds2Real: Scaling Self-Improving Agentic Real2Sim2Real for Robot Manipulation
+  date: 2026-11
+  summary: >-
+    Self-improving agentic framework: tool-orchestration harness builds digital twins and
+    diverse digital cousins from few observations, then coordinates data generation and
+    policy learning, distilling validated procedures into reusable skills; reports
+    successful real-world transfer that improves with world diversity.
+  links:
+    paper: https://arxiv.org/abs/2611.31098
+  access: closed
+  tags: [data-generation, sim2real, self-improving, skill-library]
+  note: Promoted from the queue.
+  added: 2026-11-28

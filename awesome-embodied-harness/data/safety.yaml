@@ -1386,3 +1386,21 @@
   access: closed
   tags: [safety, world-model, manipulation]
   added: 2026-11-27
+
+- id: humanoid-switching-filter
+  name: Humanoid Switching Safety Filter
+  title: >-
+    Humanoid robots for safety-critical electrical switching: A perception-informed runtime
+    constraint filter
+  date: 2026-11
+  summary: >-
+    Runtime safety filter for VR teleoperation of a humanoid doing electrical switching,
+    combining a head-camera scene model with a target-conditioned control barrier function
+    QP that keeps the tool off adjacent switches; 9/9 safe completions in simulation versus
+    5/9 for raw teleoperation (first-party).
+  links:
+    paper: https://arxiv.org/abs/2611.27845
+  access: closed
+  tags: [safety, humanoid, teleop]
+  note: Promoted from the queue.
+  added: 2026-11-28

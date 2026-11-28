@@ -4774,3 +4774,36 @@
   access: closed
   tags: [code-as-policy, skill-library, success-detection]
   added: 2026-11-27
+
+- id: calibrated-wam-takeover
+  name: Calibrating World Action Models
+  title: >-
+    Calibrating World Action Models: From Adaptive System 2 Takeover to Self-Evolution
+  date: 2026-11
+  summary: >-
+    Gives a frozen world-action model a calibrated success-probability token that triggers
+    an agent (System 2) only when confidence drops, then distills those takeovers back into
+    the WAM so it can run alone, with skill anchoring to avoid forgetting.
+  links:
+    paper: https://arxiv.org/abs/2611.30188
+  access: closed
+  tags: [dual-system, uncertainty, self-improving, world-model]
+  note: Promoted from the queue.
+  added: 2026-11-28
+
+- id: atomic-policy
+  name: Atomic Policy
+  title: 'Atomic Policy: Composing Atomic Manipulation Skills with Agentic Reasoning'
+  date: 2026-11
+  summary: >-
+    Composes learned manipulation skills through a VLM that estimates symbolic state, a PDDL
+    planner, and an agentic harness that steers each skill by language or visual pointing
+    and verifies outcomes to drive phase transitions and replanning, in simulation and on a
+    real robot.
+  links:
+    paper: https://arxiv.org/abs/2611.32813
+    project: https://aaronzkd.github.io/atomic-policy/
+  access: closed
+  tags: [planning, skill-library, pointing, failure-recovery]
+  note: Promoted from the queue.
+  added: 2026-11-28

@@ -538,3 +538,19 @@
   tags: [vla, world-model]
   note: Promoted from the queue.
   added: 2026-11-22
+
+- id: motionserve
+  name: MotionServe
+  title: 'MotionServe: Efficient Multi-Robot Serving by Exploiting Robot Execution Slack'
+  date: 2026-11
+  summary: >-
+    Shared-GPU serving for many LoRA-adapted VLA policies that schedules requests by each
+    robot's execution slack from buffered action chunks; with 96 simulated robots on one
+    H200 it cuts mean stall per episode by 43.4% for X-VLA and shrinks weight memory by
+    97.6% (first-party).
+  links:
+    paper: https://arxiv.org/abs/2611.30083
+  access: closed
+  tags: [vla, multi-robot]
+  note: Promoted from the queue.
+  added: 2026-11-28

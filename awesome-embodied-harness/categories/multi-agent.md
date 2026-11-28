@@ -3,7 +3,7 @@
 # Multi-Robot & Fleet Orchestration
 
 > Coordinating multiple robots, fleets and human-robot teams with language-model agents.  
-> Layer: L4 · 60 entries · [overview](../README.md#multi-agent) · [survey](../SURVEY.md)
+> Layer: L4 · 61 entries · [overview](../README.md#multi-agent) · [survey](../SURVEY.md)
 
 **Legend:** 🟢 open · 🟡 partial · 🔵 api · ⚪ closed. Hover a name for the full paper title. Newest first within each year.
 
@@ -11,6 +11,7 @@
 
 - ⚪ [**RoboTeam**](https://arxiv.org/abs/2611.22138 "RoboTeam: Benchmarking Vision-Based Multi-Agent Control of Many Robot Arms in Real Time") · 2026-11 — Simulated benchmark of 36 long jobs in which agents control 4 to 16 arms in real time from camera images alone; with an adaptive delegate-forking system, gpt-6.1-sol and opus-5.5 complete 28 and 27 tasks, but a typical task costs 3.5 hours and 218 million input tokens (first-party).
 - 🟢 [**NSDL**](https://arxiv.org/abs/2611.16671 "NSDL: Neuro-Symbolic Division of Labor for Multi-Robot Task Planning") · 2026-11 — Heterogeneous multi-robot planner in which a small VLM writes a plan sketch of unmet goals and robot assignments and a deterministic solver, called as a tool, expands it into a joint plan; 97.0% out-of-distribution accuracy on VIKI-L2 with a 7B model, plus the new LOCUS-Bench (first-party). [code](https://github.com/Xincheng-Tan/NSDL)
+- ⚪ [**MRBench**](https://arxiv.org/abs/2611.32803 "MRBench: Benchmarking Physical Necessity Reasoning in Heterogeneous Multi-Robot Manipulation") · 2026-11 — Benchmark of physical necessity reasoning, deciding which robots a manipulation task truly needs as capabilities change or objects replace robotic support, with the MRScissors baseline that searches for minimal feasible teams at 85.4% and 91.2% team-selection accuracy (first-party). _Note: Promoted from the queue._ [project](https://showlab.github.io/MRBench/)
 - ⚪ [**Late Autumn**](https://arxiv.org/abs/2611.02391 "Late Autumn: LLM Agents Specialize a General Multi-Robot Planner for One Warehouse") · 2026-11 — LLM coding agents run autonomous research campaigns that specialize a general lifelong multi-robot planner to one warehouse, raising throughput 22-60% on unseen seeds through reviewable commit chains, while some patches multiply planner compute by over 100x (first-party).
 - 🟢 [**Heave-Ho**](https://arxiv.org/abs/2611.22275 "Heave-Ho: Decentralized Long-Horizon Multi-Humanoid Collaboration") · 2026-11 — Decentralized multi-humanoid loco-manipulation: multi-agent post-training adapts a humanoid tracking model to physically coupled interaction, and a VLM planner with speech-based leader-follower coordination synchronizes robots without network messages; scales from two to ten robots, with the 12-task HH-Bench. [code](https://github.com/heaveho-humanoid/Heave-Ho) · [project](https://heaveho-humanoid.github.io/)
 - ⚪ [**DeCoNav-Act**](https://arxiv.org/abs/2611.32683 "DeCoNav-Act: Benchmarking Collective Physical Capability in Multi-Robot Mobile Manipulation") · 2026-11 — Benchmark of 350 homogeneous and 150 heterogeneous multi-robot mobile manipulation tasks testing whether each robot leaves the world usable for its teammate; even with GPT-6.1-sol the CoMoMa agent establishes the handoff condition in 26.5% of trials and succeeds in 4.1% (first-party).

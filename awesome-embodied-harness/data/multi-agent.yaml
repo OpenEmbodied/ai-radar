@@ -1057,3 +1057,22 @@
   access: closed
   tags: [multi-robot, benchmark, mobile-manipulation]
   added: 2026-11-26
+
+- id: mrbench
+  name: MRBench
+  title: >-
+    MRBench: Benchmarking Physical Necessity Reasoning in Heterogeneous Multi-Robot
+    Manipulation
+  date: 2026-11
+  summary: >-
+    Benchmark of physical necessity reasoning, deciding which robots a manipulation task
+    truly needs as capabilities change or objects replace robotic support, with the
+    MRScissors baseline that searches for minimal feasible teams at 85.4% and 91.2%
+    team-selection accuracy (first-party).
+  links:
+    paper: https://arxiv.org/abs/2611.32803
+    project: https://showlab.github.io/MRBench/
+  access: closed
+  tags: [multi-robot, benchmark, planning]
+  note: Promoted from the queue.
+  added: 2026-11-28

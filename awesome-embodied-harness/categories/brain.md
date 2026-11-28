@@ -3,13 +3,14 @@
 # Embodied Reasoning Models & Planners
 
 > "System 2" models trained or adapted for embodied reasoning, spatial grounding, pointing and task planning.  
-> Layer: L4 · 64 entries · [overview](../README.md#brain) · [survey](../SURVEY.md)
+> Layer: L4 · 65 entries · [overview](../README.md#brain) · [survey](../SURVEY.md)
 
 **Legend:** 🟢 open · 🟡 partial · 🔵 api · ⚪ closed. Hover a name for the full paper title. Newest first within each year.
 
 **2026**
 
 - ⚪ [**RoboHarness-RL**](https://arxiv.org/abs/2611.32016 "RoboHarness-RL: Agentic Reinforcement Learning for VLM-Based Robot Manipulation") · 2026-11 — Agentic RL for compact open VLMs that manipulate robots through tool calls: SFT on teacher demonstrations then multi-turn RL with outcome rewards; Qwen3.5-9B rises from 31.2% to 44.0% on RoboTwin 2.0 and 57.8% to 73.3% on LIBERO-Pro, with up to 4x fewer repeated calls (first-party). [project](https://aim-uofa.github.io/RoboHarness-RL/)
+- ⚪ [**Robo-MOPD**](https://arxiv.org/abs/2611.30997 "Generalizing Agentic Robotics via Multi-Teacher On-Policy Distillation") · 2026-11 — Consolidates domain-specialist robot planners into one tool-calling generalist via multi-teacher on-policy distillation, compared with weight merging, specialist SFT and multi-domain RL; a single 9B planner reaches 72.9% on LIBERO-PRO and 44.8% on RoboCasa365 (first-party). _Note: Promoted from the queue._
 - ⚪ [**PEAR (robot-use RL)**](https://arxiv.org/abs/2611.18562 "Training Reasoning Models in Simulation to Natively Use Real Robots") · 2026-11 — Trains an open-weight 27B reasoning model to drive robots natively, emitting end-effector poses after a chain of thought with no harness, via robot-use RL in simulation without demonstrations; LIBERO rises from 1.6% to 74.4% and it succeeds in 60% of real dual-arm trials (first-party).
 - ⚪ [**Innata-0**](https://arxiv.org/abs/2611.30254 "Innata-0: A Native Embodied World System with Model-Agent Co-Design") · 2026-11 — BAAI's embodied world system that co-designs a tri-tower mixture-of-transformers world-action model for understanding, prediction and action with an agent that handles memory, verification and recovery, aligning model training with agent execution through validated experience. [project](https://baai-eai.github.io/innata-0/)
 - ⚪ [**EviSeek**](https://arxiv.org/abs/2611.06434 "EviSeek: An Evidence-Centric Agentic Framework for Embodied Active Information Seeking") · 2026-11 — Training-free agent for active embodied question answering that turns each question into explicit evidence demands, links viewpoint changes and interactions to the evidence they should reveal and keeps only relevant evidence; +7.1 points with Qwen3-VL-32B on ESI-Bench (first-party).

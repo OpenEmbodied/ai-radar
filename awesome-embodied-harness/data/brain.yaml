@@ -1138,3 +1138,19 @@
   access: closed
   tags: [rl, tool-use, agentic-loop, manipulation]
   added: 2026-11-26
+
+- id: robo-mopd
+  name: Robo-MOPD
+  title: Generalizing Agentic Robotics via Multi-Teacher On-Policy Distillation
+  date: 2026-11
+  summary: >-
+    Consolidates domain-specialist robot planners into one tool-calling generalist via
+    multi-teacher on-policy distillation, compared with weight merging, specialist SFT and
+    multi-domain RL; a single 9B planner reaches 72.9% on LIBERO-PRO and 44.8% on
+    RoboCasa365 (first-party).
+  links:
+    paper: https://arxiv.org/abs/2611.30997
+  access: closed
+  tags: [agentic-loop, tool-use, rl]
+  note: Promoted from the queue.
+  added: 2026-11-28
